@@ -1,0 +1,179 @@
+CountryRegionCode,EnglishCountryRegionName,StateProvinceName,City,IpAddressLocator,CodigoRegion
+AU,Australia,New South Wales,Alexandria,198.51.100.2,AU
+AU,Australia,New South Wales,Coffs Harbour,198.51.100.3,AU
+AU,Australia,New South Wales,Darlinghurst,198.51.100.4,AU
+AU,Australia,New South Wales,Goulburn,198.51.100.5,AU
+AU,Australia,New South Wales,Lane Cove,198.51.100.6,AU
+AU,Australia,New South Wales,Lavender Bay,198.51.100.7,AU
+AU,Australia,New South Wales,Malabar,198.51.100.8,AU
+AU,Australia,New South Wales,Matraville,198.51.100.9,AU
+AU,Australia,New South Wales,Milsons Point,198.51.100.10,AU
+AU,Australia,New South Wales,Newcastle,198.51.100.11,AU
+AU,Australia,New South Wales,North Ryde,198.51.100.12,AU
+AU,Australia,New South Wales,North Sydney,198.51.100.13,AU
+AU,Australia,New South Wales,Port Macquarie,198.51.100.14,AU
+AU,Australia,New South Wales,Rhodes,198.51.100.15,AU
+AU,Australia,New South Wales,Silverwater,198.51.100.16,AU
+AU,Australia,New South Wales,Springwood,198.51.100.17,AU
+AU,Australia,New South Wales,St. Leonards,198.51.100.18,AU
+AU,Australia,New South Wales,Sydney,198.51.100.19,AU
+AU,Australia,New South Wales,Wollongong,198.51.100.20,AU
+AU,Australia,Queensland,Brisbane,198.51.100.21,AU
+AU,Australia,Queensland,Caloundra,198.51.100.22,AU
+AU,Australia,Queensland,East Brisbane,198.51.100.23,AU
+AU,Australia,Queensland,Gold Coast,198.51.100.24,AU
+AU,Australia,Queensland,Hawthorne,198.51.100.25,AU
+AU,Australia,Queensland,Hervey Bay,198.51.100.26,AU
+AU,Australia,Queensland,Rockhampton,198.51.100.27,AU
+AU,Australia,Queensland,Townsville,198.51.100.28,AU
+AU,Australia,South Australia,Cloverdale,198.51.100.29,AU
+AU,Australia,South Australia,Findon,198.51.100.30,AU
+AU,Australia,South Australia,Perth,198.51.100.31,AU
+AU,Australia,Tasmania,Hobart,198.51.100.32,AU
+AU,Australia,Victoria,Bendigo,198.51.100.33,AU
+AU,Australia,Victoria,Cranbourne,198.51.100.34,AU
+AU,Australia,Victoria,Geelong,198.51.100.35,AU
+AU,Australia,Victoria,Melbourne,198.51.100.36,AU
+AU,Australia,Victoria,Melton,198.51.100.37,AU
+AU,Australia,Victoria,Seaford,198.51.100.38,AU
+AU,Australia,Victoria,South Melbourne,198.51.100.39,AU
+AU,Australia,Victoria,Sunbury,198.51.100.40,AU
+AU,Australia,Victoria,Warrnambool,198.51.100.41,AU
+CA,Canada,Alberta,Calgary,198.51.100.42,CA
+CA,Canada,Alberta,Edmonton,198.51.100.43,CA
+CA,Canada,British Columbia,Burnaby,198.51.100.44,CA
+CA,Canada,British Columbia,Burnaby,198.51.100.45,CA
+CA,Canada,British Columbia,Burnaby,198.51.100.46,CA
+CA,Canada,British Columbia,Burnaby,198.51.100.47,CA
+CA,Canada,British Columbia,Burnaby,198.51.100.48,CA
+CA,Canada,British Columbia,Burnaby,198.51.100.49,CA
+CA,Canada,British Columbia,Cliffside,198.51.100.50,CA
+CA,Canada,British Columbia,Haney,198.51.100.51,CA
+CA,Canada,British Columbia,Langford,198.51.100.52,CA
+CA,Canada,British Columbia,Langley,198.51.100.53,CA
+CA,Canada,British Columbia,Metchosin,198.51.100.54,CA
+CA,Canada,British Columbia,N. Vancouver,198.51.100.55,CA
+CA,Canada,British Columbia,Newton,198.51.100.56,CA
+CA,Canada,British Columbia,Newton,198.51.100.57,CA
+CA,Canada,British Columbia,Newton,198.51.100.58,CA
+CA,Canada,British Columbia,Newton,198.51.100.59,CA
+CA,Canada,British Columbia,Oak Bay,198.51.100.60,CA
+CA,Canada,British Columbia,Port Hammond,198.51.100.61,CA
+CA,Canada,British Columbia,Richmond,198.51.100.62,CA
+CA,Canada,British Columbia,Royal Oak,198.51.100.63,CA
+CA,Canada,British Columbia,Shawnee,198.51.100.64,CA
+CA,Canada,British Columbia,Shawnee,198.51.100.65,CA
+CA,Canada,British Columbia,Shawnee,198.51.100.66,CA
+CA,Canada,British Columbia,Sooke,198.51.100.67,CA
+CA,Canada,British Columbia,Surrey,198.51.100.68,CA
+CA,Canada,British Columbia,Vancouver,198.51.100.69,CA
+CA,Canada,British Columbia,Victoria,198.51.100.70,CA
+CA,Canada,British Columbia,Westminster,198.51.100.71,CA
+CA,Canada,British Columbia,Westminster,198.51.100.72,CA
+CA,Canada,Manitoba,Winnipeg,198.51.100.73,CA
+CA,Canada,Brunswick,Saint John,198.51.100.74,CA
+CA,Canada,Ontario,Aurora,198.51.100.75,CA
+CA,Canada,Ontario,Barrie,198.51.100.76,CA
+CA,Canada,Ontario,Brampton,198.51.100.77,CA
+CA,Canada,Ontario,Chalk Riber,198.51.100.78,CA
+CA,Canada,Ontario,Etobicoke,198.51.100.79,CA
+CA,Canada,Ontario,Kanata,198.51.100.80,CA
+CA,Canada,Ontario,Kingston,198.51.100.81,CA
+CA,Canada,Ontario,Markham,198.51.100.82,CA
+CA,Canada,Ontario,Mississauga,198.51.100.83,CA
+CA,Canada,Ontario,Mississauga,198.51.100.84,CA
+CA,Canada,Ontario,Mississauga,198.51.100.85,CA
+CA,Canada,Ontario,Nepean,198.51.100.86,CA
+CA,Canada,Ontario,North York,198.51.100.87,CA
+CA,Canada,Ontario,Ottawa,198.51.100.88,CA
+CA,Canada,Ontario,Ottawa,198.51.100.89,CA
+CA,Canada,Ontario,Ottawa,198.51.100.90,CA
+CA,Canada,Ontario,Ottawa,198.51.100.91,CA
+CA,Canada,Ontario,Richmond Hill,198.51.100.92,CA
+CA,Canada,Ontario,Scarborough,198.51.100.93,CA
+CA,Canada,Ontario,Toronto,198.51.100.94,CA
+CA,Canada,Ontario,Toronto,198.51.100.95,CA
+CA,Canada,Ontario,Toronto,198.51.100.96,CA
+CA,Canada,Ontario,Toronto,198.51.100.97,CA
+CA,Canada,Ontario,Vancouver,198.51.100.98,CA
+CA,Canada,Ontario,Waterloo,198.51.100.99,CA
+CA,Canada,Ontario,Weston,198.51.100.100,CA
+CA,Canada,Quebec,Brossard,198.51.100.101,CA
+CA,Canada,Quebec,Brossard,198.51.100.102,CA
+CA,Canada,Quebec,Dorval,198.51.100.103,CA
+CA,Canada,Quebec,Hull,198.51.100.104,CA
+CA,Canada,Quebec,Montreal,198.51.100.105,CA
+CA,Canada,Quebec,Montreal,198.51.100.106,CA
+CA,Canada,Quebec,Montreal,198.51.100.107,CA
+CA,Canada,Quebec,Montreal,198.51.100.108,CA
+CA,Canada,Quebec,Outremont,198.51.100.109,CA
+CA,Canada,Quebec,Pnot-Rouge,198.51.100.110,CA
+CA,Canada,Quebec,Quebec,198.51.100.111,CA
+CA,Canada,Quebec,Sainte-Foy,198.51.100.112,CA
+CA,Canada,Quebec,Sillery,198.51.100.113,CA
+CA,Canada,Quebec,Ville De'anjou,198.51.100.114,CA
+DE,Germany,Brandenburg,Berlin,198.51.100.115,DE
+DE,Germany,Brandenburg,Eilenburg,198.51.100.116,DE
+DE,Germany,Bayern,Augsburg,198.51.100.117,DE
+DE,Germany,Bayern,Erlangen,198.51.100.118,DE
+DE,Germany,Bayern,Frankfurt,198.51.100.119,DE
+DE,Germany,Bayern,Grevenbroich,198.51.100.120,DE
+DE,Germany,Bayern,Hof,198.51.100.121,DE
+DE,Germany,Bayern,Ingolstadt,198.51.100.122,DE
+DE,Germany,Hessen,Bad Soden,198.51.100.123,DE
+DE,Germany,Hessen,Berlin,198.51.100.124,DE
+DE,Germany,Hessen,Berlin,198.51.100.125,DE
+DE,Germany,Hessen,Berlin,198.51.100.126,DE
+DE,Germany,Hessen,Berlin,198.51.100.127,DE
+DE,Germany,Hessen,Darmstadt,198.51.100.128,DE
+DE,Germany,Hessen,Dresden,198.51.100.129,DE
+DE,Germany,Hessen,Duesseldorf,198.51.100.130,DE
+DE,Germany,Hessen,Duesseldorf,198.51.100.131,DE
+DE,Germany,Hessen,Frankfurt,198.51.100.132,DE
+DE,Germany,Hessen,Hamburg,198.51.100.133,DE
+DE,Germany,Hessen,Kassel,198.51.100.134,DE
+DE,Germany,Hessen,München,198.51.100.135,DE
+DE,Germany,Hessen,Salzgitter,198.51.100.136,DE
+DE,Germany,Hamburg,Ascheim,198.51.100.137,DE
+DE,Germany,Hamburg,Augsburg,198.51.100.138,DE
+DE,Germany,Hamburg,Berlin,198.51.100.139,DE
+DE,Germany,Hamburg,Berlin,198.51.100.140,DE
+DE,Germany,Hamburg,Berlin,198.51.100.141,DE
+DE,Germany,Hamburg,Berlin,198.51.100.142,DE
+DE,Germany,Hamburg,Bonn,198.51.100.143,DE
+DE,Germany,Hamburg,Bonn,198.51.100.144,DE
+DE,Germany,Hamburg,Essen,198.51.100.145,DE
+DE,Germany,Hamburg,Frankfurt am Main,198.51.100.146,DE
+DE,Germany,Hamburg,Frankfurt am Main,198.51.100.147,DE
+DE,Germany,Hamburg,Hamburg,198.51.100.148,DE
+DE,Germany,Hamburg,Muehlheim,198.51.100.149,DE
+DE,Germany,Hamburg,Mühlheim,198.51.100.150,DE
+DE,Germany,Hamburg,München,198.51.100.151,DE
+DE,Germany,Hamburg,Paderborn,198.51.100.152,DE
+DE,Germany,Nordrhein-Westfalen,Berlin,198.51.100.153,DE
+DE,Germany,Nordrhein-Westfalen,Berlin,198.51.100.154,DE
+DE,Germany,Nordrhein-Westfalen,Bonn,198.51.100.155,DE
+DE,Germany,Nordrhein-Westfalen,Bottrop,198.51.100.156,DE
+DE,Germany,Nordrhein-Westfalen,Braunschweig,198.51.100.157,DE
+DE,Germany,Nordrhein-Westfalen,Hannover,198.51.100.158,DE
+DE,Germany,Nordrhein-Westfalen,Leipzig,198.51.100.159,DE
+DE,Germany,Nordrhein-Westfalen,München,198.51.100.160,DE
+DE,Germany,Nordrhein-Westfalen,Paderborn,198.51.100.161,DE
+DE,Germany,Nordrhein-Westfalen,Solingen,198.51.100.162,DE
+DE,Germany,Nordrhein-Westfalen,Werne,198.51.100.163,DE
+DE,Germany,Saarland,Berlin,198.51.100.164,DE
+DE,Germany,Saarland,Berlin,198.51.100.165,DE
+DE,Germany,Saarland,Berlin,198.51.100.166,DE
+DE,Germany,Saarland,Frankfurt am Main,198.51.100.167,DE
+DE,Germany,Saarland,Frankfurt am Main,198.51.100.168,DE
+DE,Germany,Saarland,Kiel,198.51.100.169,DE
+DE,Germany,Saarland,München,198.51.100.170,DE
+DE,Germany,Saarland,Münster,198.51.100.171,DE
+DE,Germany,Saarland,Neunkirchen,198.51.100.172,DE
+DE,Germany,Saarland,Offenbach,198.51.100.173,DE
+DE,Germany,Saarland,Poing,198.51.100.174,DE
+DE,Germany,Saarland,Saarbrücken,198.51.100.175,DE
+DE,Germany,Saarland,Saarlouis,198.51.100.176,DE
+DE,Germany,Saarland,Stuttgart,198.51.100.177,DE
+DE,Germany,Saarland,Stuttgart,198.51.100.178,DE
+DE,Germany,Saarland,Sulzbach Taunus,198.51.100.179,DE

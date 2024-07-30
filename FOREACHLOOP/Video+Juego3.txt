@@ -1,0 +1,2395 @@
+Cod_Archivo,Nombres,Anio,Edad,Plataforma,Juego
+PT02,Harm Lee,2019,21,DS,Elite Forces: Unit 77
+PT02,Jamie Thompson,2015,19,PS2,Hisshou Pachinko*Pachi-Slot Kouryaku Series Vol. 14: CR Shinseiki Evangelion: Saigo no Mono
+PT02,Vincenzo Moore,2015,28,Wii,Fast Food Panic
+PT02,Welton White,2020,33,Wii,Another Code R: A Journey into Lost Memories
+PT02,Adrain Taylor,2017,37,PSP,Zill O'll Infinite Plus
+PT02,Arbie Jackson,2020,22,PSP,Dissidia: Final Fantasy Universal Tuning
+PT02,Betty Smith,2017,18,DS,Challenge Me: Brain Puzzles
+PT02,Bobby Smith,2018,37,DS,Sudoku Ball Detective
+PT02,Desmond Smith,2018,39,X360,Steins;Gate
+PT02,Domenic Smith,2017,45,PS2,Backyard NFL Football '10
+PT02,Duard Johnson,2016,25,DS,World Cup of Pool
+PT02,Raul Johnson,2017,19,DS,Imagine: Cheerleader
+PT02,Severo Smith,2020,25,DS,Shining Force Feather
+PT02,Tobie Williams,2019,28,PC,S.T.A.L.K.E.R.: Call of Pripyat
+PT02,Council Johnson,2017,20,DS,Big Bang Mini
+PT02,Domenick Smith,2019,35,Wii,Grey's Anatomy: The Video Game
+PT02,Darrel Brown,2015,39,Wii,Crazy Chicken Tales
+PT02,Graydon Smith,2017,45,DS,Playmobil Knights
+PT02,Fredie Johnson,2018,28,DS,I Love Beauty: Hollywood Makeover
+PT02,Eliot Brown,2016,23,PC,Need for Speed: Shift
+PT02,Hoke Garcia,2019,34,DS,Zaidan Houjin Nippon Kanji Nouryoku Kentei Kyoukai Kounin: KanKen DS3 Deluxe
+PT02,Pauline Williams,2017,43,PS2,Melty Blood: Actress Again
+PT02,Tyree Jones,2018,23,PS3,SingStar Mallorca Party
+PT02,Arne Jones,2016,25,DS,Jacqueline Wilson's Tracy Beaker: The Game
+PT02,Bell Rodriguez,2015,41,Wii,Brave: A Warrior's Tale
+PT02,Carlo Brown,2016,43,X360,Brave: A Warrior's Tale
+PT02,Hansel Miller,2017,30,PC,The Saboteur
+PT02,Jiles Jones,2015,31,Wii,World Championship Athletics
+PT02,Leonardo Williams,2015,20,DS,Jumble Madness
+PT02,Quentin Johnson,2015,35,PSP,Minna no Sukkiri
+PT02,Toby Davis,2020,23,PC,Mirror's Edge
+PT02,Verlin Johnson,2016,28,DS,Katekyoo Hitman Reborn! DS Flame Rumble X - Mirai Chou-Bakuhatsu!!
+PT02,Winthrop Martinez,2020,40,PSP,Evangelion: Jo
+PT02,Domenico Smith,2020,30,Wii,SD Gundam G Generation Wars
+PT02,Harrold Brown,2018,18,DS,Dino Pets
+PT02,Lucille Miller,2017,20,Wii,Roogoo Twisted Towers
+PT02,Ryan Miller,2015,28,DS,Dreamer Series: Babysitter
+PT02,Benard Williams,2017,29,DS,Diva Girls: Divas on Ice
+PT02,Quinton Smith,2018,19,DS,"Tennis no Oji-Sama: Doubles no Oji-Sama - Girls, Be Gracious!"
+PT02,Rodolfo Williams,2020,22,DS,History Great Empires: Rome
+PT02,Armando Jones,2016,41,Wii,Coraline
+PT02,Delmas Davis,2017,25,DS,Imagine: Party Planner
+PT02,Denzil Brown,2017,33,DS,Western Riding Academy
+PT02,Luciano Miller,2018,22,DS,My Pet Chimp
+PT02,Lyndon Williams,2019,35,PSP,Ikki Tousen: Xross Impact
+PT02,Vera Smith,2015,27,PSP,Ys vs. Sora no Kiseki: Alternative Saga
+PT02,Taft Jones,2016,27,DS,Nicola Kanshuu: Model * Oshare Audition
+PT02,Delphin Johnson,2015,21,DS,Legend of Kay
+PT02,Rodger Miller,2016,34,PC,Blur
+PT02,Woodrow Smith,2019,36,DS,Chuck E. Cheese's Playhouse
+PT02,Burnice Smith,2020,29,PC,A New Beginning
+PT02,Giovanni Smith,2018,41,Wii,Naruto Shippuden: Gekito Ninja Taisen! Special
+PT02,Americo Wilson,2017,34,Wii,Chevrolet Camaro: Wild Ride
+PT02,Ardell Davis,2015,30,PSP,Hisshou Pachinko*Pachi-Slot Kouryaku Series Portable Vol. 1: Shinseiki Evangelion - Tamashii no Kiseki
+PT02,Delmus Brown,2020,41,DS,Busy Scissors
+PT02,Gilmer Jones,2019,25,DS,Dreamer Series: Zoo Keeper
+PT02,Lucio Smith,2018,35,PSP,Hagane no Renkinjutsushi - Fullmetal Alchemist: Yakusoku no Hi e
+PT02,Mariano Moore,2018,29,PSP,Power Pro Success Legends
+PT02,Ogden Taylor,2018,22,Wii,Pheasants Forever Wingshooter
+PT02,Oland Miller,2017,31,Wii,Ivy the Kiwi?
+PT02,Prentiss Davis,2017,20,PC,Create
+PT02,Samie Johnson,2017,19,Wii,Rooms: The Main Building
+PT02,Hadley Davis,2018,42,DS,Satisfashion
+PT02,Francesco Jones,2018,30,DS,Match 3 Madness
+PT02,Toivo Johnson,2016,28,PSP,Starry ? Sky: In Summer
+PT02,Robley Anderson,2016,32,DS,Imagine: Resort Owner
+PT02,Verle Taylor,2020,18,PC,pro evolution soccer 2011
+PT02,Farrell Smith,2015,39,Wii,Dance Sensation!
+PT02,Nathanial Moore,2018,21,DS,Quiz! Hexagon II
+PT02,Reyes Martin,2015,27,X360,Call of Duty: The War Collection
+PT02,Eleanor Wilson,2019,36,PS2,Syphon Filter: Logan's Shadow
+PT02,Emmanuel Thomas,2015,32,DS,Katekyoo Hitman Reborn! DS Fate of Heat III - Yuki no Shugosha Raishuu!
+PT02,Esker Smith,2016,43,DS,Gormiti: The Lords of Nature!
+PT02,Florentino White,2016,21,DS,Katekyoo Hitman Reborn! DS Flame Rumble XX - Kessen! Shin 6 Chouka
+PT02,Gaetano Miller,2017,40,DS,The Mysterious Case of Dr. Jekyll and Mr. Hyde
+PT02,Levie Anderson,2019,19,Wii,Kid Fit Island Resort
+PT02,Guido Wilson,2018,18,PS2,The Lord of the Rings: Aragorn's Quest
+PT02,Aurelio Williams,2015,44,PC,F1 2010
+PT02,Curtiss Johnson,2020,33,PSP,Dream C Club Portable
+PT02,Othel Anderson,2017,43,Wii,Sled Shred featuring the Jamaican Bobsled Team
+PT02,Santo Brown,2016,19,PSP,Tokyo Mono Harashi: Karasu no Mori Gakuen Kitan
+PT02,Harrell Martin,2019,41,DS,Jewel Quest IV: Heritage
+PT02,Lenwood Thompson,2019,21,X360,Motion Explosion!
+PT02,Leopoldo Smith,2020,45,Wii,Santa Claus Is Comin' to Town!
+PT02,Dante Thomas,2015,21,DS,Paws & Claws: Marine Rescue
+PT02,Ann Anderson,2015,21,PSP,Pop'n Music Portable 2
+PT02,Halley Johnson,2019,28,DS,Max & the Magic Marker
+PT02,Reino Smith,2016,34,PC,The Book of Unwritten Tales: The Critter Chronicles
+PT02,Carmelo Davis,2017,34,PS3,Order Up!!
+PT02,Wyman Jackson,2019,32,PSP,Growlanser IV: Over Reloaded
+PT02,Silvio Taylor,2015,22,PC,Age of Empires Online
+PT02,Colie Brown,2015,27,DS,Meitantei Conan: Aoki Houseki no Rinbukyoku
+PT02,Alfonse Garcia,2016,29,PSP,Mega Minis Volume 3
+PT02,Aldo Lee,2020,32,PSP,Unchained Blades
+PT02,Amerigo Thompson,2018,32,PSP,Rurouni Kenshin: Meiji Kenkaku Romantan Saisen
+PT02,Enrico Johnson,2018,38,X360,Generator Rex: Agent of Providence
+PT02,Gasper Wilson,2019,39,DS,Atari's Greatest Hits: Volume 2
+PT02,Attilio Johnson,2015,45,PC,The Next BIG Thing
+PT02,Woodroe Anderson,2018,41,X360,Monkey Island: Special Edition Collection
+PT02,Nunzio Moore,2016,19,DS,Paws & Claws: Pampered Pets 2
+PT02,Burnell Wilson,2019,44,X360,MotoGP 10/11
+PT02,Erling Brown,2015,33,X360,DreamWorks Super Star Kartz
+PT02,Gilberto Jones,2020,31,X360,Akai Katana Shin
+PT02,Glendon Johnson,2020,36,3DS,Nicola Kanshuu: Model * Oshare Audition 2
+PT02,Larue Lee,2016,27,X360,Champion Jockey: G1 Jockey & Gallop Racer
+PT02,Masao Johnson,2018,37,DS,X-Men: Destiny
+PT02,Nevin Lee,2018,40,PC,Dead Rising 2: Off the Record
+PT02,Armin Garcia,2017,32,PS2,Pro Evolution Soccer 2012
+PT02,Tyrus Martin,2020,31,PC,EverQuest II: Destiny of Velious
+PT02,Kendall Jones,2017,30,PS3,ICO
+PT02,Garold Martinez,2015,35,DS,Eigo de Tabisuru: Little Charo
+PT02,Gennaro Thomas,2016,26,Wii,My Fitness Coach: Club
+PT02,Cosmo Martin,2018,28,Wii,Centipede: Infestation
+PT02,Luigi Miller,2015,39,Wii,Back to the Future: The Game
+PT02,Hymen White,2019,24,DS,Jewel Legends: Tree of Life
+PT02,Donato Thomas,2015,19,DS,Petz Bunnyz Bunch
+PT02,Melbourne Johnson,2020,26,Wii,Gem Smashers
+PT02,Merwin Smith,2018,39,X360,Warriors: Legends of Troy
+PT02,Winton Thompson,2018,32,PSP,Vitamin X to Z
+PT02,Gino Rodriguez,2020,28,DS,Pucca Power Up
+PT02,Glenwood White,2019,39,DS,Noddy in Toyland
+PT02,Geno Wilson,2020,34,PS3,Mayhem 3D
+PT02,Glynn Lee,2016,33,PSP,Senritsu no Stratus
+PT02,Nello Jones,2017,36,PSP,Toaru Kagaku no Chou Denjihou
+PT02,Durwood Taylor,2018,36,PC,Ski Region Simulator
+PT02,Gilmore Moore,2016,29,3DS,Yuugen Gaisha Brave Company
+PT02,Saverio Brown,2015,36,3DS,Ken to Mahou to Gakuen Mono. 3D
+PT02,Garth Williams,2015,32,3DS,Pro Yakyuu Famista 2011
+PT02,Hiroshi Taylor,2018,43,X360,Fist of the North Star: Ken's Rage 2
+PT02,Arlin Martin,2017,23,3DS,Dynasty Warriors Vs
+PT02,Yoshio Martinez,2015,36,PSV,Earth Defense Force 2017 Portable
+PT02,Arvo Moore,2018,33,PS3,Jissen Pachislot Secrets! Fist of the North Star F - Seikimatsu Kyuuseishu Densetsu
+PT02,Deward Rodriguez,2015,30,X360,Inversion
+PT02,Hughes Williams,2020,23,PSP,Rurouni Kenshin: Meiji Kenyaku Romantan - Kansen
+PT02,Tatsuo Williams,2015,37,3DS,Smile PreCure! Let's Go! Marchen World
+PT02,Jerald Moore,2020,29,X360,Top Gun: Hard Lock
+PT02,Zigmund Miller,2020,39,3DS,JoJo's Bizarre Adventure: All Star Battle
+PT02,Gerhardt Martin,2017,20,PSP,I Am In The Movie
+PT02,Lynwood Johnson,2020,27,PSP,Steins;Gate: Hiyoku Renri no Darling
+PT02,Berlin White,2018,36,PSP,All Kamen Rider: Rider Generation 2
+PT02,Merlyn Jackson,2020,43,DS,Jewel Master: Cradle of Persia
+PT02,Pershing Davis,2016,40,PSP,Nendoroid Generation
+PT02,Hideo White,2019,25,PSV,Pro Yaky? Spirits 2012
+PT02,Normand Williams,2018,21,PSP,Hakuouki: Yuugi Roku Ni - Matsuri Hayashi to Taishitachi
+PT02,Orvin Jones,2020,27,3DS,Girls RPG: Cinderellife
+PT02,Joyce Thomas,2017,31,PSV,Fate/Stay Night [RÃ©alta Nua]
+PT02,Minoru Thomas,2020,26,PC,The Lost Chronicles of Zerzura
+PT02,Foch Brown,2016,26,PSV,Atelier Meruru: Alchemist of Arland 3
+PT02,Bryce Thompson,2020,27,PSV,Genkai Tokki Monster Monpiece
+PT02,Carmel Miller,2020,19,XOne,Killer Instinct (2013)
+PT02,Marco Jackson,2019,33,PS3,Steins;Gate: Senkei Kousoku no Phonogram
+PT02,Winifred Thompson,2018,42,PSV,Pro Yaky? Spirits 2013
+PT02,Edsel Johnson,2017,32,3DS,SpongeBob SquarePants: Plankton's Robotic Revenge
+PT02,Quinten Wilson,2015,19,PC,Remember Me
+PT02,Kiyoshi Taylor,2017,26,3DS,Toriko: Gourmet Battle!
+PT02,Therman Lee,2018,24,WiiU,DuckTales: Remastered
+PT02,Kazuo Williams,2017,24,3DS,Metal Max 4: Gekkou no Diva
+PT02,Metro White,2018,39,X360,Ride to Hell
+PT02,Laddie Garcia,2020,45,PSV,Doki-Doki Universe
+PT02,Harding Jones,2015,42,PSP,Gintama no Sugoroku
+PT02,Kennith Williams,2017,24,PC,The LEGO Movie Videogame
+PT02,Eloy Brown,2019,38,PSV,Bullet Girls
+PT02,Daryl Thompson,2020,25,PSV,Samurai Warriors Chronicles 3
+PT02,Rayburn Miller,2018,22,PC,Lego Batman 3: Beyond Gotham
+PT02,Jon Anderson,2020,37,PSV,Ratchet & Clank Collection
+PT02,Dewayne Brown,2020,33,X360,Sherlock Holmes: Crimes & Punishments
+PT02,Marcos Davis,2020,24,3DS,Game Center CX: 3-Choume no Arino
+PT02,Kevin Brown,2020,21,3DS,The Amazing Spider-Man 2 (2014)
+PT02,Harden Anderson,2015,19,3DS,A-Train: City Simulator
+PT02,Delton Miller,2019,27,3DS,Crayon Shin-chan: Arashi o Yobu Kasukabe Eiga Stars!
+PT02,Reynaldo Thomas,2015,40,PS4,Terraria
+PT02,Donal Moore,2019,26,PS3,Super Robot Wars OG Saga Masou Kishin F: Coffin of the End
+PT02,Toshio Jones,2019,41,3DS,Nazotoki Battle Tore! Densetsu no Makyuu o Fukkatsu Saseyo!
+PT02,Dwayne Martin,2016,45,PSV,The Legend of Heroes VII: The Trail of Blue
+PT02,Zane Williams,2017,42,X360,Digimon All-Star Rumble
+PT02,Luverne Williams,2016,45,Wii,Disney Planes Fire & Rescue
+PT02,Jackie Brown,2020,29,X360,Sacred 3
+PT02,Ramiro Taylor,2015,23,PSV,Arcana Heart 3
+PT02,Harlen Martinez,2015,23,3DS,Magi: Aratanaru Sekai
+PT02,Deane Brown,2016,35,PSV,Mahouka Koukou no Rettousei: Out of Order
+PT02,Dwain Jackson,2015,25,3DS,Lord of Magna: Maiden Heaven
+PT02,Boris Miller,2016,24,WiiU,The Amazing Spider-Man 2 (2014)
+PT02,Dorman Miller,2019,44,PC,Murdered: Soul Suspect
+PT02,Coolidge Miller,2020,42,PSV,Chaos Rings III
+PT02,Refugio White,2018,43,PS3,Tokyo Twilight Ghost Hunters
+PT02,Darold Davis,2019,28,PS4,Nobunaga no Yabou: Souzou
+PT02,Donn Jones,2016,36,PS4,Broken Sword 5: The Serpent's Curse
+PT02,Faustino Jackson,2017,25,PSV,Rugby 15
+PT02,Brian Thompson,2019,45,PS4,Legend of Kay
+PT02,Melvyn Williams,2017,40,3DS,Mario vs. Donkey Kong: Tipping Stars
+PT02,Esteban Johnson,2015,20,WiiU,Taiko no Tatsujin: Atsumete Tomodachi Daisakusen!
+PT02,Freddy Jones,2020,32,WiiU,Devil's Third
+PT02,Virginia Jackson,2016,22,Wii,Barbie and Her Sisters Puppy Rescue
+PT02,Marlyn Davis,2015,36,PS4,Risen 3: Titan Lords
+PT02,Ken Miller,2019,32,XOne,BlazBlue: Chrono Phantasma Extend
+PT02,Dwaine Davis,2018,42,XOne,Darksiders II
+PT02,Gearld Davis,2018,28,PSV,Genkai Tokki: Moero Crystal
+PT02,Valentino Anderson,2015,41,PSV,Atelier Sophie: The Alchemist of the Mysterious Book
+PT02,Lindy Garcia,2017,20,3DS,Doraemon: Nobita no Uchuu Eiyuuki
+PT02,Lindbergh Wilson,2020,28,PS3,Game of Thrones (Telltale)
+PT02,Shoji Rodriguez,2016,20,PSV,Yomawari
+PT02,Denny Garcia,2019,42,PS4,Romance of the Three Kingdoms 13
+PT02,Gonzalo Jackson,2015,33,PS4,Utawarerumono: Itsuwari no Kamen
+PT02,Jorge Williams,2020,41,PS4,Rugby World Cup 2015
+PT02,Jerrold Rodriguez,2020,39,PS4,Nights of Azure
+PT02,Akira Miller,2019,39,PS3,Samurai Warriors 4: Empires
+PT02,Maria Williams,2015,33,PS4,MX vs. ATV Supercross Encore
+PT02,Hoover Brown,2018,26,PS3,Tony Hawk's Pro Skater 5
+PT02,Jerold Lee,2018,21,PS4,Handball 16
+PT02,Arlen Garcia,2017,41,PS4,Grand Kingdom
+PT02,Ronnie Martinez,2017,32,PS4,Song of the Deep
+PT02,Marcelino Martinez,2018,32,PS4,Valentino Rossi: The Game
+PT02,Verlyn Jones,2019,38,PS3,Pro Evolution Soccer 2017
+PT02,Ismael Davis,2017,27,3DS,Zero Escape: Zero Time Dilemma
+PT02,Fidencio Jones,2015,44,PSV,Zero Escape: Zero Time Dilemma
+PT02,Dolores Moore,2017,33,PS3,Odin Sphere: Leifthrasir
+PT02,Adan Taylor,2017,33,PS4,Destiny: The Collection
+PT02,Davey Moore,2015,30,PS3,Attack on Titan (KOEI)
+PT02,Derald Miller,2016,32,XOne,TrackMania Turbo
+PT02,Barbara Taylor,2019,37,PSV,Summon Night 6: Lost Borders
+PT02,Humberto Martinez,2015,27,3DS,Ansatsu Kyoushitsu: Assassin Ikusei Keikaku!!
+PT02,Joan Davis,2015,33,PS3,Super Robot Wars OG: The Moon Dwellers
+PT02,Sherwin Davis,2017,28,PS4,Project Setsuna
+PT02,Lavon Miller,2015,32,3DS,Sumikko Gurashi: Mura o Tsukurundesu
+PT02,Duwayne Davis,2016,39,SNES,Lagoon
+PT02,Genaro Brown,2017,39,SNES,Doraemon 2: Nobita no Toizurando Daibouken
+PT02,Kenny Thomas,2018,40,GEN,Dynamite Headdy
+PT02,Rogelio Wilson,2017,23,SNES,Pachinko Wars II
+PT02,Rolf Wilson,2018,25,SNES,Keiba Eight Special
+PT02,Arnulfo Rodriguez,2020,38,GEN,Beyond Oasis
+PT02,Gerry Davis,2020,36,SCD,Game no Kanzume Vol 2
+PT02,Derl Lee,2019,22,SNES,Hisshou 777 Fighter: Pachi Slot Eiyu Densetsu
+PT02,Gerold Jones,2018,26,SAT,Golden Axe: The Duel
+PT02,Arlan Anderson,2017,21,SCD,Game no Kanzume Vol 1
+PT02,Patricia Taylor,2016,29,SNES,Jirou Akagawa: Majotachi no Nemuri
+PT02,Dino Martin,2017,34,PS,Hi-Octane: The Track Fights Back!
+PT02,Wally Martin,2019,30,PS,Philosoma
+PT02,Mervyn Moore,2015,41,SAT,Virtua Fighter CG Portrait Series Vol.5: Wolf Hawkfield
+PT02,Allyn White,2019,38,SNES,Slam Dunk SD Heat Up!!
+PT02,Monty Anderson,2016,37,SAT,Baku Baku
+PT02,Dickie Brown,2017,37,SNES,Jikkyou Oshaberi Parodius
+PT02,Jan Garcia,2019,29,SNES,Super Jinsei Game 2
+PT02,Arlis Wilson,2017,32,PS,Johnny Bazookatone
+PT02,Kaye White,2017,40,SAT,Kekkon Zenya
+PT02,Kenton Anderson,2015,42,SNES,Block Kuzushi
+PT02,Sherrill Anderson,2015,28,PS,Zoop
+PT02,Darl Martinez,2016,29,PS,Magic Carpet
+PT02,Raymundo Garcia,2018,43,PS,Olympic Soccer: Atlanta 1996
+PT02,Delano Martin,2017,28,PS,Chronicles of the Sword
+PT02,Terrance Jackson,2018,37,PS,SD Gundam: Over Galaxian
+PT02,Ronny Lee,2016,35,SAT,Strikers 1945
+PT02,Chuck Thomas,2020,32,SNES,J-League '96 Dream Stadium
+PT02,Orlin Thompson,2017,37,PS,VR Soccer '96
+PT02,Gloria Thompson,2018,42,PS,Crusader: No Remorse
+PT02,Darryl Martin,2016,41,SAT,Garou Densetsu 3: Road to the Final Victory
+PT02,Marc Davis,2016,22,PS,NHL Powerplay 98
+PT02,Sal Taylor,2019,34,PS,Judge Dredd
+PT02,Stan Wilson,2020,22,N64,Dual Heroes
+PT02,Cordell Garcia,2017,27,N64,Turok: Dinosaur Hunter
+PT02,Darvin Martin,2015,19,PS,Wayne Gretzky's 3D Hockey '98
+PT02,Derrell Thomas,2019,27,SAT,Shining Force III: Scenario 2
+PT02,Jame Lee,2018,20,PS,Bottom of the 9th '99
+PT02,Jacky Taylor,2020,37,PS,Tiny Toon Adventures: Toonenstein - Dare to Scare
+PT02,Lanny Lee,2018,44,PS,Thunder Force V: Perfect System
+PT02,Ron White,2020,25,PS,Bakusou Kyoudai Let's & Go!! Eternal Wings
+PT02,Marland Martin,2019,43,N64,Chameleon Twist 2
+PT02,Arlyn Anderson,2020,33,PS,Shinseiki Evangelion- Eva: Yukai na Nakama Tachi
+PT02,Jerrell Rodriguez,2018,43,PC,StarCraft
+PT02,Jeffrey Garcia,2016,28,PS,Silhouette Mirage
+PT02,Valentin Williams,2018,34,PS,Romance of the Three Kingdoms VI: Awakening of the Dragon
+PT02,Kerry Martinez,2019,43,PS,Fatal Fury: Wild Ambition
+PT02,Ferrell Garcia,2017,34,PS,Bass Rise
+PT02,Gaylon Taylor,2017,19,PS,Expendable
+PT02,Jerrel Wilson,2016,25,N64,NHL Blades of Steel '99
+PT02,Darwyn Martinez,2016,38,N64,All Star Tennis 99
+PT02,Dwane Wilson,2019,33,N64,Fighter Destiny 2
+PT02,Randy Moore,2016,37,PS,Dead in the Water
+PT02,Ian Moore,2019,21,DC,NBA 2K
+PT02,Delwin Jones,2016,26,PS,Saiyuki: Journey West
+PT02,Gustavo Rodriguez,2019,45,PS,Test Drive Le Mans
+PT02,Verlon Martinez,2015,45,PS,The Misadventures of Tron Bonne
+PT02,Vernell Moore,2020,18,N64,Choro Q 64 2: Hacha Mecha Grand Prix Race
+PT02,Delma Rodriguez,2018,30,PS,Arthur! Ready to Race
+PT02,Windell Martin,2018,18,DC,The Typing of the Dead
+PT02,Kim Rodriguez,2020,44,N64,Blues Brothers 2000
+PT02,Errol Taylor,2017,25,N64,Hercules: The Legendary Journeys
+PT02,Reggie Lee,2017,20,PS2,BeatMania IIDX 3rd Style
+PT02,Geoffrey Lee,2015,31,PS,Power Spike Pro Beach Volleyball
+PT02,Mel Thompson,2017,20,PC,The Sims
+PT02,Sergio Thomas,2017,32,PS,Black Jack vs. Matsudajun
+PT02,Del Thomas,2016,41,GC,NFL Quarterback Club 2002
+PT02,Donnell Martin,2020,39,PS2,WTA Tour Tennis
+PT02,Tyrone White,2018,25,PS2,Rez
+PT02,Sharon Martinez,2018,24,PS,Batman: Gotham City Racer
+PT02,Donny Wilson,2015,36,PS,Taiho Shichauzo!
+PT02,Doug Anderson,2018,32,PS2,Yanya Caballista: City Skater
+PT02,Marilyn Wilson,2020,23,GBA,Puyo Pop
+PT02,Carolyn Rodriguez,2018,31,PS2,Stretch Panic
+PT02,Delvin Moore,2015,24,PC,Empire Earth
+PT02,Janet Anderson,2020,33,PS2,Woody Woodpecker: Escape from Buzz Buzzard Park
+PT02,Levon Wilson,2020,40,PS2,BeatMania IIDX 4th Style: New Songs Collection
+PT02,Ozell White,2015,35,GBA,Super Bust-A-Move
+PT02,Gaylen Thomas,2019,45,PS2,Stunt GP
+PT02,Lamont White,2019,30,DC,Capcom vs. SNK: Millennium Fight 2000 Pro
+PT02,Tex Thompson,2016,31,GBA,American Bass Challenge
+PT02,Lonny Thompson,2017,28,GBA,ESPN Great Outdoor Games Bass 2002
+PT02,Autry Anderson,2017,34,PC,Microsoft Train Simulator
+PT02,Rondal White,2020,39,PS,Hoshigami: Ruining Blue Earth
+PT02,Randal Thompson,2018,36,PS,Time Crisis: Project Titan
+PT02,Dion Jackson,2020,20,PS2,Gitaroo Man
+PT02,Greg Moore,2015,36,PS2,Rimo-Cocoron
+PT02,Sandra Thompson,2015,23,PS,Inspector Gadget: Gadget's Crazy Maze
+PT02,Judith Jackson,2020,45,GBA,Worms World Party
+PT02,Scotty Davis,2018,29,GBA,Medabots: Metabee
+PT02,Ronal Wilson,2017,38,PS2,Bombastic
+PT02,Jeffery Taylor,2016,27,PS2,Dual Hearts
+PT02,Randell Jackson,2017,32,XB,Sega Soccer Slam
+PT02,Joey Taylor,2017,45,GC,Blood Omen 2
+PT02,Nicky Rodriguez,2015,32,GBA,FIFA Soccer 2003
+PT02,Leonel Lee,2019,31,GBA,Lufia: The Ruins of Lore
+PT02,Harlon Anderson,2015,20,PS,Samurai Deeper Kyo
+PT02,Lawrance Lee,2015,22,XB,Zapper: One Wicked Cricket!
+PT02,Linda Taylor,2019,18,PS2,Bust-A-Bloc
+PT02,Barrie Anderson,2020,27,XB,Dragon's Lair 3D: Return to the Lair
+PT02,Darnell White,2019,29,GC,Virtua Striker 2002
+PT02,Isidro Jackson,2019,19,GC,Disney's PK: Out of the Shadows
+PT02,Wilkie Thompson,2019,19,XB,Rally Fusion: Race of Champions
+PT02,Rick Jackson,2020,24,PS2,Ferrari F355 Challenge
+PT02,Ricky Moore,2019,36,PS2,Shifters
+PT02,Donna Thomas,2018,42,PS2,Downforce
+PT02,Janice Jackson,2016,42,GC,Disney's Party
+PT02,Javier Thomas,2016,45,XB,Phantom Crash
+PT02,Wendel Martin,2019,21,GC,Rave Master
+PT02,Erik Martin,2016,38,GC,ESPN International Winter Sports 2002
+PT02,Lindell Moore,2018,43,GC,Dark Summit
+PT02,Judy Anderson,2019,26,GBA,Turbo Turtle Adventure
+PT02,Jeffry Thomas,2018,41,GC,Whirl Tour
+PT02,Karen Jackson,2018,42,GBA,Pinball Tycoon
+PT02,Brendan Thompson,2017,36,GBA,ZooCube
+PT02,Darell Taylor,2019,30,GBA,Reign of Fire
+PT02,Mcarthur White,2020,28,PS2,Next Generation of Chaos
+PT02,Macarthur Thompson,2015,24,GC,2002 FIFA World Cup
+PT02,Rickey Thomas,2019,36,GBA,Punch King
+PT02,Rod Thompson,2018,21,GBA,V-Rally 3
+PT02,Niles Jackson,2020,27,XB,Kakuto Chojin
+PT02,Jeremy Wilson,2018,39,XB,Shin Megami Tensei NINE
+PT02,Susan White,2018,26,XB,NightCaster II: Equinox
+PT02,Walt Martin,2020,36,PC,Mafia
+PT02,Lary Garcia,2020,44,GC,Monster Jam: Maximum Destruction
+PT02,Jaime Taylor,2018,30,GC,Big Air Freestyle
+PT02,Noe Lee,2016,25,XB,Mike Tyson Heavyweight Boxing
+PT02,Rocky Rodriguez,2018,18,PS2,World Fantasista
+PT02,Derek Moore,2020,41,XB,Speed Kings
+PT02,Les Thomas,2020,35,XB,Gladiator: Sword of Vengeance
+PT02,Terrill Lee,2016,20,GC,Phantasy Star Online Episode I & II Plus
+PT02,Russ Martinez,2020,23,GBA,Wing Commander: Prophecy
+PT02,Timmy Lee,2015,23,XB,BlowOut
+PT02,Butch Thompson,2018,18,GC,Shaman King: Soul Fight
+PT02,Sean Jackson,2015,19,GC,Medabots: Infinity
+PT02,Linden Garcia,2019,35,PS2,Sitting Ducks
+PT02,Roddy Moore,2015,34,XB,NFL Blitz Pro
+PT02,Rickie White,2018,31,XB,Wakeboarding Unleashed Featuring Shaun Murray
+PT02,Lenny Jackson,2017,22,XB,Otogi 2: Immortal Warriors
+PT02,Rusty Lee,2016,26,GC,Piglet's Big Game
+PT02,Dane White,2020,44,XB,IndyCar Series
+PT02,Geary Rodriguez,2020,19,GBA,Piglet's Big Game
+PT02,Eusebio Martinez,2020,22,GBA,Monster! Bass Fishing
+PT02,Garey Lee,2015,39,GBA,FIFA Soccer 2004
+PT02,Lucky Martinez,2018,32,GC,Shrek Super Party
+PT02,Gerardo Garcia,2020,32,GC,Monster 4x4: Masters of Metal
+PT02,Gil Martin,2019,22,GBA,Jim Henson's Muppets in Spy Muppets: License to Croak
+PT02,Richie Rodriguez,2018,31,XB,Arx Fatalis
+PT02,Carnell Martinez,2018,18,GBA,Dr. Seuss: Green Eggs and Ham
+PT02,Chad Garcia,2019,19,GBA,The Lost Vikings
+PT02,Hank Jackson,2018,31,GC,Rogue Ops
+PT02,Dorian Garcia,2016,35,PC,Freelancer
+PT02,Rolando Martinez,2016,34,XB,Alter Echo
+PT02,Kip Garcia,2016,43,PC,Need for Speed Underground
+PT02,Mikel Rodriguez,2015,23,GBA,Rock 'N Roll Racing
+PT02,Jonathon Rodriguez,2017,43,GC,Ribbit King
+PT02,Stevan Martinez,2015,26,GC,Summoner: A Goddess Reborn
+PT02,Kris Garcia,2017,44,GC,Black & Bruised
+PT02,Jody Martinez,2019,45,GC,Super Bubble Pop
+PT02,Lyn Rodriguez,2015,38,GBA,Double Dragon Advance
+PT02,Zachary Smith,2019,44,XB,Yager
+PT02,Brett Rodriguez,2017,37,XB,Futurama
+PT02,Patric Garcia,2019,45,GBA,Activision Anthology
+PT02,Rory Johnson,2017,30,XB,Carve
+PT02,Rand Martinez,2019,24,GBA,Famicom Mini: Dig Dug
+PT02,Robby Thomas,2018,43,PS2,Naval Ops: Commander
+PT02,Cornel Williams,2015,24,XB,UEFA Euro 2004: Portugal
+PT02,Shawn Martin,2017,38,XB,King Arthur
+PT02,Skip Rodriguez,2016,37,PS2,The Nightmare of Druaga: Fushigino Dungeon
+PT02,Randel Brown,2015,40,PS2,Powerdrome
+PT02,Jed Jones,2015,25,XB,Fallout: Brotherhood of Steel
+PT02,Dirk Miller,2018,28,XB,Ultra Bust-A-Move
+PT02,Brock Davis,2017,30,PSP,Armored Core: Formula Front Extreme Battle
+PT02,Deryl Thomas,2018,37,DS,Tennis no Oji-Sama: 2005 Crystal Drive
+PT02,Stevie Wilson,2015,44,GC,Second Sight
+PT02,Derrick Anderson,2016,37,XB,Alias
+PT02,Jerel Lee,2017,44,PC,"Warhammer 40,000: Dawn of War"
+PT02,Cesar Thompson,2019,34,PS2,Harukanaru Toki no Naka de 3
+PT02,Baron Moore,2017,27,GBA,Around the World in 80 Days
+PT02,Kathleen White,2016,23,GBA,Cartoon Network Block Party
+PT02,Stefan Taylor,2016,29,PS2,Finny the Fish & the Seven Waters
+PT02,Donell Jackson,2016,34,PC,Far Cry
+PT02,Corey Smith,2015,43,XB,Fatal Frame II: Crimson Butterfly Director's Cut
+PT02,Kelvin Smith,2019,36,XB,Colin McRae Rally 2005
+PT02,Ezzard Smith,2018,38,PS2,World Championship Pool 2004
+PT02,Tod Smith,2019,21,XB,Robotech: Invasion
+PT02,Shaun Johnson,2017,25,DS,Cocoto Kart Racer
+PT02,Brant Johnson,2020,29,XB,Intellivision Lives!
+PT02,Scot Smith,2020,34,XB,Wrath Unleashed
+PT02,Efrain Williams,2017,44,XB,Trigger Man
+PT02,Stacey Johnson,2018,34,GC,Bad Boys: Miami Takedown
+PT02,Brandon Smith,2020,37,GBA,Rebelstar: Tactical Command
+PT02,Marlon Brown,2015,29,XB,Dynasty Warriors 5
+PT02,Jory Smith,2018,19,XB,Myst IV: Revelation
+PT02,Layne Johnson,2020,18,PS2,Legend of Kay
+PT02,Danniel Brown,2019,40,GC,Pinball Hall of Fame: The Gottlieb Collection
+PT02,Michial Garcia,2018,35,GBA,Sigma Star Saga
+PT02,Ritchie Williams,2015,27,PC,Star Wars: Republic Commando
+PT02,Edwardo Jones,2017,21,DS,SeaWorld Adventure Parks: Shamu's Deep Sea Adventure
+PT02,Kimberly Jones,2015,34,PS2,Medal of Honor: European Assault (weekly JP sales)
+PT02,Ricki Rodriguez,2015,33,GC,Codename: Kids Next Door: Operation V.I.D.E.O.G.A.M.E.
+PT02,Kurtis Brown,2017,26,GBA,Ty the Tasmanian Tiger 3: Night of the Quinkan
+PT02,Cory Miller,2020,25,GC,World Series of Poker
+PT02,Deborah Jones,2016,44,PS2,Ms Saga: A New Dawn
+PT02,Scottie Williams,2018,21,XB,Crime Life: Gang Wars
+PT02,Erasmo Johnson,2018,24,XB,Rugby 2005
+PT02,Rudolfo Davis,2016,45,XB,Taito Legends
+PT02,Lex Johnson,2018,31,GC,American Chopper 2: Full Throttle
+PT02,Rodrick Martinez,2016,40,XB,American Chopper 2: Full Throttle
+PT02,Daryle Smith,2020,31,GC,Frogger: Ancient Shadow
+PT02,Greggory Brown,2020,34,XB,Raze's Hell
+PT02,Darren Miller,2015,32,DS,Bubble Bobble Revolution
+PT02,Mikeal Miller,2020,36,GC,Tom Clancy's Rainbow Six: Lockdown
+PT02,Trent Williams,2017,35,GBA,The Berenstain Bears and the Spooky Old Tree
+PT02,Michal Smith,2018,35,XB,The Bible Game
+PT02,Theodis Williams,2017,24,PS2,Final Fight: Streetwise
+PT02,Damian Jones,2019,33,DS,Xiaolin Showdown
+PT02,Kimball Davis,2019,32,PS2,Marc Ecko's Getting Up: Contents Under Pressure
+PT02,Michale Brown,2017,22,PS2,Bleach: Blade Battlers
+PT02,Wilfredo Miller,2016,21,XB,MLB SlugFest 2006
+PT02,Shane Williams,2018,21,DS,Jissen Pachislot Hisshouhou! Hokuto no Ken DS SE
+PT02,Robbin Smith,2017,20,PS2,Samurai Champloo: Sidetracked
+PT02,Kraig Jones,2019,24,PS2,Growlanser: Heritage of War (jp sales)
+PT02,Kirt Johnson,2020,31,DS,Tenchu: Dark Secret
+PT02,Chip Miller,2018,34,PS2,JoJo no Kimy? na B?ken Fantomu Buraddo
+PT02,Randolf Smith,2017,45,PSP,PQ2: Practical Intelligence Quotient
+PT02,Bret Smith,2018,37,DS,Strawberry Shortcake: Strawberryland Games
+PT02,Antony Smith,2015,24,DS,Battleship / Connect Four / Sorry! / Trouble
+PT02,Bradly Wilson,2015,43,DS,Mawashite Tsunageru Touch Panic
+PT02,Faron Davis,2020,25,DS,Top Spin 2
+PT02,Blaise Brown,2016,25,DS,Doraemon: Nobita no Kyouryuu 2006 DS
+PT02,Alvaro Jones,2018,19,PSP,Over the Hedge: Hammy Goes Nuts!
+PT02,Ricci Smith,2017,34,DS,Tabi no Yubisashi Kaiwachou DS: DS Series 2 Chuugoku
+PT02,Dusty Moore,2018,43,PS2,Kamiwaza
+PT02,Debra Taylor,2016,35,PS2,Kinnikuman Muscle Grand Prix Max
+PT02,Rock Miller,2018,30,PS2,OutRun 2006: Coast 2 Coast
+PT02,Keven Davis,2018,41,DS,Guilty Gear Dust Strikers
+PT02,Gavin Johnson,2019,28,PSP,Shinseiki Evangelion 2: Tsukurareshi Sekai - Another Cases
+PT02,Kevan Davis,2015,44,PC,Need for Speed Carbon
+PT02,Blane Jones,2016,41,PSP,Reel Fishing: The Great Outdoors
+PT02,Demetrius Johnson,2020,29,DS,Cartoon Network Racing
+PT02,Rahn Anderson,2019,32,PS2,Tokimeki Memorial Girl's Side 2nd Kiss
+PT02,Barron Taylor,2020,27,DS,Yu-Gi-Oh! GX: Spirit Caller (Japan Sales)
+PT02,Heriberto Smith,2015,30,PS2,Hummer Badlands
+PT02,Jude Moore,2017,42,PSP,MTX Mototrax
+PT02,Levern Martin,2018,19,Wii,The Grim Adventures of Billy & Mandy
+PT02,Darcy Wilson,2020,44,Wii,SD Gundam: Scad Hammers
+PT02,Micky Thomas,2020,34,GBA,Barnyard
+PT02,Kennard Smith,2018,34,PSP,Dynasty Warriors Vol. 2
+PT02,Davy White,2017,45,PSP,Ultimate Ghosts 'n Goblins (JP sales)
+PT02,Tad Miller,2016,38,PS2,Rugby 06
+PT02,Rhett Anderson,2016,21,PC,Company of Heroes
+PT02,Ty Wilson,2016,27,PS2,Naruto: Uzumaki Chronicles 2 (JP sales)
+PT02,Mitch Williams,2020,18,PSP,Snoopy vs the Red Baron
+PT02,Jefferey Johnson,2015,35,Wii,World Series of Poker: Tournament of Champions 2007 Edition
+PT02,Dann Anderson,2020,32,DS,GunPey DS
+PT02,Timmothy Brown,2016,31,PSP,Cabela's African Safari
+PT02,Broderick Martin,2018,22,Wii,Wing Island
+PT02,Derwin Thompson,2019,28,PSP,Ys: The Ark of Napishtim
+PT02,Chet Smith,2020,24,X360,World Championship Poker: Featuring Howard Lederer - All In
+PT02,Quintin Thomas,2015,20,XB,Full Spectrum Warrior: Ten Hammers
+PT02,Timmie Anderson,2017,32,PSP,Taiko no Tatsujin Portable 2
+PT02,Tab Johnson,2020,36,PSP,B-Boy
+PT02,Tracey Smith,2018,27,PSP,Ford Bold Moves Street Racing
+PT02,Jace Davis,2017,45,DS,March of the Penguins
+PT02,Kem Jackson,2015,21,PSP,Brave Story: New Traveller (jp sales)
+PT02,Brion Taylor,2016,28,DS,Tabi no Yubisashi Kaiwachou DS: DS Series 1 Thai
+PT02,Andrea Brown,2015,28,PC,Secret Files: Tunguska
+PT02,Cynthia Garcia,2017,18,PC,Medal of Honor: Airborne
+PT02,Kennth Lee,2017,22,PSP,Virtua Tennis 3
+PT02,Renaldo Thompson,2015,28,Wii,Domino Rally
+PT02,Desi Johnson,2015,29,DS,Katekyoo Hitman Reborn! DS: Shinuki Max! Vongola Carnival!!
+PT02,Renard Wilson,2015,24,X360,UEFA Champions League 2006-2007
+PT02,Trevor Johnson,2020,39,Wii,Myth Makers: Orbs of Doom
+PT02,Kenney Anderson,2015,41,DS,Code Lyoko
+PT02,Brien Moore,2016,32,PSP,Taito Legends Power Up
+PT02,Cheyenne Wilson,2019,42,PSP,Metal Slug Anthology
+PT02,Derick Brown,2017,30,DS,Tsumiki: Block Drop Mania
+PT02,Robb Jones,2020,22,DS,Pony Friends
+PT02,Devin Johnson,2018,45,DS,Air Traffic Chaos
+PT02,Kerwin Lee,2016,22,DS,Prism: Light the Way
+PT02,Grayling Johnson,2017,45,PC,Microsoft Flight Simulator X Acceleration Expansion Pack
+PT02,Quinn Lee,2016,28,DS,Ontamarama
+PT02,Wayde Garcia,2017,38,DS,DokiDoki Majo Shinpan!
+PT02,Maverick Martin,2018,19,Wii,Jenga World Tour
+PT02,Tobin Jones,2020,18,DS,Keroro Gunsou: Enshuu da Yo! Zenin Shuugou Part 2
+PT02,Kristopher Martinez,2019,33,DS,Nounai Aeshe: IQ Suppli DS 2 - Sukkiri King Ketteisen
+PT02,Keenan Thomas,2017,23,PS2,PachiPara 14: Fuu to Kumo to Super Umi in Okinawa
+PT02,Diane Martin,2020,35,Wii,Sea Monsters: A Prehistoric Adventure
+PT02,Cheryl Miller,2015,42,PS2,Hokuto no Ken
+PT02,Reinaldo White,2016,39,X360,Virtua Tennis 3
+PT02,Jamey Thomas,2018,19,DS,Yu-Gi-Oh! World Championship 2007
+PT02,Darrin Johnson,2015,21,PS2,"Lupin III: Lupin ni wa Shi o, Zenigata ni wa Koi o"
+PT02,Flint Smith,2017,25,Wii,Furu Furu Park
+PT02,Darin Thompson,2015,42,DS,D.Gray-man: Kami no Shitotachi
+PT02,Daren Rodriguez,2019,37,DS,Nicktoons: Attack of the Toybots
+PT02,Efrem White,2017,22,PS2,GrimGrimoire
+PT02,Kieth Wilson,2017,36,DS,Tokimeki Memorial: Girls Side 1st Love
+PT02,Micah Lee,2019,22,PS2,Growlanser VI: Precarious World
+PT02,Andra Jones,2019,38,DS,Boing! Docomodake DS
+PT02,Chaim Taylor,2019,27,PSP,Smash Court Tennis 3
+PT02,Raynard Moore,2017,24,PS2,Kiniro no Corda 2 Encore
+PT02,Leif Brown,2015,26,PC,Silent Hunter: Wolves of the Pacific
+PT02,Kennedy Williams,2020,26,Wii,Billy the Wizard: Rocket Broomstick Racing
+PT02,Lisa Taylor,2017,21,Wii,Pool Party
+PT02,Darrick Martin,2017,45,PC,Supreme Commander
+PT02,Darry Martinez,2019,39,Wii,MiniCopter: Adventure Flight
+PT02,Roel Moore,2016,44,DS,TMNT
+PT02,Darron Rodriguez,2018,32,Wii,Arctic Tale
+PT02,Darryle Williams,2020,45,Wii,Balloon Pop
+PT02,Stephon Williams,2015,38,DS,Crazy Chicken: Atlantis Quest
+PT02,Darryll Moore,2017,26,Wii,Counter Force
+PT02,Brenda Miller,2017,40,Wii,Fantastic Four: Rise of the Silver Surfer
+PT02,Devon Martin,2016,25,X360,Cabela's Trophy Bucks
+PT02,Arnoldo Johnson,2015,22,PC,City Life: World Edition
+PT02,Kory White,2017,24,DS,Fantastic Four: Rise of the Silver Surfer
+PT02,Regan Jackson,2018,36,DS,Thrillville: Off the Rails
+PT02,Brook Davis,2020,36,DS,Drivers Ed Portable
+PT02,Shayne White,2020,29,DS,Unsolved Crimes
+PT02,Lorne Williams,2019,24,PSP,Samurai Dou Portable
+PT02,Parrish Jones,2016,26,DS,Princess on Ice
+PT02,Drake Thomas,2018,28,DS,Front Mission 2089: Border of Madness
+PT02,Norberto Thomas,2015,20,DS,Mister Slime
+PT02,Kalvin Brown,2019,43,Wii,Defendin' De Penguin
+PT02,Pernell Thompson,2016,38,DS,Jake Power: Policeman
+PT02,Markus Miller,2018,18,DS,Zoo Quest: Puzzle Fun!
+PT02,Thor Jackson,2019,20,DS,Dreamer Series: Puppy Trainer
+PT02,Osvaldo Thompson,2019,32,PS2,Pro Yakyuu Spirits 5 Kanzenban
+PT02,Anibal Johnson,2016,28,DS,Pony Friends: Mini Breeds Edition
+PT02,Daron Wilson,2017,37,DS,Dokapon Journey
+PT02,Deon Taylor,2017,29,DS,Dramatic Dungeon: Sakura Wars - Kimi Arugatame
+PT02,Edgardo Lee,2018,26,DS,Nanostray 2
+PT02,Geoff Williams,2020,37,PS2,Sengoku Basara X
+PT02,Tammy White,2017,35,PC,Bejeweled Twist
+PT02,Jayson Garcia,2017,27,DS,Secret Files: Tunguska
+PT02,Rodrigo Jones,2017,29,DS,Suzuki Super-Bikes II: Riding Challenge
+PT02,Tyron Williams,2015,30,DS,George of the Jungle and the Search for the Secret
+PT02,Dwyane Brown,2016,40,PS3,Hail to the Chimp
+PT02,Stoney Thompson,2015,19,DS,Assassin's Creed: Altair's Chronicles
+PT02,Tal Miller,2019,37,DS,Smart Kid's Party Fun Pak
+PT02,Jaimie Anderson,2016,26,DS,Monster Band
+PT02,Trenton Brown,2020,27,DS,Fushigi? Kagaku: Nazotoki Quiz Training - NazoTore
+PT02,Andreas Davis,2016,38,DS,Houkago Shounen
+PT02,Vinson Brown,2017,37,DS,Harukanaru Toki no Naka de: Yumenoukihashi
+PT02,Pamela Anderson,2017,18,DS,Spitfire Heroes: Tales of the Royal Air Force
+PT02,Erin Miller,2019,40,PSP,Neverland Card Battles
+PT02,Mauricio Thomas,2016,25,PS2,Koihime Musou
+PT02,Rigoberto Moore,2018,44,DS,Katekyoo Hitman Reborn! DS: Bongole Shiki Taisen Battle Sugoroku
+PT02,Roderic Jones,2017,35,X360,Secret Service
+PT02,Destry Martin,2020,29,X360,Deadliest Catch: Alaskan Storm
+PT02,Deron Williams,2019,20,PS2,Pachitte Chonmage Tatsujin 15: Pachinko Fuyu no Sonata 2
+PT02,Fitzgerald Williams,2019,28,DS,Shugo Chara! 3-tsu no Tamagoto Koisuru Joker
+PT02,Quint Brown,2019,33,DS,Cesar Millan's Dog Whisperer
+PT02,Kipp Taylor,2015,29,DS,M&M's Adventure
+PT02,Trey Martinez,2017,30,DS,Soul Eater: Plot of Medusa
+PT02,Kendrick Brown,2015,33,DS,Color Cross
+PT02,Deric Jackson,2018,26,DS,The Dark Spire
+PT02,Terance Miller,2017,29,DS,Chocobo to Mahou no Ehon: Majo to Shoujo to 5-Jin no Yuusha
+PT02,Antonia Miller,2017,34,Wii,Wonder World Amusement Park
+PT02,Shon Miller,2016,45,DS,Shaun the Sheep
+PT02,Daryn White,2018,33,X360,Rapala Fishing Frenzy 2009
+PT02,Darien Davis,2016,45,DS,Professor Heinz Wolff's Gravity
+PT02,Darryn Jones,2020,41,DS,Lux-Pain
+PT02,Trace Jackson,2018,18,DS,Hiiro no Kakera DS
+PT02,Darian Thompson,2019,43,PSP,Bleach: Soul Carnival
+PT02,Dario Williams,2020,41,DS,Looney Tunes: Cartoon Conductor
+PT02,Chadwick Johnson,2018,34,PC,4 Elements
+PT02,Brain Jones,2017,29,DS,Lernerfolg Vorschule: Capt'n Sharky
+PT02,Reginal Jackson,2016,25,Wii,Countdown: The Game
+PT02,Heath Davis,2016,19,PC,"Murder, She Wrote"
+PT02,Jarrod Miller,2020,35,Wii,Vertigo
+PT02,Michelle Davis,2020,19,DS,Rockin' Pretty
+PT02,Illya Davis,2016,26,Wii,Major Minor's Majestic March
+PT02,Brenton Anderson,2019,19,Wii,Puyo Puyo 7
+PT02,Michele Garcia,2019,21,PC,Venetica
+PT02,Dylan Wilson,2018,36,DS,Black Sigil: Blade of the Exiled
+PT02,Efren Rodriguez,2016,18,DS,Dengeki Gakuen RPG: Cross of Venus
+PT02,Arron Garcia,2017,30,PSP,Air Conflicts: Aces of World War II
+PT02,Tyson Jackson,2019,39,DS,Aliens in the Attic
+PT02,Cedrick Williams,2020,40,DS,Kamen Rider: Dragon Knight
+PT02,Dereck Rodriguez,2019,41,PSP,Fate/Unlimited Codes Portable
+PT02,Brennan Miller,2020,24,Wii,Mr Bean's Wacky World of Wii
+PT02,Jerrod Williams,2019,18,PSP,Shin Sangoku Musou 5 Special
+PT02,Garrick Brown,2018,41,Wii,Hysteria Hospital: Emergency Ward
+PT02,Jennifer Lee,2018,25,DS,The BIGS 2
+PT02,Angela Garcia,2018,20,PC,Plants vs. Zombies
+PT02,Claudio Martinez,2018,34,PS2,Little Busters! Converted Edition
+PT02,Derik Martinez,2016,20,Wii,Dream Salon
+PT02,Octavio Jones,2015,21,DS,Summon Night X: Tears Crown
+PT02,Alfie Davis,2015,26,DS,Imagine: Artist
+PT02,Brendon Jones,2017,29,DS,The Idolm@ster: Dearly Stars
+PT02,Kristian Moore,2016,21,Wii,Kart Racer
+PT02,Shad Taylor,2015,23,X360,Lips: Deutsche Partyknaller
+PT02,Ariel Moore,2018,26,DS,Apassionata: Die Galanacht der Pferde
+PT02,Liam Miller,2017,28,DS,Dungeon Raiders
+PT02,Tina Taylor,2015,20,Wii,Hotel for Dogs
+PT02,Beau Martinez,2015,38,Wii,Super Robot Taisen Neo
+PT02,Giuseppe Davis,2018,45,PS3,Winning Post World
+PT02,Franco Davis,2016,29,Wii,My Body Coach
+PT02,Dustin Miller,2019,30,PC,DiRT 2
+PT02,Jamal Davis,2020,29,Wii,Pirates vs Ninja Dodgeball
+PT02,Damien Brown,2015,31,PC,Operation Flashpoint: Dragon Rising
+PT02,Waylon Thomas,2018,27,PC,LEGO Indiana Jones 2: The Adventure Continues
+PT02,Colby Wilson,2019,26,PSP,Blazing Souls: Accelate
+PT02,Damion Wilson,2017,32,PC,FIFA Soccer 10
+PT02,Brenden Rodriguez,2016,26,DS,Jewel Quest Mysteries
+PT02,Korey Davis,2020,32,DS,Moon
+PT02,Tye Lee,2015,18,Wii,Wii de Asobu Chibi-Robo!
+PT02,Rico Jones,2018,44,DS,Pet Vet: Down Under
+PT02,Darby Anderson,2017,38,DS,Clever Kids: Creepy Crawlies
+PT02,Melissa Taylor,2020,39,PC,Black Mirror 2
+PT02,Anthoney Martin,2018,44,PC,Wolfenstein
+PT02,Jade Martin,2015,18,DS,Family Fortunes
+PT02,Lamonte Moore,2018,39,DS,Grey's Anatomy: The Video Game
+PT02,Shan White,2020,34,PC,Tropico 3
+PT02,Johnathon Anderson,2017,23,PC,Avatar: The Game
+PT02,Tory Brown,2019,26,Wii,Pool Hall Pro
+PT02,Trever Garcia,2020,26,DS,Nanda's Island
+PT02,Lazaro Wilson,2016,18,PS2,Short Track Racing: Trading Paint
+PT02,Jemal White,2016,44,DS,Minna to Kimi no Piramekino!
+PT02,Jamison Anderson,2017,35,DS,Virtual Villagers: A New Home
+PT02,Aric Anderson,2020,38,DS,Learn Science
+PT02,Ari Martinez,2016,27,PS2,Hakuouki: Reimeiroku
+PT02,Donavan Garcia,2018,20,PSP,Shin Sangoku Musou 5 Empires
+PT02,Torrey Martin,2015,26,PC,Front Mission Evolved
+PT02,Torrance Jackson,2019,22,DS,Samantha Swift and the Hidden Roses of Athena
+PT02,Shanon Lee,2017,37,PC,Tom Clancy's HAWX 2
+PT02,Chandler Thomas,2018,23,DS,Animal Planet: Vet Collection
+PT02,Ali Thompson,2017,33,DS,Imagine Animal Doctor Care Center
+PT02,Corwin Thompson,2015,31,DS,TrackMania Turbo: Build to Race
+PT02,Amy Martin,2018,23,DS,Metal Fight Beyblade: Bakugami Susanoh Shuurai!
+PT02,Jameson Davis,2018,31,X360,DoDonPachi Resurrection
+PT02,Demetrios Taylor,2017,44,Wii,Sushi Go-Round
+PT02,Jasen Wilson,2017,33,DS,Ivy the Kiwi?
+PT02,Davin Garcia,2017,36,X360,Lucha Libre AAA: Heroes del Ring
+PT02,Cale Martin,2017,45,X360,MorphX
+PT02,Jermaine Thomas,2016,37,DS,TV Anime: Fairy Tale Gekitou! Madoushi Kessen
+PT02,Malik Lee,2015,39,DS,RPG Tsukuru DS
+PT02,Jeromy Taylor,2020,24,PSP,TNA iMPACT: Cross the Line
+PT02,Jammie Lee,2017,32,PSP,Trick x Logic: Season 1
+PT02,Che White,2015,28,PSP,Winning Post 7 2010
+PT02,Bronson Martin,2018,44,PS3,Hakuoki: Stories of the Shinsengumi
+PT02,Dax Anderson,2017,40,PSP,Starry ? Sky: In Spring
+PT02,Brandt Rodriguez,2020,35,DS,Pet Pals: New Leash on Life
+PT02,Kenyatta Garcia,2020,38,Wii,Sam & Max: Beyond Time and Space
+PT02,Antione Williams,2017,44,PSP,Marriage Royale: Prism Story
+PT02,Laron Martinez,2015,34,PC,Singularity
+PT02,Antwan Garcia,2020,23,DS,Odoru Daisousasen The Game: Sensuikan ni Sennyuu Seyo!
+PT02,Branden Taylor,2017,40,PSP,Corpse Party: Blood Covered - Repeated Fear
+PT02,Dedric Wilson,2020,32,PSP,Durarara!! 3-way Standoff
+PT02,Jayme Martinez,2016,20,PSP,Fushigi no Dungeon: Fuurai no Shiren 3 Portable
+PT02,Kelsey Wilson,2019,20,PC,Sesame Street: Cookie's Counting Carnival
+PT02,Torrence Moore,2015,37,PS3,White Album: Tsuzurareru Fuyu no Omoide
+PT02,Shea Moore,2019,34,DS,TNA iMPACT: Cross the Line
+PT02,Kenyon Jones,2020,44,Wii,Winter Sports 3: The Great Tournament
+PT02,Kristin Rodriguez,2017,45,PS2,J-League Winning Eleven 2010: Club Championship
+PT02,Shay Martinez,2018,18,PC,Worms Reloaded
+PT02,Corbin Moore,2017,18,PC,Ship Simulator Extremes
+PT02,Cristopher Rodriguez,2020,32,PS3,Rock of the Dead
+PT02,Jeramy Martin,2020,22,DS,Gummy Bears Mini Golf
+PT02,Braden Rodriguez,2018,41,X360,Forza Motorsport 3: Ultimate Edition
+PT02,Kenya Taylor,2020,45,DS,Galaxy Racers
+PT02,Dedrick Lee,2019,37,DS,River City Soccer Hooligans
+PT02,Tate Lee,2015,37,X360,Rock of the Dead
+PT02,Germaine Thompson,2016,37,PC,Sesame Street: Elmo's A-to-Zoo Adventure
+PT02,Nigel Thomas,2015,20,PS3,Ape Escape
+PT02,Jerod Thomas,2017,19,PC,Airline Tycoon 2
+PT02,Christoper Martin,2015,24,PC,IL-2 Sturmovik: Cliffs of Dover
+PT02,Chadd White,2016,36,DS,7 Wonders: Treasures of Seven
+PT02,Jarod Martinez,2016,20,PSP,McDROID
+PT02,Tristan Wilson,2015,42,PSP,GachiTora! Abarenbou Kyoushi in High School
+PT02,Brannon Anderson,2015,20,X360,Arcana Heart 3
+PT02,Jeremey Wilson,2019,42,PSP,Major League Baseball 2K11
+PT02,Deandre Rodriguez,2016,45,PC,Hunted: The Demon's Forge
+PT02,Kiley Moore,2016,23,PC,Cities in Motion
+PT02,Donavon Anderson,2015,30,X360,The Idolmaster 2
+PT02,Sedrick Wilson,2016,31,PC,Men of War: Assault Squad
+PT02,Hassan White,2017,21,DS,Fishdom
+PT02,Jamel Thomas,2020,39,PS3,The Idolmaster: Gravure For You! Vol. 2
+PT02,Jeramie White,2016,40,DS,Kids Learn Music A+ Edition
+PT02,Marcelo Thompson,2016,38,PS3,Winter Sports 2011
+PT02,Coby Thompson,2018,20,DS,Metal Max 2 Reloaded
+PT02,Deshawn Anderson,2019,26,DS,The Lost Treasures of Alexandria
+PT02,Toriano White,2018,34,Wii,Active Life: Magical Carnival
+PT02,Kwame Thompson,2015,18,PSP,Classic Dungeon X2
+PT02,Kasey Jackson,2017,25,PS2,Major League Baseball 2K11
+PT02,Demian Moore,2016,32,Wii,Wicked Monster Blast!
+PT02,Kristofer Thompson,2017,22,DS,Beastly Frantic Foto
+PT02,Paulo Jackson,2019,26,DS,Treasure Report: Kikai Jikake no Isan
+PT02,Donte Davis,2016,29,PSP,Venus & Braves: Majo to Megami to Horobi no Yogen
+PT02,Jarred Wilson,2019,33,DS,Powerful Golf
+PT02,Demond Taylor,2016,26,X360,Rock Band Country Track Pack 2
+PT02,Kareem Jackson,2016,26,PS3,To Heart 2 DX Plus
+PT02,Vidal Taylor,2018,33,PSP,Star Driver: Kagayaki no Takuto - Ginga Bishounen Densetsu
+PT02,Zachariah Rodriguez,2019,41,PC,Jonah Lomu Rugby Challenge
+PT02,Jamar Lee,2018,25,PS3,National Geographic Challenge!
+PT02,Abdul Anderson,2018,24,Wii,SD Gundam G Generation World
+PT02,Jermain Lee,2020,35,DS,Ore-Sama Kingdom: Koi no Manga mo Debut o Mokushise! Doki Doki Love Lesson
+PT02,Tremayne Taylor,2015,36,PC,FIFA Manager 12
+PT02,Jeremie Anderson,2020,25,PSV,Shin Kamaitachi no Yoru: 11 Hitome no Suspect
+PT02,Marlo White,2016,39,3DS,Mahjong 3D: Warriors of the Emperor
+PT02,Lashawn Jackson,2019,19,PSP,Arcana Famiglia: La storia della Aracana Famiglia
+PT02,Brandy Thompson,2015,24,3DS,Centipede: Infestation
+PT02,Josue Jackson,2018,28,3DS,Nazo Waku Yakata: Oto no Ma ni Ma ni
+PT02,Jabbar Moore,2015,28,X360,Gray Matter
+PT02,Kristoffer Thomas,2018,33,DS,Kimi ni Todoke: Tsutaeru Kimochi
+PT02,Diallo Jackson,2020,31,DS,Nora to Koku no Koubou: Kiri no Mori no Majo
+PT02,Tito Thomas,2019,26,3DS,Minna no Ennichi
+PT02,Damond Martin,2019,29,PS3,Choujikuu Yousai Macross: Do You Remember Love
+PT02,Nicole Martin,2016,36,PSP,Persona 2: Eternal Punishment
+PT02,Dameon Moore,2019,36,PSP,Koi to Senkyo to Chocolate Portable
+PT02,Rahsaan Anderson,2020,38,PSP,Bakemonogatari Portable
+PT02,Nathanael Thomas,2016,39,PSV,Ben 10 Galactic Racing
+PT02,Abelardo Jackson,2019,21,DS,Detective Conan: Prelude from the Past
+PT02,Cade Thompson,2016,29,3DS,Guild 01
+PT02,Vashon Taylor,2016,40,X360,Nike+ Kinect Training
+PT02,Taurus White,2015,45,3DS,G1 Grand Prix
+PT02,Chadrick Thompson,2015,45,Wii,QUIZ PARTY
+PT02,Tarik Thomas,2019,25,PSP,Diabolik Lovers
+PT02,Marcello Thompson,2018,44,PS3,E.X. Troopers
+PT02,Dominique Jackson,2018,41,X360,Test Drive: Ferrari Legends
+PT02,Donta Wilson,2020,29,PSV,Time Travelers
+PT02,Moshe White,2019,19,PSP,Amnesia Later
+PT02,Zachery Martin,2015,28,PSP,Hakuouki: Bakumatsu Musou Roku
+PT02,Jevon Garcia,2020,35,PSP,Kyoukai Senjou no Horizon Portable
+PT02,Stephanie Taylor,2015,39,PS3,DuckTales: Remastered
+PT02,Nakia Lee,2018,44,Wii,Pretty Cure All Stars Everyone Gather ? Let's Dance!
+PT02,Telly Rodriguez,2015,27,3DS,Zyuden Sentai Kyoryuger: Game de Gaburincho!!
+PT02,Ahmad Moore,2017,37,PC,The Bureau: XCOM Declassified
+PT02,Jamil Thomas,2019,33,WiiU,PAC-MAN and the Ghostly Adventures
+PT02,Toma Lee,2015,22,PS3,Winning Post 7 2013
+PT02,Trinity Martinez,2015,26,PSV,Atelier Rorona: Alchemist of Arland
+PT02,Jereme Lee,2019,29,3DS,Chousoku Henkei Gyrozetter: Albatross no Tsubasa
+PT02,Dejuan Thompson,2020,20,PS3,Adventure Time: Explore the Dungeon Because I Don't Know!
+PT02,Jabari Jackson,2019,20,PSV,Putty Squad
+PT02,Ahmed Garcia,2020,30,3DS,Detective Conan: Marionette Symphony
+PT02,Heather Moore,2018,39,PSP,Amnesia Crowd
+PT02,Demarcus White,2019,23,PC,Payday 2
+PT02,Antwon Jackson,2016,19,3DS,Gaist Crusher
+PT02,Jered Lee,2019,26,PS3,Rain (2013)
+PT02,Rashad White,2020,42,X360,Fast & Furious: Showdown
+PT02,Kristen Rodriguez,2015,35,PS3,Ride to Hell
+PT02,Mauro Martinez,2018,24,PSV,XBLAZE Code: Embryo
+PT02,Benji Lee,2018,43,X360,SpongeBob SquarePants: Plankton's Robotic Revenge
+PT02,Tavares Martinez,2016,29,3DS,LEGO Friends
+PT02,Marques Garcia,2015,45,WiiU,SpongeBob SquarePants: Plankton's Robotic Revenge
+PT02,Rasheed Martin,2018,22,PSV,Nobunaga's Ambition: Sphere of Influence
+PT02,Jerad Rodriguez,2017,29,PS3,Winning Post 8
+PT02,Corry Martinez,2019,43,PS3,Natural Doctrine
+PT02,Cristobal Garcia,2016,45,X360,Enemy Front
+PT02,Deangelo Jackson,2015,36,PC,Sherlock Holmes: Crimes & Punishments
+PT02,Karim Garcia,2017,40,PS4,Child of Light
+PT02,Sharif Martinez,2017,30,PSV,Super Heroine Chronicle
+PT02,Demarco Garcia,2019,38,PC,LEGO The Hobbit
+PT02,Kareen Rodriguez,2016,44,X360,Yaiba: Ninja Gaiden Z
+PT02,Rebecca Rodriguez,2018,35,PSV,Shin Hayarigami
+PT02,Raheem Martinez,2020,40,PSV,Puyo Puyo Tetris
+PT02,Jamaal Garcia,2018,39,PSV,To Love-Ru Trouble Darkness: Battle Ecstasy
+PT02,Jovan Martinez,2020,24,3DS,Hero Bank 2
+PT02,Seneca Rodriguez,2017,28,PSV,Atelier Ayesha: The Alchemist of Dusk
+PT02,Jermey Smith,2016,20,PSP,Toukiden Kiwami
+PT02,Torey Rodriguez,2017,27,PSV,Hakuouki SSL: Sweet School Life
+PT02,Hakim Garcia,2020,18,WiiU,Legend of Kay
+PT02,Cortney Johnson,2016,42,X360,NHL Legacy
+PT02,Jamin Martinez,2016,44,PSV,Samurai Warriors 4: Empires
+PT02,Javon Thomas,2018,19,PSV,Miracle Girls Festival
+PT02,Zackary Williams,2017,42,PSV,Saki: Zenkoku-hen
+PT02,Ezequiel Martin,2015,24,PSV,Shiren the Wanderer 5 Plus: Fortune Tower and the Dice of Fate
+PT02,Jerimy Rodriguez,2019,18,WiiU,Adventure Time: Finn & Jake Investigations
+PT02,Muhammad Brown,2015,31,3DS,Goosebumps: The Game
+PT02,Jameel Jones,2019,34,PSV,Samurai Warriors 4-II
+PT02,Brody Miller,2019,37,X360,Rugby 15
+PT02,Jaron Davis,2019,26,3DS,New Prince of Tennis: Go to the Top
+PT02,Dimitrios Thomas,2018,42,PSV,Chaos;Child
+PT02,Taj Wilson,2019,36,PS4,Arcania: Gothic 4
+PT02,Tanner Anderson,2016,40,XOne,Toy Soldiers: War Chest
+PT02,Torry Lee,2016,22,PSV,Omega Labyrinth
+PT02,Amir Thompson,2020,19,PSV,Stranger of Sword City
+PT02,Levar Moore,2020,36,PS4,WRC 5: FIA World Rally Championship
+PT02,Lavar White,2019,43,PS4,Earth Defense Force 4.1: The Shadow of New Despair
+PT02,Kunta Taylor,2015,23,PSV,SpongeBob: HeroPants
+PT02,Jedediah Jackson,2019,27,PC,Mortal Kombat X
+PT02,Jerimiah Smith,2016,27,PSV,Luminous Arc Infinity
+PT02,Kinte Smith,2016,26,PSV,To Heart 2: Dungeon Travelers
+PT02,Rashawn Smith,2016,23,PSV,Steins;Gate 0
+PT02,Jeramiah Smith,2017,42,PS4,Steins;Gate 0
+PT02,Jessica Johnson,2016,24,XOne,Adventure Time: Finn & Jake Investigations
+PT02,Jedidiah Johnson,2019,37,PS4,Sengoku Basara 4: Sumeragi
+PT02,Amin Smith,2020,35,XOne,Bladestorm: Nightmare
+PT02,Rian Williams,2016,25,3DS,Downtown no Gaki no Tsukai Yaarahen de!! Zettai ni Tsukamatte Haikenai Gasu Kurobikari Land
+PT02,Conor Johnson,2019,35,PS4,Sword Art Online: Game Director's Edition
+PT02,Lydell Smith,2017,38,PS4,Saints Row: Gat out of Hell
+PT02,Davon Brown,2019,19,XOne,Wasteland 2
+PT02,Kaleb Smith,2017,42,PC,Grand Ages: Medieval
+PT02,Samir Johnson,2017,25,PS3,Handball 16
+PT02,Zackery Brown,2015,37,PS3,Utawarerumono: Itsuwari no Kamen
+PT02,Khalid Garcia,2017,23,PC,F1 2015
+PT02,Bo Williams,2015,30,PS4,Game of Thrones (Telltale)
+PT02,Cristian Jones,2016,18,X360,Rugby World Cup 2015
+PT02,Demetric Jones,2020,33,PSV,Tokyo Ghoul: Jail
+PT02,Horacio Rodriguez,2018,33,PS3,Arslan: The Warriors of Legend
+PT02,Anwar Brown,2019,31,PS3,Yoru no Nai Kuni
+PT02,Nicholaus Miller,2016,33,PS4,Kamen Rider: Battride War Genesis
+PT02,Kenji Jones,2016,27,X360,NBA 2K17
+PT02,Nikolas Williams,2015,41,PC,Dark Souls III
+PT02,Demario Johnson,2019,35,PSV,Uta no Prince-Sama: Music 3
+PT02,Johnpaul Davis,2020,21,PS4,ZombiU
+PT02,Nicklaus Johnson,2019,30,PS3,Teenage Mutant Ninja Turtles: Mutants in Manhattan
+PT02,Jarret Martinez,2018,24,PSV,Utawarerumono: Futari no Hakuoro
+PT02,Kody Smith,2016,34,PC,FIFA 17
+PT02,Antwain Brown,2020,19,3DS,Culdcept Revolt
+PT02,Dequan Miller,2020,25,PS4,Dead or Alive Xtreme 3: Fortune
+PT02,Lukas Miller,2019,23,PSV,Project Setsuna
+PT02,Christina Williams,2020,28,PS4,Assetto Corsa
+PT02,Deshaun Smith,2015,35,PC,Street Fighter V
+PT02,Juston Williams,2015,37,PSV,Caligula
+PT02,Hasan Jones,2015,28,PS4,The Technomancer
+PT02,Jeb Davis,2017,35,PC,Mirror's Edge Catalyst
+PT02,Amanda Brown,2020,24,PS4,Pro Cycling Manager 2016
+PT02,Andrae Miller,2017,20,XOne,MXGP 2
+PT02,Kendell Williams,2018,41,PS3,NBA 2K17
+PT02,Tucker Smith,2019,44,PSV,Kamen Rider: Battride War Genesis
+PT02,Keon Jones,2020,25,PS4,Mighty No. 9
+PT02,Garett Johnson,2016,27,PC,Plants vs. Zombies: Garden Warfare 2
+PT02,Amit Miller,2020,36,GG,Sonic the Hedgehog 2 (8-bit)
+PT02,Omari Smith,2017,34,SAT,World Series Baseball
+PT02,Tyrell Smith,2016,30,SAT,Galaxy Fight
+PT02,Mohammad Smith,2020,32,GEN,J-League Pro Striker 2
+PT02,Bryson Wilson,2017,32,GEN,Castlevania Bloodlines
+PT02,Tyrel Davis,2019,30,PS,Sotsugyou II: Neo Generation
+PT02,Tremaine Brown,2015,24,SAT,Virtua Fighter CG Portrait Series Vol.6: Lau Chan
+PT02,Jarrad Jones,2018,18,SNES,Go Go Ackman 3
+PT02,Rustin Smith,2018,38,PS,Novastorm
+PT02,Kai Moore,2015,22,SNES,Metal Max Returns
+PT02,Justen Taylor,2016,40,SNES,Zen-Nippon GT Senshuken
+PT02,Keegan Miller,2018,39,PS,Thoroughbred Breeder II Plus
+PT02,Chaz Davis,2017,39,SAT,Tokimeki Mahjong Paradise: Koi no Tenpai Beat
+PT02,Yoel Johnson,2020,26,PS,Ide Yosuke no Mahjong Kazoku
+PT02,Jarad Davis,2016,36,PS,Assault Rigs
+PT02,Jessy Jones,2015,40,PS,Shin Fortune Quest: Sokutaku no Kishi
+PT02,Bjorn Johnson,2017,20,SNES,Dark Half
+PT02,Brandan Anderson,2018,29,SAT,Haunted Casino
+PT02,Dustan Taylor,2018,44,PS,PO'ed
+PT02,Isaias Smith,2015,30,PS,Adidas Power Soccer
+PT02,Kellen Moore,2016,43,NG,Art of Fighting 3: The Path of the Warrior
+PT02,Skyler Martin,2020,30,PS,True Pinball
+PT02,Marchello Wilson,2016,30,PS,Grand Slam
+PT02,Mohammed Thomas,2019,42,PS,Syndicate Wars
+PT02,Johathan Smith,2019,21,PS,Herc's Adventures
+PT02,Adalberto White,2020,26,PS,Crypt Killer
+PT02,Connor Miller,2015,31,PS,Darklight Conflict
+PT02,Dontae Anderson,2016,27,PS,Angelique Duet
+PT02,Taurean Wilson,2018,28,PS,The King of Fighters Kyo
+PT02,Skylar Williams,2015,18,PS,The Smurfs
+PT02,Mohamed Johnson,2017,32,PS,Breeding Stud 2
+PT02,Colt Anderson,2015,37,PS,Dead Ball Zone
+PT02,Kiel Brown,2018,42,N64,NBA In The Zone '99
+PT02,Colton Martin,2015,21,N64,Deadly Arts
+PT02,Eliezer Thompson,2018,45,PS,Point Blank 2
+PT02,Darrius Smith,2015,44,PS,Warhammer: Dark Omen
+PT02,Tuan Thomas,2018,40,PS,Rhapsody: A Musical Adventure
+PT02,Hung Anderson,2016,36,PC,Caesar III
+PT02,Long Johnson,2016,20,PC,Planescape: Torment
+PT02,Lamarcus Smith,2016,44,PS,Rat Attack!
+PT02,Justine Davis,2015,33,N64,PD Ultraman Battle Collection 64
+PT02,Huy Jackson,2018,32,N64,Monaco Grand Prix
+PT02,Akeem Taylor,2020,18,N64,Worms Armageddon
+PT02,Cassidy Brown,2016,21,N64,Rally Challenge 2000
+PT02,Devan Garcia,2020,26,PS,NHL Blades of Steel 2000
+PT02,Martell Lee,2019,39,PS,Ballistic
+PT02,Remington Thompson,2017,35,PS,Countdown Vampires
+PT02,Jacoby Johnson,2020,26,PS,Battle Hunter
+PT02,Jakob Wilson,2017,42,PS,Konami Arcade Classics
+PT02,Trumaine Johnson,2018,38,PS,Mr. Driller
+PT02,Marquise Anderson,2018,34,PS,Deception III: Dark Delusion
+PT02,Deven Moore,2015,18,PS2,I.Q. Remix+: Intelligent Qube
+PT02,Crystal Wilson,2018,45,PS,Dance Dance Revolution Disney Mix
+PT02,Ryne Brown,2018,38,PS2,Unison: Rebels of Rhythm & Dance
+PT02,Coty Jones,2015,21,N64,NBA in the Zone 2000
+PT02,Grayson Johnson,2019,31,N64,Looney Tunes Duck Dodgers Starring: Daffy Duck
+PT02,Jerrad Lee,2017,38,DC,Fighting Vipers 2
+PT02,Jarrell Johnson,2019,23,PS,"Roswell Conspiracies: Aliens, Myths & Legends"
+PT02,Baby Lee,2016,33,PS2,True Love Story 3
+PT02,Brandin Garcia,2017,26,GBA,No Rules: Get Phat
+PT02,Alonso Martin,2017,28,PS2,Maken Shao: Demon Sword
+PT02,Danielle Jones,2018,18,PS,High Heat Baseball 2002
+PT02,Tavon Martinez,2016,32,PC,Black & White
+PT02,Travon Thomas,2017,30,PS2,WarJetz
+PT02,Deonte Martin,2020,43,PS,Pajama Sam: You are What You Eat From Your Head to Your Feet
+PT02,Rachel Miller,2020,23,GBA,Denki Blocks!
+PT02,Kameron White,2015,30,DC,Gundam Battle Online
+PT02,Tavaris Thomas,2020,31,PS,E.T. The Extra-Terrestrial: Interplanetary Mission
+PT02,Tylor Johnson,2015,26,GBA,Hot Potato!
+PT02,Jairo Smith,2020,20,GC,Disney's Donald Duck: Goin' Quackers
+PT02,Durell Thompson,2020,20,GBA,Dark Arena
+PT02,Durrell Rodriguez,2019,20,PS2,The King of Fighters 2000
+PT02,Channing White,2015,34,GBA,Star X
+PT02,Jaymes Wilson,2015,30,GBA,Chessmaster
+PT02,Dakota Lee,2018,21,GBA,The Invincible Iron Man
+PT02,Keaton Jones,2018,29,PS2,FIFA Soccer 2003 (weekly jp sales)
+PT02,Ulises Taylor,2019,27,XB,Tennis Masters Series 2003
+PT02,Brandyn Moore,2018,18,PC,The Sims Deluxe
+PT02,Mackenzie Brown,2017,30,GC,Mat Hoffman's Pro BMX 2
+PT02,Maximilian Williams,2017,18,GC,Dragon's Lair 3D: Return to the Lair
+PT02,Uriel Taylor,2020,39,PS2,Antz Extreme Racing
+PT02,Terell Martin,2019,39,GBA,Mike Tyson Boxing
+PT02,Kale Martinez,2018,21,GBA,Tiger Woods PGA Tour Golf
+PT02,Dandre Moore,2020,18,GBA,Klonoa Heroes: Densetsu no Star Medal
+PT02,Kolby Rodriguez,2019,28,XB,Colin McRae Rally 3
+PT02,Joshuah Williams,2019,36,PS2,Dramatic Soccer Game: Nippon Daihyou Senshu Ninarou!
+PT02,Martez Williams,2016,20,GBA,The Ripping Friends
+PT02,Rayshawn Moore,2015,39,GBA,Doom II: Hell on Earth
+PT02,Dangelo Miller,2015,44,GC,Evolution Skateboarding
+PT02,Derrek Martin,2017,33,PS2,Jikkyou World Soccer 2002
+PT02,Cordero Johnson,2017,44,GBA,The Sum of All Fears
+PT02,Jayce White,2016,45,GBA,Minority Report: Everybody Runs
+PT02,Yaakov Jackson,2019,25,XB,Smashing Drive
+PT02,Kyler Davis,2019,39,GBA,Monster Force
+PT02,Alexandro White,2016,24,PC,Praetorians
+PT02,Zechariah Williams,2020,34,PS2,Spy Fiction
+PT02,Giancarlo Jones,2020,28,GBA,Justice League: Chronicles
+PT02,Garrison Thomas,2020,32,XB,Dai Senryaku VII: Modern Military Tactics
+PT02,Spenser Thomas,2019,36,XB,SX Superstar
+PT02,Austen Brown,2020,38,XB,Bloody Roar Extreme
+PT02,Payton Thompson,2016,38,GC,MLB SlugFest 20-04
+PT02,Kalen Miller,2020,31,PC,Rise of Nations
+PT02,Kane Jackson,2016,20,PC,Grand Theft Auto: Vice City
+PT02,Mychal Thompson,2015,27,GBA,Superman: Countdown to Apokolips
+PT02,Conner Johnson,2016,41,PS2,Kikou Heidan J-Phoenix 2
+PT02,Cordaro Wilson,2019,42,PS2,Fisherman's Challenge
+PT02,Dashawn Taylor,2020,34,GBA,Mission: Impossible - Operation Surma
+PT02,Holden Lee,2017,19,PS2,Cyber Troopers Virtual-On Marz
+PT02,Octavius Williams,2019,31,GBA,Stuntman
+PT02,Rashaad White,2020,37,PC,Halo: Combat Evolved
+PT02,Montrell Garcia,2017,38,XB,Pro Race Driver
+PT02,Jaren Jones,2019,34,PC,Railroad Tycoon 3
+PT02,Joseluis Williams,2016,27,GBA,Garfield: The Search for Pooky
+PT02,Trevin Brown,2016,26,PC,Age of Mythology: The Titans
+PT02,Brennen Thompson,2018,23,XB,World Championship Pool 2004
+PT02,Kegan Miller,2020,21,GBA,Stadium Games
+PT02,Camron Anderson,2017,30,XB,RLH: Run Like Hell
+PT02,Colten Brown,2018,38,GBA,Sega Arcade Gallery
+PT02,Codey Davis,2017,24,XB,Black Stone: Magic & Steel
+PT02,Arsenio Brown,2020,27,PS2,FunkMaster Flex's Digital Hitz Factory
+PT02,Jaquan Anderson,2018,40,PC,Star Wars Jedi Knight: Jedi Academy
+PT02,Geraldo Miller,2015,37,GBA,Boktai 2: Solar Boy Django
+PT02,Kelby Thomas,2017,29,GBA,Crushed Baseball
+PT02,Jamarcus Moore,2019,29,XB,TOCA Race Driver 2
+PT02,Marquez Jones,2019,30,GC,Conflict: Desert Storm II - Back to Bagdhad
+PT02,Dominque Martin,2019,22,GC,King Arthur
+PT02,Brittany Williams,2016,43,GBA,Advance Guardian Heroes
+PT02,Ridge Williams,2017,37,XB,Strike Force Bowling
+PT02,Mikhail Brown,2016,44,PS2,Blood Will Tell: Tezuka Osamu's Dororo
+PT02,Brantley Taylor,2016,29,XB,Scaler
+PT02,Nico Martinez,2020,19,PSP,Puyo Pop Fever
+PT02,Kade Brown,2016,32,PC,Port Royale 2
+PT02,Alexandre Jackson,2017,28,GC,Digimon Rumble Arena 2
+PT02,Christop Miller,2017,33,XB,Star Trek: Shattered Universe
+PT02,Infant Miller,2017,43,GBA,Catwoman
+PT02,Alexande Miller,2020,31,GBA,Famicom Mini: Clu Clu Land
+PT02,Hakeem White,2018,30,XB,Pure Pinball
+PT02,Kadeem Davis,2017,31,PS2,Headhunter: Redemption
+PT02,Gage Jones,2020,19,PS2,Outlaw Volleyball Remixed
+PT02,Khiry Jackson,2020,26,PC,Richard Burns Rally
+PT02,Jasmine Thompson,2017,23,PC,Harry Potter and the Prisoner of Azkaban
+PT02,Daquan Williams,2020,43,GBA,Dragon Ball: Advanced Adventure
+PT02,Niko Johnson,2018,45,PS2,Echo Night Beyond
+PT02,Rakeem Jones,2015,39,PS2,Cy Girls
+PT02,Nikko Jackson,2017,20,GC,Scaler
+PT02,Dionte Davis,2015,29,PS2,SD Gundam Force: Showdown!
+PT02,Samantha Miller,2015,33,XB,Obscure
+PT02,Darion Davis,2015,41,DS,Mahjong Taikai
+PT02,Kendal Davis,2019,18,DS,Puyo Pop Fever(us sales)
+PT02,Kiara Anderson,2019,35,GBA,Summon Night Craft Sword Monogatari: Hajimari no Ishi
+PT02,Tiffany Garcia,2019,24,DS,Nihon Pro Mahjong Kishikai Kanshuu: Pro Ni Naru Mahjong DS
+PT02,Khalil Wilson,2019,25,GBA,Millipede / Super Breakout / Lunar Lander
+PT02,Najee Rodriguez,2018,32,XB,Operation Flashpoint: Elite
+PT02,Ladarius Garcia,2019,21,GBA,Trollz: Hair Affair!
+PT02,Stetson Jackson,2019,37,PS2,D.C.F.S.: Da Capo Four Seasons
+PT02,Yosef Williams,2017,25,GBA,Chicken Shoot
+PT02,Trevon Rodriguez,2019,40,PS2,Red Ninja: End of Honor
+PT02,Dimitri Miller,2016,44,XB,Outlaw Tennis
+PT02,Tevin Williams,2016,38,DS,Jissen Pachislot Hisshouhou! Hokuto no Ken DS
+PT02,Denzel Brown,2018,27,PSP,Breath of Fire III
+PT02,Male Lee,2015,22,XB,Metal Slug 4 & 5
+PT02,Laquan Garcia,2017,41,PSP,WTF: Work Time Fun
+PT02,Kiefer Martinez,2018,35,PC,Imperial Glory
+PT02,Jorden Martinez,2019,27,PS2,Yourself Fitness
+PT02,Ibrahim Jones,2020,42,XB,Capcom Fighting Evolution
+PT02,Mykel Davis,2015,21,PS2,Aeon Flux
+PT02,Kevon Jones,2020,43,XB,Shattered Union
+PT02,Zakary Moore,2019,35,XB,Worms 4: Mayhem
+PT02,Aidan Taylor,2019,38,DS,Super Black Bass Fishing
+PT02,Talon Moore,2019,28,PC,Guild Wars Trilogy
+PT02,Codie Miller,2020,31,PC,The Movies
+PT02,Hernan Taylor,2015,33,DS,Kidou Gekidan Haro Ichiza Gundam Mahjong DS: Oyaji nimo Agarareta koto nai noni!
+PT02,Camden Martinez,2020,42,GC,Zatch Bell! Mamodo Fury
+PT02,Deontae Davis,2018,19,PS2,Stolen
+PT02,Keenen Davis,2018,19,PSP,WRC: FIA World Rally Championship
+PT02,Misael Miller,2016,36,GBA,Super Army War
+PT02,Devonte Davis,2018,20,DS,Texas Hold 'Em Poker DS
+PT02,Sage Brown,2020,23,GBA,Big Mutha Truckers
+PT02,Dillan Thomas,2017,27,PS2,Steambot Chronicles
+PT02,Gunnar Wilson,2018,32,GBA,Gumby vs. the Astrobots
+PT02,Shaquille Wilson,2016,26,PS2,Without Warning
+PT02,Dillion Rodriguez,2017,29,XB,Teenage Mutant Ninja Turtles 3: Mutant Nightmare
+PT02,Dylon Davis,2017,31,XB,Beatdown: Fists of Vengeance
+PT02,Storm Lee,2018,42,PS2,Flow: Urban Dance Uprising
+PT02,Domonique Jones,2016,21,DS,Tao Adventure: Curse Demon
+PT02,Codi Anderson,2016,21,PC,Hello Kitty: Roller Rescue
+PT02,Jaleel Taylor,2018,18,DS,Danny Phantom: Urban Jungle
+PT02,Davion Martin,2019,29,PS2,Art of Fighting Anthology
+PT02,Brayden Martin,2017,41,PSP,Rapala Trophies
+PT02,Denzell Moore,2018,40,PS2,The Hustle: Detroit Streets
+PT02,Devante White,2017,40,PC,IL-2 Sturmovik: 1946
+PT02,Dijon Anderson,2019,29,DS,FIFA Street 2
+PT02,Keifer Brown,2018,25,XB,FlatOut 2
+PT02,Tariq Garcia,2015,22,PS2,Rogue Trooper
+PT02,Babyboy Wilson,2015,33,PS3,Resident Evil Director's Cut
+PT02,Sawyer White,2017,35,PSP,Doko Demo Issho: Let's Gakkou!
+PT02,Desean Anderson,2018,21,DS,Top Gun
+PT02,Deonta Anderson,2017,32,X360,WarTech: Senko no Ronde
+PT02,Kolton Martinez,2016,39,DS,San-X Land: Theme Park de Asobou!
+PT02,Justyn Garcia,2016,38,PS2,Tennis no Oji-Sama: DokiDoki Survival - Sanroku no Mystic
+PT02,Unnamed Martin,2016,29,PS2,Saint Seiya: The Hades
+PT02,Dejon Jackson,2019,33,PSP,Metal Gear Solid: Digital Graphic Novel
+PT02,Bilal Lee,2015,23,Wii,Barnyard
+PT02,Deante Thomas,2019,36,DS,"Negima!? Chou Mahora Taisen Kattoiin, Keiyaku Shikkou Dechai masuu"
+PT02,Jalen Thompson,2015,29,XB,NASCAR 07
+PT02,Tre Thompson,2016,33,PC,The Sims 2: Pets
+PT02,Davonte Martin,2017,41,XB,Torino 2006
+PT02,Devonta Davis,2015,29,DS,Tabi no Yubisashi Kaiwachou DS: DS Series 5 Deutsch
+PT02,Javonte Taylor,2016,19,PSP,World Poker Tour
+PT02,Devontae Wilson,2015,27,PSP,Pac-Man World Rally
+PT02,Deion Garcia,2017,29,PC,Heroes of Might and Magic V
+PT02,Demetri Martin,2020,45,DS,Lionel Trains: On Track
+PT02,Davante Thomas,2019,25,PSP,Gitaroo Man Lives!
+PT02,Dyllan Lee,2016,28,PSP,OutRun 2006: Coast 2 Coast
+PT02,Trae Taylor,2015,39,PS2,Atelier Iris 3: Grand Phantasm (JP Sales)
+PT02,Dondre Lee,2017,44,PS2,Clannad
+PT02,Tayler White,2015,40,DS,Akko ni Omakase! Brain Shock
+PT02,Caden Martin,2019,32,XB,The Da Vinci Code
+PT02,Dakotah Anderson,2018,19,X360,Bomberman: Act Zero
+PT02,Montel Rodriguez,2016,18,XB,Dreamfall: The Longest Journey
+PT02,Davonta Garcia,2018,43,PS2,The Adventures of Darwin
+PT02,Dalvin Williams,2018,37,PC,Scarface: The World is Yours
+PT02,Tyshawn Martinez,2020,18,DS,FIFA World Cup Germany 2006
+PT02,Maximillian Garcia,2015,34,PC,Sid Meier's Railroads!
+PT02,Juwan Taylor,2019,21,PC,Caesar IV
+PT02,Tyquan Wilson,2016,24,GC,Shonen Jump's One Piece: Grand Adventure
+PT02,Kieran Martinez,2015,39,PSP,Quiz Mobile Gundam: Toi Senshi DX
+PT02,Colter Wilson,2019,33,PSP,Dynasty Warriors Vol. 2 (JP sales)
+PT02,Jaylen Moore,2018,34,PSP,Minna no Chizu
+PT02,Devyn Moore,2016,39,GC,Jikkyou Powerful Major League
+PT02,Savon Jones,2019,18,DS,Greg Hastings' Tournament Paintball Max'd
+PT02,Deondre Rodriguez,2018,29,PS2,Tenshou Gakuen Gekkouroku
+PT02,Darrian Martinez,2018,30,DS,Magical Starsign (JP sales)
+PT02,Dallin Moore,2020,39,PS2,Chaos Wars
+PT02,Jordy Rodriguez,2016,38,PS2,Fatal Fury: Battle Archives Volume 1
+PT02,Mikal Martin,2016,31,PS2,Formula 1 06
+PT02,Adonis Rodriguez,2016,45,PS2,Derby Tsuku 5: Derby Uma o Tsukurou!
+PT02,Kelton Taylor,2016,42,PS2,Negima!? 3-Jikanme ~Koi to Mahou to Sekaiju Densetsu~
+PT02,Shaquan Lee,2019,43,DS,Power Play Pool
+PT02,Devaughn Lee,2018,28,PC,DarkStar One
+PT02,Darrien Thompson,2015,39,PSP,Monster Kingdom: Jewel Summoner
+PT02,Austyn Thomas,2015,25,GBA,The Ant Bully
+PT02,Kaden Thomas,2017,26,PC,Hitman: Blood Money
+PT02,Darrion Martin,2017,34,PS2,Harukanaru Toki no Naka de: Maihitoyo
+PT02,Fredy White,2015,29,XB,Painkiller: Hell Wars
+PT02,Montana Martinez,2015,19,PS2,Mana Khemia: Alchemists of Al-Revis (JP sales)
+PT02,Kole Wilson,2017,39,PS2,Guilty Gear XX Accent Core
+PT02,Syed Anderson,2015,34,DS,Yes! PreCure 5
+PT02,Demonte Wilson,2020,38,Wii,Bionicle Heroes
+PT02,Dakoda Rodriguez,2018,20,DS,Front Mission
+PT02,Jaden Moore,2015,34,PSP,Heatseeker
+PT02,Keanu Anderson,2020,25,PS2,Daito Giken Koushiki Pachi-Slot Simulator: Shake II
+PT02,Jaylon Wilson,2015,38,PSP,Dead Head Fred
+PT02,Daulton White,2018,45,GC,Disney's Meet the Robinsons
+PT02,Shyheim Thomas,2018,44,Wii,Monster Trux Arenas: Special Edition
+PT02,Markell White,2017,32,Wii,Castle of Shikigami III
+PT02,Menachem Thompson,2020,19,PC,Need for Speed: ProStreet
+PT02,Markel Thompson,2016,33,Wii,The Monkey King: The Legend Begins
+PT02,Jayden Anderson,2015,35,DS,Platinum Sudoku
+PT02,Khari White,2017,21,PSP,Pocket Pool
+PT02,Trayvon Thompson,2016,36,DS,Lise no Atelier: Ordre no Renkinjutsushi
+PT02,Gunner Jackson,2018,32,Wii,Guilty Gear XX Accent Core
+PT02,Auston Moore,2019,21,DS,Watashi no Relaxuma
+PT02,Cain Thompson,2018,41,PS2,Tennis no Oji-Sama: DokiDoki Survival - Umibe no Secret
+PT02,Jaylin Jackson,2015,19,PSP,Hannspree Ten Kate Honda: SBK Superbike World Championship
+PT02,River Davis,2018,23,DS,Banushi Life Game: Winner's Circle
+PT02,Alek Wilson,2019,29,PC,Company of Heroes: Opposing Fronts
+PT02,Destin Taylor,2019,36,X360,PopCap Arcade Vol 1
+PT02,Tyrin Jackson,2019,43,PSP,SWAT: Target Liberty
+PT02,Ryder Taylor,2015,21,DS,Meteos: Disney Magic
+PT02,Armani Rodriguez,2020,24,X360,Samurai Warriors 2: Empires
+PT02,Kahlil Lee,2015,39,PS3,Imabikisou
+PT02,Bryton Anderson,2017,36,PC,Empire Earth III
+PT02,Jonatan Lee,2019,33,PS2,King of Fighters: Maximum Impact Regulation A
+PT02,Tristen Taylor,2019,25,DS,Who Wants to be a Millionaire: 1st Edition
+PT02,Triston Anderson,2019,32,PS3,Surf's Up
+PT02,Raekwon White,2019,25,DS,Haneru no Tobira DS: Tanshuku Tetsudou no Yoru
+PT02,Tristin Jackson,2016,35,DS,Brothers In Arms DS
+PT02,Anfernee Thompson,2019,41,DS,Draglade (JP sales)
+PT02,Draven Jackson,2017,42,PC,Supreme Commander: Forged Alliance
+PT02,Romello Moore,2020,19,PC,Harry Potter and the Order of the Phoenix
+PT02,Stone Thomas,2016,36,DS,Holly Hobbie & Friends
+PT02,Tristian Jackson,2019,39,PSP,R-Type Command (correct US sales)
+PT02,Easton Thomas,2017,33,DS,Zoo Hospital
+PT02,Treyvon Martin,2017,25,DS,Real Soccer 2008
+PT02,Aiden Martin,2017,44,PS2,Rugby 08
+PT02,Rashaan Moore,2019,31,DS,Bubble Bobble Double Shot
+PT02,Rohan Anderson,2018,37,DS,Simple DS Series Vol. 15: The Kanshikikan 2 - Aratanaru 8-tsu no Jiken wo Touch seyo
+PT02,Killian Thomas,2020,22,PSP,Napoleon Dynamite: The Game
+PT02,Phoenix Jackson,2018,39,PS3,Enchanted Arms (JP sales)
+PT02,Greyson Thompson,2015,22,DS,Onsei Kanjou Sokuteiki: Kokoro Scan
+PT02,Latrell Taylor,2017,45,PC,World in Conflict
+PT02,Brennon White,2020,24,PS2,Super Robot Taisen: Scramble Commander the 2nd
+PT02,Seamus Thompson,2015,26,PC,Tomb Raider: Anniversary
+PT02,Isai Thomas,2019,24,PC,Gothic Universe
+PT02,Branson Thompson,2015,27,DS,Double Value!: ATV Thunder Ridge Riders / Monster Trucks Mayhem
+PT02,Damarcus Jackson,2020,28,PS2,NHRA Drag Racing: Countdown to the Championship
+PT02,Mateo Wilson,2020,39,DS,National Geographic Panda (US sales)
+PT02,Keshawn White,2016,23,DS,Phoenix Wright: Revived Turnabout
+PT02,Keyshawn Martin,2020,39,Wii,The Tale of Despereaux
+PT02,Trystan Garcia,2018,22,Wii,Backyard Baseball '09
+PT02,Braeden Taylor,2017,31,DS,Sekai no Gohan Shaberu! DS Oryouri Navi
+PT02,Brayan Lee,2015,18,DS,Candace Kane's Candy Factory
+PT02,Shamar Rodriguez,2015,36,DS,Hanayori Danshi: Koi Seyo Onago
+PT02,Keion Moore,2018,45,DS,Naruto Shippuden: Dairansen! Kage Bunshin Emaki
+PT02,Raquan Thomas,2020,37,DS,Twilight Syndrome: Kinjiratera Toshi Densetsu
+PT02,Jair Lee,2015,24,PS2,Kanuchi: Shiroki Tsubasa no Shou
+PT02,Braydon Martinez,2019,20,PSP,Katekyoo Hitman Reborn! Battle Arena
+PT02,Shemar Lee,2020,36,Wii,SPRay
+PT02,Reilly Thompson,2018,21,Wii,Battle Rage
+PT02,Reagan Jackson,2018,43,DS,Igor: The Game
+PT02,Jaylan Garcia,2016,43,PC,LEGO Indiana Jones: The Original Adventures
+PT02,Nasir Moore,2018,29,Wii,Myth Makers: Trixie in Toyland
+PT02,Abdullah White,2017,23,PC,Devil May Cry 4
+PT02,Dominik Jackson,2018,31,DS,Mazes of Fate DS
+PT02,Keagan Lee,2016,21,DS,Code Geass: Hangyaku no Lelouch R2 - Banjou no Geass Gekijou
+PT02,Kordell White,2016,42,PSP,Hellboy: The Science of Evil
+PT02,Kobe Rodriguez,2016,25,Wii,Mortimer Beckett and the Secrets of Spooky Manor
+PT02,Gianni Martinez,2019,26,PS3,Ferrari Challenge Trofeo Pirelli
+PT02,Jaret Lee,2020,43,DS,System 3 presents Ferrari Challenge Trofeo Pirelli
+PT02,Koby Martinez,2020,42,DS,Hayate no Gotoku! Ojousama Produce Daisakusen Boku Iro ni Somare! Gakkou-Hen
+PT02,Nash Garcia,2016,44,PS2,12Riven: The Psi-Climinal of Integral
+PT02,Rylan Martin,2016,41,PS2,Sega Ages 2500 Series Vol. 33: Fantasy Zone Complete Collection
+PT02,Jaxon Rodriguez,2016,45,DS,Motto TOEIC Test DS Training
+PT02,Giovanny Martinez,2020,21,PS2,Go Diego Go!: Safari Rescue
+PT02,Ronaldo Garcia,2017,44,DS,99 no Namida
+PT02,Coleton Jackson,2019,33,PSP,Clannad
+PT02,Amari Garcia,2017,44,DS,Ookami to Koushinryou: Boku to Horo no Ichinen
+PT02,Jarett Martinez,2017,21,Wii,Twin Strike: Operation Thunder
+PT02,Keyon Garcia,2017,23,PS2,PopStar Guitar
+PT02,Paxton Rodriguez,2019,20,PS2,Memories Off 6: T-Wave
+PT02,Landen Rodriguez,2016,34,Wii,Story Hour: Fairy Tales
+PT02,Raven Martinez,2018,34,PS3,Aquanaut's Holiday: Kakusareta Kiroku
+PT02,Jamari Garcia,2020,25,DS,Little Red Riding Hood's Zombie BBQ
+PT02,Jovani Martinez,2016,20,DS,Teenage Zombies: Invasion of the Alien Brain Thingys
+PT02,Jovanny Rodriguez,2020,31,DS,GoPets: Vacation Island
+PT02,Keandre Smith,2016,36,DC,Pia Carrot e Youkoso!! 2.5
+PT02,Kenan Rodriguez,2017,21,PS2,Hisshou Pachinko*Pachi-Slot Kouryaku Series Vol. 13: Shinseiki Evangelion - Yakusoku no Toki
+PT02,Jajuan Garcia,2018,38,PSP,Fading Shadows
+PT02,Ryley Johnson,2016,27,DS,"Minna de Jibun no Setsumeisho: B-Kata, A-Kata, AB-Kata, O-Kata"
+PT02,Nikhil Martinez,2018,33,PC,World of Goo
+PT02,Tyrese Thomas,2020,25,PC,S.T.A.L.K.E.R.: Clear Sky
+PT02,Tyrek Williams,2017,37,DS,Bratz Kidz
+PT02,Zion Martin,2019,18,DS,Pirates: Duels on the High Seas
+PT02,Declan Rodriguez,2015,44,DS,Crazy Machines
+PT02,Savion Brown,2020,42,DS,"My World, My Way (US sales)"
+PT02,Kamron Jones,2019,35,PC,Hotel Giant 2
+PT02,Jadon Miller,2016,30,PS2,The King of Fighters 2002: Unlimited Match
+PT02,Tyrique Davis,2016,35,PC,Runaway: A Twist of Fate
+PT02,Tahj Thomas,2020,24,PSP,Tomoyo After: It's a Wonderful Life CS Edition
+PT02,Tyriq Wilson,2015,33,PC,Tom Clancy's HAWX
+PT02,Tyreek Anderson,2017,25,PSP,Growlanser
+PT02,Izaiah Lee,2018,20,DS,Chou Gekijoban Keroro Gunsou: Gekishin Dragon Warriors de Arimasu!
+PT02,Tavian Thompson,2015,20,DS,Coraline
+PT02,Jacquez Moore,2020,24,Wii,M&M's Beach Party
+PT02,Alessandro White,2016,22,Wii,Minna ga Shuyaku no NHK Kouhaku Quiz Kassen
+PT02,Kyree Taylor,2015,31,PSP,428: Fuusa Sareta Shibuya de
+PT02,Tyrik Jackson,2020,27,PSP,Starry ? Sky: After Spring
+PT02,Jordi Smith,2020,22,X360,Summer Athletics 2009
+PT02,Jalon Smith,2015,29,DS,Naruto Shippuuden: Shinobi Retsuden III
+PT02,Mekhi Smith,2015,30,Wii,Free Running
+PT02,Jelani Smith,2016,34,DS,Challenge Me: Maths Workout
+PT02,Matteo Johnson,2019,29,PS2,BeatMania IIDX 16: Empress + Premium Best
+PT02,Johan Johnson,2015,20,DS,Emergency Room: Real Life Rescues
+PT02,Hamza Smith,2017,33,PC,Company of Heroes: Tales of Valor
+PT02,Brycen Williams,2017,44,DS,Fashion Week Jr. Designer
+PT02,Jovany Johnson,2019,34,PSP,Way of the Samurai 2 Portable
+PT02,Miguelangel Smith,2020,26,PC,Farm Frenzy 3
+PT02,Jensen Brown,2016,44,PC,Sonic PC Collection
+PT02,Rahul Smith,2015,41,DS,Chibi Maruko-Chan DS: Maru-Chan no Machi
+PT02,Christion Johnson,2020,32,DS,Chicken Blaster
+PT02,Judah Brown,2019,24,PSP,Ookami Kakushi
+PT02,Konnor Garcia,2020,29,PSP,Saru! Get You! Pipo Saru Senki
+PT02,Kylan Williams,2019,41,DS,Logic Machines
+PT02,Jaiden Jones,2019,27,DS,Super Robot Gakuen
+PT02,Tyreke Jones,2019,44,DS,Jojo's Fashion Show: Design in a Dash!
+PT02,Cayden Rodriguez,2015,40,PSP,Katekyoo Hitman Reborn! Battle Arena 2 - Spirits Burst
+PT02,Jett Brown,2019,32,PS3,Fritz Chess
+PT02,Zaire Miller,2015,45,PSP,Astro Boy: The Video Game
+PT02,Jaydon Jones,2019,35,PSP,Metal Slug XX
+PT02,Korbin Williams,2018,38,PS2,Sacred Blaze
+PT02,Tyreese Johnson,2015,19,DS,Rollin' Rascals
+PT02,Braedon Davis,2020,29,PSP,Valhalla Knights 2: Battle Stance
+PT02,Jaxson Johnson,2017,33,X360,Burnout Paradise: The Ultimate Box
+PT02,Xander Martinez,2017,42,DS,The Chase: Felix Meets Felicity
+PT02,Camren Smith,2020,32,X360,Stoked: Big Air Edition
+PT02,Semaj Brown,2019,22,PS3,SuperCar Challenge
+PT02,Ean Miller,2018,30,PC,Blood Bowl
+PT02,Gaven Miller,2019,35,DS,Jig-A-Pix: Pets
+PT02,Karson Williams,2019,22,DS,A Ressha de Ikou DS
+PT02,Trevion Smith,2020,27,DS,I'm A Celebrity: Get Me Out of Here!
+PT02,Ayden Williams,2020,41,Wii,Glacier2
+PT02,Rey Jones,2018,30,PS3,Superstars V8 Racing
+PT02,Tavion Davis,2019,22,Wii,Sleepover Party
+PT02,Braiden Brown,2018,37,PC,Saints Row 2
+PT02,Kadin Miller,2019,28,PC,Secret Files 2: Puritas Cordis
+PT02,Arman Williams,2018,22,PSP,Taikou Risshiden V
+PT02,Aditya Smith,2017,26,X360,Ski-Doo Snowmobile Challenge
+PT02,Rowan Jones,2017,38,PSP,DT Carnage
+PT02,Bridger Johnson,2015,39,DS,C.O.R.E.
+PT02,Kayden Miller,2018,37,X360,Chaos;Head Noah
+PT02,Elian Smith,2020,32,PS3,Tears to Tiara Anecdotes: The Secret of Avalon
+PT02,Luca Smith,2017,36,PSP,Harukanaru Toki no Naka de 3: Unmei no Meikyuu Aizouban
+PT02,Finn Smith,2020,21,PS2,Music Maker: Rockstar
+PT02,Kaiden Wilson,2020,21,Wii,Sudoku Ball Detective
+PT02,Sincere Davis,2016,33,PS2,Hakuouki: Zuisouroku
+PT02,Maximus Brown,2018,45,Wii,Jikkyou Powerful Major League 2009
+PT02,Xzavier Jones,2018,24,PC,World in Conflict: Complete Edition
+PT02,Blaze Smith,2018,39,PSP,Kiniro no Corda 2 f
+PT02,Gaige Moore,2015,43,DS,Ultimate Game Room
+PT02,London Taylor,2016,19,Wii,Cook Wars
+PT02,Keshaun Miller,2019,25,DS,Kuroshitsuji: Phantom & Ghost
+PT02,Sabastian Davis,2018,34,DS,Astrology DS
+PT02,Kavon Johnson,2020,27,DS,Luminous Arc 3
+PT02,Kian Davis,2016,43,DS,Sushi Go-Round
+PT02,Brodie Jones,2020,43,DS,Cheer We Go!
+PT02,Jaeden Johnson,2019,40,DS,World Championship Spelling
+PT02,Javion Anderson,2017,44,Wii,Honda ATV Fever
+PT02,Jamir Taylor,2019,33,PC,Split/Second
+PT02,Maxim Smith,2020,38,PSP,B's-LOG Partyâ™ª
+PT02,Alexzander Moore,2018,35,Wii,Gormiti: The Lords of Nature!
+PT02,Kamren Martin,2017,32,DS,Casual Mania!
+PT02,Zander Wilson,2017,27,Wii,The Kore Gang
+PT02,Dayne Thomas,2016,27,PSP,Saki Portable
+PT02,Isaak Smith,2017,23,DS,Playmobil Top Agents
+PT02,Jaheim White,2016,24,X360,Attack of the Movies 3D
+PT02,Jagger Miller,2017,38,Wii,NatGeo Challenge! Wild Life
+PT02,Oswaldo Anderson,2015,18,Wii,Sherlock Holmes: Secret of The Silver Earring
+PT02,Ronan Wilson,2017,24,PSP,Little Busters! Converted Edition
+PT02,Haden Williams,2016,24,PSP,Shukufuku no Campanella Portable
+PT02,Jadyn Johnson,2020,18,DS,Paws & Claws: Regal Resort
+PT02,Immanuel Anderson,2018,21,DS,Battle Spirits: Digital Starter
+PT02,Alijah Brown,2018,27,PS3,Winning Post World 2010
+PT02,Jakobe Martin,2019,25,DS,Do-Konjou Shougakussei: Bon Bita - Hadaka no Choujou Ketsusen!! Bita vs. Dokuro Dei!
+PT02,Imanol Thompson,2018,26,Wii,Harley-Davidson: Road Trip
+PT02,Jordyn Smith,2016,26,Wii,North American Hunting Extravaganza 2
+PT02,Zain Thomas,2015,31,Wii,City Builder
+PT02,Yusuf Anderson,2016,31,DS,Who Wants to Be a Millionaire: 3rd Edition
+PT02,Gavyn Johnson,2018,19,DS,Deal or No Deal: Special Edition
+PT02,Pranav Smith,2017,24,PC,Patrician IV
+PT02,Yehuda Davis,2017,23,PC,CSI: Fatal Conspiracy
+PT02,Daunte Jackson,2017,38,DS,Zac to Ombra: Maboroshi no Yuuenchi
+PT02,Caiden Taylor,2018,26,Wii,Daikaijuu Battle: Ultra Coliseum DX - Ultra Senshi Daishuuketsu
+PT02,Arjun Brown,2015,21,Wii,Gummy Bears Mini Golf
+PT02,Jahiem Garcia,2018,23,PC,All Points Bulletin
+PT02,Zavier Lee,2019,37,PSP,Blue Roses: Yousei to Aoi Hitomi no Senshitachi
+PT02,Mustafa Thompson,2016,24,PS2,Dora's Big Birthday Adventure
+PT02,Rylee Johnson,2019,23,PSP,Harukanaru Toki no Naka de 4: Aizouban
+PT02,Giovani Wilson,2019,34,Wii,Kevin Van Dam: Big Bass Challenge
+PT02,Jovanni Johnson,2017,26,DS,The Treasures of Montezuma
+PT02,Omarion Anderson,2020,23,DS,Heathcliff! Frantic Foto
+PT02,Yahir Moore,2015,34,PSP,Da Capo I & II Plus Situation Portable
+PT02,Amarion Wilson,2017,42,DS,Hisshou Pachinko*Pachi-Slot Kouryaku Series DS Vol. 5: Shinseiki Evangelion - Tamashii no Kiseki
+PT02,Gael Brown,2020,39,X360,Monster Hunter Frontier Online: Season 9.0
+PT02,Cael Jones,2019,35,DS,San Goku Shi DS 3
+PT02,Treyton Johnson,2017,40,PSP,Trick x Logic: Season 2
+PT02,Aryan Lee,2018,40,DS,Jane's Hotel
+PT02,Jaheem Johnson,2017,43,X360,Espgaluda II Black Label
+PT02,Malakai Lee,2020,39,PS3,Winter Sports 3: The Great Tournament
+PT02,Javen Garcia,2018,39,PC,Alpha Protocol
+PT02,Lisandro Martin,2019,26,DS,Petz: Catz Playground
+PT02,Santino Jones,2017,42,DS,Fushigi no Dungeon: Fuurai no Shiren 5 - Fortune Tower to Unmei no Dice
+PT02,Adriel Martinez,2015,45,PC,Sins of a Solar Empire: Trinity
+PT02,Ethen Thomas,2020,37,PSP,Shin Koihime Musou: Otome Ryouran * Sangokushi Engi - Shu-Hen
+PT02,Luc Martin,2019,24,PS3,Greg Hastings Paintball 2
+PT02,Maximo Miller,2015,33,PC,Jewel Master: Cradle Of Rome 2
+PT02,Cason White,2017,26,DS,Just Sing! Vol. 2
+PT02,Gannon Thomas,2020,33,Wii,Jerry Rice and Nitus' Dog Football
+PT02,Jaquez Johnson,2016,26,3DS,Gem Smashers
+PT02,Bradyn Smith,2018,29,X360,WSC Real 11: World Snooker Championship
+PT02,Jase Thompson,2017,29,PC,Jewel Quest 5: The Sleepless Star
+PT02,Zayne Rodriguez,2018,28,PS3,Get Up and Dance
+PT02,Osbaldo White,2015,28,PSP,Corpse Party: Book of Shadows
+PT02,Maddox Wilson,2019,37,3DS,Riding Stables: The Whitakers present Milton and Friends
+PT02,Jamarion Lee,2015,43,Wii,Max & the Magic Marker
+PT02,Yair Jones,2019,32,DS,Zombi Daisuki
+PT02,Aydan Taylor,2017,25,3DS,Hana to Ikimo no Rittai Zukan
+PT02,Konner Moore,2016,44,DS,Duke Nukem Trilogy: Critical Mass
+PT02,Damarion Brown,2020,24,PC,NCIS
+PT02,Jahir Williams,2019,45,PSP,Amnesia
+PT02,Enzo Taylor,2017,24,DS,Jewel Quest Mysteries 2: Trail of the Midnight Heart
+PT02,Cannon Martin,2020,40,PSP,Phantom Kingdom Portable
+PT02,Kamari Martinez,2018,26,PC,Virtua Tennis 4
+PT02,Kaeden Moore,2019,41,X360,The Wolf Among Us
+PT02,Ryker Rodriguez,2020,37,PSP,Chaos;Head - Love Chu*Chu!
+PT02,Soren Williams,2017,25,PSP,Gakuen Hetalia Portable
+PT02,Mordechai Williams,2015,21,PC,Men of War: Vietnam
+PT02,Cristofer Moore,2018,43,PS3,Summer Challenge: Athletics Tournament
+PT02,Ryland Miller,2016,33,PSP,S.Y.K Renshouden Portable
+PT02,Zaid Martin,2020,41,PC,Off-Road Drive
+PT02,Arnav Johnson,2016,33,3DS,Unchained Blades
+PT02,Canyon White,2020,34,X360,Gal*Gun
+PT02,Kanye Jackson,2020,24,PSP,Harukanaru Toki no Naka de 5
+PT02,Kyan Davis,2016,25,PSP,Hakuouki: Reimeiroku Portable
+PT02,Cohen White,2017,23,PSP,Durarara!! 3way Standoff: Alley
+PT02,Braylon Williams,2018,32,PSP,Hanaoni: Koisomeru Koku - Eikyuu no Shirushi
+PT02,Davian Jones,2017,18,PS3,Shadow of the Colossus
+PT02,Jaidyn Thomas,2017,26,X360,Phantom Breaker
+PT02,Demarion Thomas,2018,27,PC,JASF: Jane's Advanced Strike Fighters
+PT02,Landyn Brown,2018,24,DS,100 Classic Games
+PT02,Luka Thompson,2019,34,PSP,Suzumiya Haruhi no Tsuisou
+PT02,Braulio Miller,2016,23,PC,APB Reloaded
+PT02,Andon Jackson,2020,45,PC,Trine 2
+PT02,Aydin Thompson,2016,28,PC,Worms: Ultimate Mayhem
+PT02,Matias Johnson,2019,41,PS3,Castlevania: Lords of Shadow - Reverie
+PT02,Jaydin Wilson,2019,24,PSP,Clock Zero: Shuuen no Ichibyou Portable
+PT02,Deacon Taylor,2019,40,DS,Challenge Me: Word Puzzles
+PT02,Teagan Lee,2017,39,DS,Mahjong 300
+PT02,Kamden Williams,2017,21,PC,A Game of Thrones: Genesis
+PT02,Malaki White,2019,32,PC,The Cursed Crusade
+PT02,Koda Garcia,2017,23,DS,Hakuouki: Zuisouroku DS
+PT02,Rhys Jones,2020,39,PC,Resident Evil 6
+PT02,Haiden Williams,2016,35,PS3,White Album 2: Shiawase no Mukougawa
+PT02,Tayshaun Brown,2018,32,PSP,Record of Agarest War: Marriage
+PT02,Jayvon Thompson,2017,39,PS3,Mechanic Escape
+PT02,Trenten Miller,2020,43,PSV,Little Battlers eXperience W
+PT02,Rishi Anderson,2017,25,Wii,The Cube
+PT02,Kason Brown,2015,18,PSP,Great Battle Full Blast
+PT02,Talan Davis,2016,18,PC,Major League Baseball 2K12
+PT02,Amare Brown,2019,40,3DS,Horses 3D
+PT02,Makai Anderson,2017,20,X360,Deadliest Warrior: Ancient Combat
+PT02,Braylen Miller,2019,42,PSP,Shiren the Wanderer 4 - God's Eye and the Demon's Navel
+PT02,Kadyn Thomas,2019,23,PSV,Ou to Maou to 7-nin no Himegimitachi: Shin Ousama Monogatari
+PT02,Leandro Moore,2017,45,PSP,Hanaoni: Yume no Tsudzuki
+PT02,Aedan Jones,2018,32,DS,GoGo's Crazy Bones
+PT02,Finnegan Martin,2015,44,X360,MLB 2K12 / NBA 2K12 Combo Pack
+PT02,Karter Williams,2017,19,PSP,Sengoku Musou 3 Z Special
+PT02,Damari Williams,2015,42,PC,Resident Evil: Operation Raccoon City
+PT02,Messiah Brown,2020,32,PSP,Winning Post 7 2012
+PT02,Makhi Taylor,2020,43,PS3,Test Drive: Ferrari Legends
+PT02,Camryn Martinez,2018,19,PS3,The Legend of Heroes: Trails in the Sky First Chapter
+PT02,Gauge Brown,2019,40,PS3,Deadliest Warrior: Ancient Combat
+PT02,Jax Jackson,2020,24,3DS,Time Travelers
+PT02,Adin Miller,2018,40,PSP,Mobile Suit Gundam: Mokuba no Kiseki
+PT02,Krish Miller,2017,39,DS,Tokumei Sentai Go-Busters
+PT02,Yandel Miller,2017,36,WiiU,Rabbids Land
+PT02,Beckett White,2016,21,PSP,Hunter x Hunter: Wonder Adventure
+PT02,Kael Davis,2015,27,PSP,Ao no Exorcist: Genkoku no Labyrinth
+PT02,Bode Jones,2016,45,PSP,Toki no Kizuna: Sekigahara Kitan
+PT02,Koen Jackson,2020,21,PS3,Legasista
+PT02,Zayden Thompson,2016,43,PSP,Ailu de Puzzle
+PT02,Santana Williams,2015,39,PSP,Sangoku Koi Senki: Otome no Heihou!
+PT02,Landin Johnson,2017,30,PSP,Detective Conan: Prelude from the Past
+PT02,Talen Jones,2019,41,3DS,Nobunaga's Ambition (3DS)
+PT02,Kasen Jackson,2019,22,PS3,Painkiller: Hell & Damnation
+PT02,Aidyn Davis,2017,43,PS3,Ore no Imouto ga Konna ni Kawaii Wake ga Nai Happy EnD
+PT02,Jasiah Miller,2018,34,PS3,Super Robot Taisen OG Infinite Battle
+PT02,Memphis Davis,2020,29,3DS,Doki Doki! PreCure Narikiri Life!
+PT02,Kingston Davis,2017,36,PC,Lost Planet 3
+PT02,Landan Anderson,2019,38,PSP,J.League Pro Soccer Club o Tsukurou! 8 Euro Plus
+PT02,Case Garcia,2019,45,PS3,Date A Live: Rine Utopia
+PT02,Coen Wilson,2020,21,PC,Resident Evil: Revelations
+PT02,Izayah Rodriguez,2019,44,X360,DuckTales: Remastered
+PT02,Anders Garcia,2019,39,PSP,Norn9: Norn + Nonette
+PT02,Brogan Jackson,2018,22,PC,The Night of the Rabbit
+PT02,Madden Williams,2016,24,3DS,The Croods: Prehistoric Party!
+PT02,Slade Rodriguez,2017,44,PSV,Hyperdimension Neptunia mk2
+PT02,Kellan Miller,2017,24,PS3,Puyo Puyo Tetris
+PT02,Jaydan Williams,2015,35,3DS,Doraemon: Shin Nobita no Daimakyou Peko to 5-nin no Tankenta
+PT02,Nery Brown,2016,24,PSV,Amagami
+PT02,Rayan Lee,2015,21,PS4,Infamous: First Light
+PT02,Dereon Garcia,2015,24,XOne,Terraria
+PT02,Yael Martinez,2015,43,3DS,Dolly Kanon Dokidoki Tokimeki Himitsu no Ongaku Katsudou Start Desu!!
+PT02,Raiden Martinez,2018,21,PS4,Nobunaga's Ambition: Sphere of Influence
+PT02,Nikolai Jones,2015,35,PC,Castlevania: Lords of Shadow 2
+PT02,Yurem Davis,2016,43,PS3,Shin Hayarigami
+PT02,Lyric Jones,2019,29,PSV,Ar Nosurge: Ode to an Unborn Star
+PT02,Kelan Moore,2019,23,XOne,Warriors Orochi 3
+PT02,Tegan Taylor,2020,36,PS3,Ragnarok Odyssey
+PT02,Kamryn Moore,2020,27,PSV,Winning Post 8
+PT02,Jayvion Miller,2016,31,PSV,Super Hero Generation
+PT02,Ronin Taylor,2020,25,WiiU,Penguins of Madagascar
+PT02,Daxton Martinez,2018,38,PC,Might & Magic X: Legacy
+PT02,Aaden Davis,2017,33,PSV,Atelier Escha & Logy: Alchemists of the Dusk Sky
+PT02,Chace Davis,2018,28,PSV,World Trigger: Borderless Mission
+PT02,Marley Miller,2019,19,PSV,Exist Archive: The Other Side of the Sky
+PT02,Kash Davis,2018,31,3DS,Yowamushi Pedal
+PT02,Kymani Brown,2015,21,PC,Pro Evolution Soccer 2016
+PT02,Ishaan Thomas,2017,25,PS3,Saint Seiya: Soldiers' Soul
+PT02,Jadiel Wilson,2019,18,3DS,Gravity Falls: Legend of the Gnome Gemulets
+PT02,Urijah Wilson,2016,32,PS4,Nitroplus Blasterz: Heroines Infinite Duel
+PT02,Eden Rodriguez,2018,40,PS3,BlazBlue: Chrono Phantasma Extend
+PT02,Zaiden Davis,2020,24,PS3,Romance of the Three Kingdoms 13
+PT02,Ayaan Lee,2019,45,PC,The Sims 4: Spa Day
+PT02,Aarav Jones,2016,39,PSV,Yuki Yuna is a Hero: Memory of the Forest
+PT02,Tripp Anderson,2016,34,PS4,Hyperdimension Neptunia Victory II
+PT02,Geovanni Taylor,2016,26,XOne,Brothers: A Tale of Two Sons
+PT02,Yadiel Martin,2019,22,PSV,Tsurugi no Machi no Ihoujin: Kuro no Kyuuden
+PT02,Kyson Martin,2020,35,3DS,Paddington: Adventures in London
+PT02,Callum Moore,2016,38,X360,Monster High: New Ghoul in School
+PT02,Deegan White,2019,27,3DS,Famicom Remix Best Choice
+PT02,Lennon Anderson,2020,30,PC,LEGO Jurassic World
+PT02,Abdiel Brown,2019,32,PC,Civilization Beyond Earth: Rising Tide
+PT02,Carsen Garcia,2019,28,3DS,Rodea the Sky Soldier
+PT02,Kolten Wilson,2020,38,XOne,Don Bradman Cricket 14
+PT02,Stella White,2018,29,PC,Train Simulator 2016
+PT02,Sallie Anderson,2018,23,3DS,Corpse Party: Blood Covered - Repeated Fear
+PT02,Nettie Anderson,2016,32,PSV,The Idolm@ster: Must Songs - Red Board / Blue Board
+PT02,Etta Martinez,2015,39,3DS,Monster High: New Ghoul in School
+PT02,Harriet Garcia,2016,18,PSV,Rugby World Cup 2015
+PT02,Sadie Martin,2016,38,PS3,NHL Legacy
+PT02,Katie Jackson,2016,28,PS3,NHL 16
+PT02,Lydia Lee,2019,21,PSV,Ray Gigant
+PT02,Kate Thomas,2020,40,3DS,Barbie and Her Sisters Puppy Rescue
+PT02,Mollie Thompson,2019,45,3DS,Nobunaga's Ambition II
+PT02,Lulu Thompson,2020,30,PSV,MLB 15: The Show
+PT02,Nannie Martin,2018,38,PS4,Assassin's Creed Chronicles: China
+PT02,Lottie Davis,2015,33,PS4,Nobunaga's Ambition: Sphere of Influence - Sengoku Risshiden
+PT02,Belle Taylor,2018,43,XOne,Dead Island Definitive Collection
+PT02,Charlotte Wilson,2019,23,PS3,Rugby Challenge 3
+PT02,Amelia Garcia,2017,36,PS4,SÃ©bastien Loeb Rally Evo
+PT02,Hannah Martin,2019,29,XOne,R.B.I. Baseball 2016
+PT02,Jane Thomas,2018,41,PC,Life is Strange
+PT02,Emily Lee,2019,18,3DS,Card Fight!! Vanguard G: Stride to Victory!!
+PT02,Matilda Taylor,2016,30,PSV,Refrain no Chika Meikyuu to Majo no Ryodan
+PT02,Henrietta Lee,2019,33,PS4,Utawarerumono: Futari no Hakuoro
+PT02,Sara White,2018,41,PS3,Kamen Rider: Battride War Genesis
+PT02,Estella Martin,2016,18,PS4,Hitman (2016)
+PT02,Theresa Anderson,2020,25,XOne,7 Days to Die
+PT02,Josie Rodriguez,2015,18,PS4,XCOM 2
+PT02,Sophia Garcia,2019,29,XOne,One Piece: Burning Blood
+PT02,Anne Williams,2019,45,PS3,Star Ocean 5: Integrity and Faithlessness
+PT02,Delia Martinez,2019,36,3DS,Haikyu!! Cross Team Match!
+PT02,Louisa Garcia,2020,43,PSV,Nobunaga's Ambition: Sphere of Influence - Sengoku Risshiden
+PT02,Mayme Taylor,2019,24,XOne,Song of the Deep
+PT02,Estelle Wilson,2017,37,PS4,Rugby Challenge 3
+PT02,Nina Martinez,2020,37,PS4,Hatsune Miku: Project Diva X
+PT02,Bettie Wilson,2017,43,PSV,Bullet Girls 2
+PT02,Luella Moore,2016,40,XOne,Resident Evil 6
+PT02,Inez Moore,2016,36,3DS,Doraemon: Shin Nobita no Nihon Tanjou
+PT02,Lela Jones,2020,34,XOne,Destiny: The Collection
+PT02,Rosie Rodriguez,2020,40,3DS,12-Sai. Koisuru Diary
+PT02,Millie Martinez,2015,23,PSV,Aegis of Earth: Protonovus Assault
+PT02,Janie Moore,2015,27,PS4,Batman: A Telltale Game Series
+PT02,Cornelia Rodriguez,2019,24,PC,Alter Ego
+PT02,Victoria Martin,2020,29,PC,SimCity
+PT02,Celia Rodriguez,2016,22,PC,Doom
+PT02,Christine Taylor,2019,45,SNES,First Queen: Ornic Senki
+PT02,Birdie Lee,2015,38,SNES,Gaia Saver Hero Saidai no Sakusen
+PT02,Harriett Lee,2017,24,GEN,Puzzle & Action: Tant-R
+PT02,Mable Thompson,2017,33,SNES,Kidou Senshi V Gundam
+PT02,Myra Thomas,2020,24,SNES,The Great Battle Gaiden 2: Matsuri da Wasshoi
+PT02,Sophie Thomas,2020,36,PS,Night Head: The Labyrinth
+PT02,Tillie Martin,2015,20,SAT,Rampo
+PT02,Isabel White,2019,20,NG,Far East of Eden Shinden
+PT02,Sylvia Martinez,2018,24,SNES,Daibakushou: Jinsei Gekijou
+PT02,Isabelle Wilson,2020,28,SNES,Konpeki no Kantai
+PT02,Leila Anderson,2017,29,PS,Robo Pit
+PT02,Sally Wilson,2018,27,SNES,Hissatsu Pachinko Collection 3
+PT02,Ina Rodriguez,2015,41,SAT,Battle Arena Toshinden URA
+PT02,Nell Moore,2019,36,SAT,Darius II
+PT02,Alberta Anderson,2020,40,PS,The Perfect Golf
+PT02,Katharine Wilson,2017,25,PS,Hermie Hopperhead: Scrap Panic
+PT02,Rena White,2017,30,SNES,Captain Tsubasa J: The Way to World Youth
+PT02,Mina Thomas,2015,37,PS,Doki Oki
+PT02,Mathilda White,2017,40,PS,Batman Forever: The Arcade Game
+PT02,Dollie Thompson,2015,32,PS,3D Baseball
+PT02,Hettie Thompson,2019,30,PS,PowerSlave
+PT02,Fanny Anderson,2017,44,SAT,Big Ichigeki! Pachi-Slot Taikouryku Universal Museum
+PT02,Lenora White,2016,38,PS,DragonHeart: Fire & Steel
+PT02,Adelaide Thompson,2016,38,SNES,Nishijin Pachinko Monogatari 2
+PT02,Lelia Jackson,2019,41,PS,Lethal Enforcers I & II
+PT02,Nelle Moore,2018,36,PS,BRAHMA Force: The Assault on Beltlogger 9
+PT02,Sue Thompson,2016,21,PCFX,Blue Breaker: Ken Yorimo Hohoemi o
+PT02,Johanna Jackson,2018,40,PS,Grid Runner
+PT02,Lilly Davis,2018,39,PS,The Adventures of Lomax
+PT02,Lucinda Wilson,2017,29,SAT,Hankou Shashin
+PT02,Minerva Taylor,2016,42,PS,Pitball
+PT02,Lettie Jackson,2018,32,PS,War Gods
+PT02,Roxie Taylor,2019,20,PS,Peak Performance
+PT02,Helena Rodriguez,2017,28,PS,Master of Monsters: Disciples of Gaia
+PT02,Hilda Lee,2020,45,PS,Rush Hour
+PT02,Hulda Anderson,2018,41,PS,Poy Poy
+PT02,Genevieve Lee,2019,29,PS,Nanotek Warrior
+PT02,Cordelia Taylor,2017,41,SAT,Radiant Silvergun
+PT02,Jeanette Anderson,2016,45,PS,Trap Gunner: Countdown to Oblivion
+PT02,Adeline White,2019,22,PS,Tail Concerto
+PT02,Leah Jackson,2020,18,SAT,Madou Monogatari
+PT02,Lura Thompson,2020,41,SAT,Pocket Fighter
+PT02,Mittie Jackson,2020,19,SAT,Ojyousama Express
+PT02,Isabella Moore,2019,30,SAT,Highschool Terra Story
+PT02,Olga Thomas,2015,41,PS,MotorHead
+PT02,Phoebe Jackson,2016,28,N64,Starshot: Space Circus Fever
+PT02,Teresa Thomas,2018,31,N64,Big Mountain 2000
+PT02,Lida Martin,2020,23,PS,Nectaris: Military Madness
+PT02,Lina Martin,2017,31,PS,Timeshock! Pro Pinball
+PT02,Marguerite Moore,2015,27,PS,R-Type Delta
+PT02,Claudia Anderson,2015,35,PS,Dancing Blade II: Tears of Eden
+PT02,Cecelia Thomas,2019,44,N64,Charlie Blasts Territory
+PT02,Bess Jackson,2015,23,PS,Renegade Racers
+PT02,Emilie Thompson,2017,41,PS,Monster Rancher Hop-A-Bout
+PT02,Rosetta Taylor,2015,25,PS,Roadsters
+PT02,Myrtie White,2017,43,PS,In Cold Blood
+PT02,Cecilia Thompson,2016,43,GBA,Alienators: Evolution Continues
+PT02,Olivia Thomas,2018,34,PC,Championship Manager Season 01/02
+PT02,Ophelia Thompson,2016,41,PC,Zoo Tycoon
+PT02,Elnora Jackson,2020,32,GBA,Driven
+PT02,Violet Wilson,2018,24,WS,SD Gundam G Generation: Gather Beat 2
+PT02,Adele White,2017,19,GBA,Monster Guardians
+PT02,Lily Martin,2015,20,PS,M&Ms Shell Shocked
+PT02,Loretta Garcia,2018,19,GBA,The Flintstones: Big Trouble in Bedrock
+PT02,Madge Taylor,2017,45,PS2,Sunny Garcia Surfing
+PT02,Polly Lee,2017,24,PS,Zoboomafoo: Leapin' Lemurs!
+PT02,Eugenia Rodriguez,2019,34,PS,Ducati World Racing Challenge
+PT02,Lucile Moore,2018,26,GBA,Planet of the Apes
+PT02,Mabelle Thomas,2015,27,PC,Cossacks: European Wars
+PT02,Rosalie Lee,2020,45,PS2,ParaParaParadise
+PT02,Kittie Martinez,2020,42,PS2,DrumMania 7th Mix
+PT02,Meta Lee,2017,32,PS2,A Ressha de Gyoukou 2001
+PT02,Angie Thompson,2019,36,XB,RedCard 20-03
+PT02,Georgiana Jackson,2015,29,GBA,Boboboubo Boubobo: Ougi 87.5 Bakuretsu Hanage Shinken
+PT02,Lila Garcia,2019,31,GBA,Silent Scope
+PT02,Regina Moore,2020,25,PS2,ESPN NBA 2Night 2002
+PT02,Selma White,2020,22,PS2,Gacharoku
+PT02,Wilhelmina Jackson,2016,34,GBA,An American Tail: Fievel's Gold Rush
+PT02,Bridget Lee,2016,36,PS2,EverBlue 2
+PT02,Lilla White,2015,18,GBA,CT Special Forces
+PT02,Malinda Rodriguez,2018,22,GBA,Earthworm Jim 2
+PT02,Vina Martinez,2020,42,GC,Disney Sports Soccer
+PT02,Freda Lee,2020,41,PC,Neverwinter Nights
+PT02,Gertie Martinez,2018,38,GC,F1 2002
+PT02,Jeannette Garcia,2017,43,GC,Dr. Muto
+PT02,Louella Martin,2019,35,PS2,Egg Mania: Eggstreme Madness
+PT02,Mandy Rodriguez,2019,29,GBA,Klonoa 2: Dream Champ Tournament
+PT02,Roberta Martinez,2018,40,PS2,Culdcept
+PT02,Corinne Garcia,2018,35,PC,Syberia
+PT02,Lyda Jackson,2015,23,XB,Metal Dungeon
+PT02,Naomi Garcia,2019,36,GBA,Gekido Advance: Kintaro's Revenge
+PT02,Norma Martinez,2018,20,XB,Whiteout
+PT02,Margie Garcia,2020,40,GBA,Hajime no Ippo: The Fighting
+PT02,Nona Rodriguez,2017,41,GC,Fireblade
+PT02,Zella Rodriguez,2020,45,XB,ESPN Winter X Games: Snowboarding 2002
+PT02,Dovie Martinez,2016,42,GBA,Disney Sports Soccer
+PT02,Elvira Garcia,2015,29,GBA,Dave Mirra Freestyle BMX 3
+PT02,Erma Martinez,2019,22,PS2,Runabout 3: Neo Age
+PT02,Irma Rodriguez,2017,37,PC,Battlefield 1942
+PT02,Leota Smith,2015,35,PS2,Konohana 2: Todoke Kanai Requiem
+PT02,Blanch Rodriguez,2017,34,GBA,Zatch Bell! Electric Arena
+PT02,Charity Garcia,2017,38,GBA,"Crouching Tiger, Hidden Dragon"
+PT02,Lorena Johnson,2020,28,GC,SX Superstar
+PT02,Lucretia Martinez,2016,29,GC,Red Faction II
+PT02,Orpha Thomas,2017,28,PS2,Battle Engine Aquila
+PT02,Alvina Williams,2016,25,GC,The Italian Job
+PT02,Annette Martin,2016,18,GC,The Sum of All Fears
+PT02,Catharine Rodriguez,2019,30,XB,Project Gotham Racing 2 (JP weekly sales)
+PT02,Elma Brown,2015,24,GC,Disney's Hide & Sneak
+PT02,Geneva Jones,2019,44,GC,RoadKill
+PT02,Leora Miller,2020,19,PC,Lock On: Modern Air Combat
+PT02,Lona Davis,2015,42,GBA,Starsky & Hutch
+PT02,Miriam Thomas,2015,34,GBA,Sitting Ducks
+PT02,Zora Wilson,2015,35,PC,Homeworld 2
+PT02,Octavia Anderson,2019,39,PC,Rayman 3: Hoodlum Havoc
+PT02,Sudie Lee,2020,23,GC,Go! Go! Hypergrind
+PT02,Zula Thompson,2016,42,XB,Freaky Flyers
+PT02,Adella Moore,2016,29,GBA,CIMA: The Enemy
+PT02,Frieda White,2020,43,XB,Robin Hood: Defender of the Crown
+PT02,Joanna Taylor,2017,29,GBA,Disney's Aladdin
+PT02,Leonora Jackson,2018,27,XB,Wallace & Gromit in Project Zoo
+PT02,Priscilla Smith,2017,44,GC,Drome Racers
+PT02,Tennie Smith,2020,43,GBA,Buffy the Vampire Slayer: Wrath of the Darkhul King
+PT02,Angeline Smith,2018,20,XB,Motor Trend presents Lotus Challenge
+PT02,Docia Smith,2019,44,GBA,Max Payne
+PT02,Ettie Johnson,2015,30,XB,Pro Cast Sports Fishing
+PT02,Flossie Johnson,2017,21,PC,Max Payne 2: The Fall of Max Payne
+PT02,Hanna Smith,2019,18,GC,Dakar 2: The World's Ultimate Rally
+PT02,Letha Williams,2016,24,GC,Auto Modellista
+PT02,Minta Johnson,2019,42,PC,RollerCoaster Tycoon 2: Triple Thrill Pack
+PT02,Retta Smith,2020,42,GC,Gotcha Force
+PT02,Rosella Brown,2018,19,GBA,Demon Driver: Time to Burn Rubber!
+PT02,Adah Smith,2015,25,XB,Mojo!
+PT02,Berta Johnson,2018,25,GC,Buffy the Vampire Slayer: Chaos Bleeds
+PT02,Elisabeth Brown,2017,29,GBA,Jet Grind Radio
+PT02,Elise Garcia,2015,21,PS2,Judge Dredd: Dredd Vs Death
+PT02,Leola Williams,2017,34,GBA,Drome Racers
+PT02,Margret Jones,2017,32,PC,Jurassic Park: Operation Genesis
+PT02,Adaline Jones,2019,32,PS2,Asterix & Obelix: Kick Buttix
+PT02,Idella Rodriguez,2016,30,PS2,Battle Assault 3 featuring Gundam Seed
+PT02,Juanita Brown,2015,26,PS2,Crimson Tears
+PT02,Lenna Miller,2015,27,PSP,Ultimate Block Party
+PT02,Lucie Jones,2017,38,XB,GunGriffon: Allied Strike
+PT02,Missouri Williams,2016,18,PC,Knights of Honor
+PT02,Nola Johnson,2016,29,XB,Galleon: Islands of Mystery
+PT02,Zoe Davis,2018,39,PS2,Graffiti Kingdom
+PT02,Eda Johnson,2018,34,GBA,Super Collapse! II
+PT02,Isabell Martinez,2020,39,GBA,Smashing Drive
+PT02,Julie Smith,2015,27,GBA,R-Type III: The Third Lightning
+PT02,Letitia Brown,2019,23,GBA,Street Jam Basketball
+PT02,Madeline Miller,2020,38,PC,Battlefield 1942: The WW II Anthology
+PT02,Malissa Miller,2020,18,XB,Future Tactics: The Uprising
+PT02,Mariah Williams,2015,34,XB,Syberia II
+PT02,Pattie Smith,2019,24,PC,Battlefield Vietnam
+PT02,Almeda Williams,2020,28,GBA,Baldur's Gate: Dark Alliance
+PT02,Aurelia Jones,2020,22,PC,Neverwinter Nights Diamond
+PT02,Dolly Davis,2017,36,PS2,Under the Skin
+PT02,Jannie Brown,2015,26,GC,Archer Maclean Presents: Pool Paradise
+PT02,Kathrine Miller,2016,36,GBA,Bookworm
+PT02,Lavinia Williams,2016,37,XB,MX World Tour Featuring Jamie Little
+PT02,Marietta Smith,2018,40,GBA,Care Bears - Care Quest
+PT02,Melvina Jones,2016,29,GBA,Sky Dancers
+PT02,Ona Johnson,2019,28,GC,Cabela's Dangerous Hunts 2
+PT02,Pinkie Miller,2019,33,XB,Special Forces: Nemesis Strike
+PT02,Susanna Smith,2020,22,DS,Electroplankton
+PT02,Chloe Smith,2017,42,GC,Cabela's Outdoor Adventures
+PT02,Elsa Smith,2018,31,GBA,Backyard NFL Football 2006
+PT02,Matie Wilson,2020,24,GBA,James Pond: Codename Robocod
+PT02,Pearle Davis,2016,42,GBA,Driv3r
+PT02,Vesta Brown,2016,44,PSP,Street Supremacy
+PT02,Vinnie Jones,2020,44,GBA,Elf Bowling 1 & 2
+PT02,Antoinette Smith,2017,32,XB,Tork: Prehistoric Punk
+PT02,Clementine Moore,2018,25,GBA,Chicken Shoot 2
+PT02,Edythe Taylor,2018,27,GBA,Totally Spies!
+PT02,Harriette Miller,2016,34,PC,Empire Earth II
+PT02,Libbie Davis,2018,42,XB,Digimon World 4
+PT02,Lilian Johnson,2016,42,PS2,S.L.A.I.: Steel Lancer Arena International
+PT02,Lutie Davis,2020,33,GBA,Golden Nugget Casino / Texas Hold 'Em Double Pack
+PT02,Magdalena Jones,2016,34,GBA,Marble Madness / Klax
+PT02,Meda Johnson,2020,23,GBA,Atomic Betty
+PT02,Rita Anderson,2019,33,XB,Virtual Pool: Tournament Edition
+PT02,Tena Taylor,2015,45,GBA,Popeye: Rush for Spinach
+PT02,Zelma Smith,2020,27,PS2,DICE: DNA Integrated Cybernetic Enterprises
+PT02,Adelia Moore,2016,32,PSP,Spectral Souls: Resurrection of the Ethereal Empires
+PT02,Annetta Martin,2020,27,GBA,Kong: King of Atlantis
+PT02,Dona Wilson,2020,31,DS,Ganbare Goemon: Toukai Douchuu Ooedo Tengurigaeshi no Maki
+PT02,Elizebeth Thomas,2017,24,XB,The King of Fighters 02/03
+PT02,Georgianna Smith,2018,21,GC,Animaniacs: The Great Edgar Hunt
+PT02,Gracie White,2015,42,PS2,D1 Professional Drift Grand Prix Series
+PT02,Iona Miller,2017,34,XB,Frogger: Ancient Shadow
+PT02,Leta Anderson,2017,24,PC,Guild Wars
+PT02,Liza Wilson,2016,20,GBA,Franklin the Turtle
+PT02,Mertie Williams,2020,27,GBA,Gauntlet / Rampart
+PT02,Molly Johnson,2015,37,PS2,River King: Wonderful Journey
+PT02,Neva Anderson,2018,19,PC,Dungeon Siege II
+PT02,Oma Brown,2019,29,PS2,Metal Saga
+PT02,Alida Martin,2017,40,PC,SWAT 4
+PT02,Cecile Thompson,2020,32,PS2,Rebel Raiders: Operation Nighthawk
+PT02,Ernestine Smith,2015,36,PSP,Bounty Hounds
+PT02,Evie Thomas,2015,25,XB,TOCA Race Driver 3
+PT02,Helene Anderson,2020,25,PS2,Daito Giken Premium Pachi-Slot Collection: Yoshimune
+PT02,Minna Johnson,2020,33,PS2,World Series of Poker: Tournament of Champions 2007 Edition
+PT02,Myrta Smith,2020,19,GBA,Yggdra Union: We'll Never Fight Alone
+PT02,Prudence Davis,2017,40,X360,Rapala Tournament Fishing!
+PT02,Queen Jackson,2018,22,PC,Prey
+PT02,Rilla Taylor,2017,45,DS,Simple DS Series Vol. 8: The Kanshikikan - Kinkyuu Shutsudou!! Jiken Genba wo Touch Seyo
+PT02,Savannah Brown,2018,35,PC,Rise of Nations: Rise of Legends
+PT02,Tessie Garcia,2015,39,PS2,Tsuyo Kiss: Mighty Heart
+PT02,Agatha Lee,2018,31,PSP,MotoGP
+PT02,America Thompson,2019,44,PSP,Astonishia Story
+PT02,Anita Johnson,2016,44,PSP,Magna Carta Portable
+PT02,Arminta Wilson,2019,23,PC,The Sims 2: Glamour Life Stuff
+PT02,Dorothea Johnson,2018,20,PSP,Daito Giken Koushiki Pachi-Slot Simulator: Yoshimune Portable
+PT02,Luvenia Anderson,2016,41,GBA,FIFA World Cup: Germany 2006
+PT02,Marjorie Moore,2017,38,DS,Garfield: A Tale of Two Kitties
+PT02,Maybelle Wilson,2020,38,PC,Rome: Total War - Gold Edition
+PT02,Mellie Brown,2016,45,PS2,Raw Danger!
+PT02,Nan Jones,2017,28,DS,Gotouchi Kenkei DS
+PT02,Velma Johnson,2016,20,PSP,Stacked with Daniel Negreanu
+PT02,Constance Lee,2018,36,PS2,Dance Factory
+PT02,Ila Johnson,2016,39,PSP,The Legend of Heroes III: Song of the Ocean
+PT02,Iola Lee,2019,39,PSP,Dungeon Maker: Hunting Ground
+PT02,Louvenia Garcia,2020,39,XB,Stacked with Daniel Negreanu
+PT02,Lucia Martin,2016,39,PS2,Otometeki Koi Kakumei * Love Revo
+PT02,Ludie Jones,2016,26,PSP,Bubble Bobble Evolution
+PT02,Luna Martinez,2020,43,DS,Nacho Libre
+PT02,Metta Thomas,2019,43,PSP,Gensou Suikoden I & II
+PT02,Phebe Martin,2020,22,GBA,Eyeshield 21: DevilBats DevilDays
+PT02,Sophronia Miller,2019,24,PSP,Blokus Portable: Steambot Championship
+PT02,Adda White,2016,21,PS2,Tenka-bito
+PT02,Avis Thomas,2017,29,PSP,Star Trek: Tactical Assault
+PT02,Betsy Johnson,2016,41,DS,"Princess Natasha: Student, Secret Agent, Princess"
+PT02,Cordie Smith,2015,22,XB,Curious George
+PT02,Emmaline Thompson,2020,25,XB,Real World Golf
+PT02,Ethelyn Rodriguez,2017,34,PS3,Mahjong Kakutou Club: Zenkoku Taisenban
+PT02,Hortense White,2015,24,PS2,Guitar Freaks V & DrumMania V
+PT02,Marcella Wilson,2020,39,GBA,Power Poke Dash
+PT02,Melinda Lee,2020,19,DS,Turn It Around
+PT02,Mona Jones,2019,23,PSP,Race Driver 2006
+PT02,Odessa Taylor,2015,19,GBA,Calcio Bit
+PT02,Veronica Moore,2020,30,PS2,Galaxy Angel II: Zettairyouiki no Tobira
+PT02,Aimee Brown,2015,18,PC,The Settlers II 10th Anniversary
+PT02,Annabel Williams,2020,23,PC,Warhammer: Mark of Chaos
+PT02,Ava Taylor,2020,28,DS,Metal Saga: Hagane no Kisetsu
+PT02,Bella Martin,2019,42,DS,MechAssault: Phantom War
+PT02,Carolina Martinez,2018,30,XB,NBA 2K7
+PT02,Cathrine Moore,2018,38,PC,Guild Wars: Nightfall
+PT02,Christena Rodriguez,2015,28,GBA,Greg Hastings' Tournament Paintball Max'd
+PT02,Dena Williams,2019,39,PS2,Warship Gunner 2
+PT02,Eleanore Williams,2015,20,PS2,Wrestle Kingdom
+PT02,Elmira Moore,2016,29,PS2,Mahou Sensei Negima! Kagai Jugyou ~Otome no Dokidoki Beachside~
+PT02,Jenny Miller,2020,30,PS2,Kuryuu Youma Gakuenki Recharge
+PT02,Kizzie Martin,2016,44,DS,My Frogger: Toy Trials
+PT02,Loula Johnson,2018,36,PC,Battlefield 2142
+PT02,Magdalene White,2017,22,XB,NHL 07
+PT02,Mettie Jackson,2018,32,PSP,Battlezone
+PT02,Mintie Davis,2018,24,PS2,Super Monkey Ball Adventure
+PT02,Peggy White,2019,26,GBA,Madden NFL 07
+PT02,Reba Williams,2018,25,GBA,Justice League Heroes: The Flash
+PT02,Serena Jones,2020,19,XB,World War II Combat: Road To Berlin
+PT02,Vida Thomas,2020,25,PS2,Pop'n Music 13 Carnival
+PT02,Zada Thomas,2015,38,PS2,Shakugan no Shana
+PT02,Abigail Brown,2018,32,PS2,Open Season
+PT02,Celestine Thompson,2015,43,PC,Neverwinter Nights 2
+PT02,Celina Miller,2020,32,DS,Tank Beat
+PT02,Daisie Jackson,2019,27,PS2,Bode Miller Alpine Skiing
+PT02,Dessa Thompson,2019,42,GBA,Mahou Sensei Negima! Private Lesson 2: Ojama Shimasu Parasite de Chu
+PT02,Easter Johnson,2016,43,PSP,Derby Time 2006
+PT02,Emelia Wilson,2020,34,DS,Boulder Dash: Rocks!
+PT02,Emmie Taylor,2016,38,PSP,NHRA Drag Racing: Countdown to the Championship
+PT02,Imogene Lee,2018,37,PS3,Wangan Midnight
+PT02,India Williams,2016,34,Wii,Kekkaishi: Kokubourou no Kage
+PT02,Jeanne White,2016,35,Wii,Who Wants to be a Millionaire: 1st Edition
+PT02,Lenore Garcia,2020,29,PS2,Women's Volleyball Championship
+PT02,Liddie Jones,2020,33,Wii,Jikkyou Powerful Pro Yakyuu Wii Ketteiban
+PT02,Lotta Williams,2016,28,PS2,Rakushou! Pachi-Slot Sengen 5: Rio Paradise
+PT02,Mame Brown,2015,24,PSP,Makai Senki Disgaea Portable: Tsuushin Taisen Hajime Mashita
+PT02,Nevada Thompson,2020,21,PS2,Metal Gear Solid: The Essential Collection (JP sales)
+PT02,Rachael Miller,2015,38,PS2,Pachitte Chonmage Tatsujin 12: Pachinko Ultraman
+PT02,Sina Anderson,2018,21,Wii,Safari Adventures: Africa
+PT02,Willa Brown,2019,25,PSP,Legend of the Dragon
+PT02,Aline Davis,2016,45,DS,Suujin Taisen
+PT02,Daisey Brown,2015,38,PC,Combat Mission: Shock Force
+PT02,Dorcas Anderson,2018,30,PC,Mystery Case Files: Ravenhearst
+PT02,Edmonia Miller,2017,33,DS,River King: Mystic Valley (jp sales)
+PT02,Effa Thomas,2018,36,DS,Mame Goma: Honobo no Nikki
+PT02,Eldora Moore,2016,39,DS,Arthur and the Invisibles
+PT02,Eloise Jones,2020,39,DS,Flipper Critters
+PT02,Emmer Martin,2018,33,PSP,Saru! Get You! SaruSaru Daisakusen
+PT02,Era Williams,2017,42,DS,Vegas Casino
+PT02,Gena Williams,2020,37,DS,Biker Mice From Mars
+PT02,Iris Brown,2019,45,DS,Underground Pool
+PT02,Izora Taylor,2017,22,DS,Konami Classics Series: Arcade Hits
+PT02,Lissie Martinez,2017,21,PS2,Hiiro no Kakera 2: Hisui no Shizuku
+PT02,Mallie Brown,2020,25,Wii,Eyeshield 21: Field Saikyou no Senshi Tachi
+PT02,Malvina Jackson,2020,18,PC,Ratatouille
+PT02,Mathilde Miller,2016,19,PS2,BeatMania IIDX 13: DistorteD
+PT02,Mazie Miller,2019,32,PSP,Hot Pixel
+PT02,Queenie Miller,2016,38,DS,Pet Alien: An Intergalactic Puzzlepalooza
+PT02,Rosina White,2019,28,PSP,Minna no Golf Jou Vol.1
+PT02,Salome Davis,2015,44,PC,Resident Evil 4
+PT02,Theodora Jones,2015,38,PS2,Pop'n Music 14 Fever!
+PT02,Therese Jackson,2018,34,PSP,N+
+PT02,Vena Thompson,2020,36,DS,Code Geass: Hangyaku no Lelouch
+PT02,Wanda Williams,2020,39,PS2,Galaxy Angel II: Mugen Kairou no Kagi
+PT02,Wilda Johnson,2020,35,DS,Drake & Josh: Talent Showdown
+PT02,Altha Jones,2018,45,PSP,NBA 08
+PT02,Anastasia Jackson,2019,38,DS,Treasure Gaust: Gaust Diver Crimson Red / Deep Purple
+PT02,Besse Davis,2018,21,Wii,Driver: Parallel Lines
+PT02,Birtie Miller,2015,27,DS,Betty Boop's Double Shift
+PT02,Clarissa Davis,2017,38,PSP,HotBrain
+PT02,Delilah Davis,2018,24,Wii,Gintama: Banji Oku Chuubu!
+PT02,Diana Anderson,2020,18,PS2,Negima!? Dream Tactic Yumemiru Otome Princess
+PT02,Emelie Garcia,2019,36,DS,Eco Creatures: Save The Forest
+PT02,Erna Wilson,2016,31,DS,Dragon Tamer: Sound Spirit
+PT02,Florida Rodriguez,2015,45,PS2,The Battle of Yuu Yuu Hakusho: Shitou! Ankoku Bujutsukai! 120%
+PT02,Frona Garcia,2017,25,PC,The Sims 2: Bon Voyage
+PT02,Hilma Jackson,2018,38,DS,Kabu Trader Shun
+PT02,Juliet Williams,2016,23,DS,Ookiku Furikabutte: Honto no Ace ni Nareru kamo
+PT02,Leonie Rodriguez,2015,31,PS2,Medal of Honor: Vanguard
+PT02,Lugenia Miller,2020,29,DS,AniMates!
+PT02,Mammie Williams,2019,29,Wii,Backyard NFL Football
+PT02,Manda Brown,2019,44,PC,Age of Empires III: Gold Edition
+PT02,Manerva Lee,2019,29,PS2,Jissen Pachi-Slot Hisshouhou! Hokuto no Ken 2
+PT02,Manie Garcia,2016,31,DS,Napoleon Dynamite: The Game
+PT02,Nella Martinez,2018,22,Wii,Rock 'N' Roll Adventures
+PT02,Paulina Martinez,2019,34,DS,Gakuen Alice: WakuWaku * Happy Friends
+PT02,Philomena Jones,2018,19,Wii,Zenkoku Dekotora Matsuri
+PT02,Selina Davis,2016,19,DS,Travel Coach: Europe 1
+PT02,Sena Jones,2018,21,DS,Tokyo Majin Gakuen: Kenfuuchou
+PT02,Theodosia Moore,2016,19,PC,The Void
+PT02,Una Taylor,2015,33,DS,Clever Kids: Pirates
+PT02,Adela Moore,2019,43,PSP,Cake Mania: Baker's Challenge
+PT02,Althea Miller,2017,31,DS,Zoo Vet: Endangered Animals
+PT02,Amalia Taylor,2016,41,DS,Hayate no Gotoku! Ojousama Produce Daisakusen Boku Iro ni Somare! Oyashiki-Hen
+PT02,Amber Martinez,2016,39,DS,Crazy Chicken: Star Karts
+PT02,Angelina Davis,2015,21,DS,Super Dodgeball Brawlers (jp sales)
+PT02,Annabelle Davis,2016,36,DS,Shining Stars
+PT02,Anner Miller,2019,36,DS,Emma at the Farm
+PT02,Arie Davis,2015,44,X360,Summer Athletics: The Ultimate Challenge
+PT02,Clarice Brown,2018,43,Wii,Jewel Master: Cradle of Rome
+PT02,Corda Thomas,2018,23,X360,Crash Time: Autobahn Pusuit
+PT02,Corrie Wilson,2018,20,PS2,Nobunaga no Yabou: Kakushin with Power-Up Kit
+PT02,Dellar Wilson,2016,18,DS,Custom Beat Battle: Draglade 2
+PT02,Donie Rodriguez,2015,45,DS,Toy Shop
+PT02,Elda Davis,2019,43,DS,Vitamin X Evolution
+PT02,Elinor Lee,2018,42,PS2,BeatMania IIDX 14 Gold
+PT02,Emeline Jones,2017,32,DS,Smart Girl's Winter Wonderland
+PT02,Emilia Anderson,2015,29,PS2,Togainu no Chi: True Blood
+PT02,Etha Taylor,2015,38,PS2,Pachinko Kamen Rider: Shocker Zenmetsu Daisakusen
+PT02,Indiana Martin,2018,19,DS,My Pet Shop (JP sales)
+PT02,Ione Martin,2015,28,PS3,Pro Yakyuu Spirits 5 Kanzenban
+PT02,Josiephine Moore,2020,35,DS,Montessori Music
+PT02,Kitty White,2019,40,DS,To LoveRu Trouble: Waku Waku! Rinkangakkou-Hen
+PT02,Lavina Anderson,2018,37,DS,Doodle Hex
+PT02,Leda Brown,2016,40,X360,Otomedius Gorgeous
+PT02,Letta Garcia,2015,25,PSP,Code Lyoko: Quest for Infinity
+PT02,Mahala Wilson,2020,26,DS,Away: Shuffle Dungeon
+PT02,Marcia White,2019,34,DS,Kekkaishi: Kokubourou Shuurai
+PT02,Margarette Anderson,2019,38,DS,Shugo Chara! Amunonijiro Chara Change
+PT02,Maudie Anderson,2015,31,DS,Tantei Jinguuji Saburo DS: Kienai Kokoro
+PT02,Maye Martinez,2017,41,PS2,Hiiro no Kakera 3: Aoikuro no Kusabi
+PT02,Norah Garcia,2020,25,Wii,Who Wants to be a Millionaire: 2nd Edition
+PT02,Patty Martin,2016,38,DS,DokiDoki Majo Shinpan! 2
+PT02,Paula Jackson,2015,45,PC,Sins of a Solar Empire
+PT02,Permelia Lee,2017,20,PSP,To LoveRu Trouble: Doki Doki! Rinkaigakkou-Hen
+PT02,Rosalia Thomas,2016,45,DS,Lux-Pain (JP sales)
+PT02,Roxanna Thompson,2017,18,PC,GTR Evolution
+PT02,Sula Thompson,2019,22,PSP,Downstream Panic!
+PT02,Vada Martin,2017,25,Wii,Story Hour: Adventures
+PT02,Winnifred Davis,2020,33,PS2,Hakuouki
+PT02,Adline Taylor,2017,45,PSP,Nippon no Asoko de
+PT02,Almira Wilson,2020,32,PC,007: Quantum of Solace
+PT02,Alvena Garcia,2020,36,PS2,BeatMania IIDX 15: DJ Troopers
+PT02,Arizona Martin,2016,28,PC,Jack Keane
+PT02,Becky Thomas,2020,37,DS,Kung Fu Panda: Legendary Warriors
+PT02,Bernadette Lee,2016,27,DS,Dream Pinball 3D
+PT02,Cordia Taylor,2016,38,DS,Saihai no Yukue
+PT02,Corine Lee,2015,36,DS,Merv Griffin's Crosswords
+PT02,Dicie White,2017,24,PC,Totally Spies! Totally Party
+PT02,Dove Martin,2019,28,PS2,Wrestle Angels: Survivor 2
+PT02,Drusilla Anderson,2015,19,DS,Nobunaga no Yabou DS 2
+PT02,Elena Rodriguez,2019,34,DS,Safari Adventures: Africa
+PT02,Elenora Garcia,2019,20,PC,Prince of Persia (2008)
+PT02,Elmina Williams,2017,34,DS,Moto Racer DS
+PT02,Ethyl Martinez,2020,32,PS2,Akane Iro ni Somaru Saka Parallel
+PT02,Evalyn Garcia,2018,22,PC,X3: Terran Conflict
+PT02,Evelina Taylor,2018,28,PC,MySims
+PT02,Faye Wilson,2015,40,X360,Clannad
+PT02,Huldah Martinez,2016,40,PC,Bully: Scholarship Edition
+PT02,Idell Wilson,2018,44,DS,Galileo
+PT02,Inga Moore,2015,40,PS2,Cake Mania: Baker's Challenge
+PT02,Irena Moore,2018,28,DS,Ducati Moto
+PT02,Kattie Jones,2015,43,DS,Pop Cutie! Street Fashion Simulation (JP sales)
+PT02,Lavenia Rodriguez,2017,45,Wii,Kawasaki Snowmobiles
+PT02,Lovina Martinez,2019,42,PS2,Last Escort 2: Shinya no Amai Toge
+PT02,Lulie Moore,2016,43,DS,Hokuto no Ken: Hokuto Shinken Denshousha no Michi
+PT02,Magnolia Rodriguez,2019,35,Wii,Pro Yakyuu Family Stadium
+PT02,Margeret Martin,2020,23,DS,Hisshou Pachinko*Pachi-slot Kouryaku Series DS Vol. 3: Shinseiki Evangelion - Yakusoku no Toki
+PT02,Margery Rodriguez,2017,44,DS,Shinseiki Evangelion Ayanami Ikusei Keikaku DS with Asuka Hokan Keikaku
+PT02,Media Taylor,2016,33,DS,Katekyoo Hitman Reborn! DS: Fate of Heat II - Unmei no Futari
+PT02,Millicent Lee,2018,31,PSP,Puyo Puyo 7
+PT02,Nena Lee,2020,45,PS2,Harukanaru Toki no Naka de Yumenoukihashi Special
+PT02,Orilla Thompson,2015,24,PSP,Sunday vs Magazine Shuuketsu! Choujou Daikessen
+PT02,Pansy Thomas,2020,19,PC,Red Faction: Guerrilla
+PT02,Rosia Thomas,2015,24,PC,RACE On
+PT02,Rowena Martin,2016,27,PC,Overlord II
+PT02,Tabitha White,2015,21,PC,Call of Juarez: Bound in Blood
+PT02,Verdie Martinez,2020,18,PSP,Utawarerumono Portable
+PT02,Zetta Wilson,2018,21,DS,Higurashi no Naku Koro ni Kizuna: Dai-San-Kan - Rasen
+PT02,Zoa Anderson,2018,25,PC,Midnight Mysteries: The Edgar Allan Poe Conspiracy
+PT02,Zona Wilson,2019,45,PS2,Winning Post World
+PT02,Albertina Rodriguez,2020,29,DS,Jig-A-Pix: Wild World
+PT02,Albina Moore,2017,39,PC,Guitar Hero: World Tour
+PT02,Alyce Anderson,2016,32,PC,Men of War
+PT02,Amie Wilson,2018,27,X360,PopCap Arcade Vol 2
+PT02,Annis White,2015,21,DS,Dodge Racing: Charger vs Challenger
+PT02,Carra Thomas,2017,39,PS3,SingStar Chartbreaker
+PT02,Clarinda White,2016,30,X360,Mushihimesama Futari Ver 1.5
+PT02,Delphia Thompson,2019,23,Wii,Guilty Gear XX Accent Core Plus
+PT02,Dillie Thompson,2018,27,DS,Emergency! Disaster Rescue Squad
+PT02,Doshie Anderson,2019,31,PS2,Suggoi! Arcana Heart 2
+PT02,Drucilla White,2019,26,PC,Harry Potter and the Half-Blood Prince
+PT02,Etna Thompson,2015,31,PSP,Winning Post 7 2009
+PT02,Eugenie Jackson,2016,30,PC,Codename: Panzers Cold War
+PT02,Eulalia Moore,2018,27,PS3,World Sports Competition
+PT02,Eve Thompson,2015,25,PC,Section 8
+PT02,Felicia Jackson,2015,24,PSP,Armored Core SL: Silent Line Portable
+PT02,Florance Davis,2020,31,DS,Tokimeki Memorial Girl's Side 1st Love Plus
+PT02,Fronie Wilson,2019,34,DS,Suzumiya Haruhi no Chokuretsu
+PT02,Geraldine Taylor,2018,32,PS2,D.C.I.F.: Da Capo Innocent Finale
+PT02,Gina Jackson,2015,40,DS,Petz: Dolphinz Encounter
+PT02,Glenna Taylor,2018,21,DS,Katekyoo Hitman Reborn! DS: Ore ga Boss! Saikyou Family Taisen
+PT02,Grayce Rodriguez,2017,25,PC,Braid
+PT02,Hedwig Lee,2016,24,PC,Royal Palace of White Sword and The City of Gentiles
+PT02,Jossie Anderson,2018,23,DS,Pimp My Ride: Street Racing
+PT02,Katheryn Lee,2018,25,PS3,Worms
+PT02,Katy Taylor,2020,21,PC,World of Zoo
+PT02,Leanna Anderson,2019,44,PSP,Hayate no Gotoku! Nightmare Paradise
+PT02,Leitha White,2016,20,Wii,Secret Files 2: Puritas Cordis
+PT02,Leone Jackson,2017,29,DS,Nanashi no Game Me
+PT02,Lidie Thompson,2016,35,DS,Tago Akira no Atama no Taisou Dai-1-Shuu: Nazotoki Sekai Isshuu Ryokou
+PT02,Loma Jackson,2019,21,DS,Hisshou Pachinko*Pachi-Slot Kouryaku Series DS Vol. 4: Shinseiki Evangelion - Saigo no Mono
+PT02,Lular Moore,2020,26,PC,Monsters vs. Aliens
+PT02,Magdalen Thomas,2015,22,DS,Bleach DS 4th: Flame Bringer
+PT02,Maymie Jackson,2016,35,Wii,Pacific Liberator
+PT02,Minervia Thomas,2019,23,DS,Tago Akira no Atama no Taisou Dai-2-Shuu: Ginga Oudan Nazotoki Adventure
+PT02,Muriel Martin,2019,24,Wii,Puzzle Challenge: Crosswords and More!
+PT02,Neppie Martin,2015,45,PS2,Vitamin Z
+PT02,Onie Moore,2020,45,Wii,The Island of Dr. Frankenstein
+PT02,Osa Anderson,2020,42,PS3,The Last Guy
+PT02,Otelia Thomas,2020,21,DS,Little Bears
+PT02,Paralee Jackson,2018,27,Wii,My Animal Centre
+PT02,Patience Thompson,2016,26,DS,Kintaihi Shounen no Jiken: Kyakusen Eris-Gou no Sangeki
+PT02,Rella Taylor,2015,41,PSP,La Pucelle: Ragnarok
+PT02,Rillie White,2020,20,PSP,Kiniro no Corda 2 f Encore
+PT02,Rosanna Thompson,2016,45,PSP,Bleach: Soul Carnival 2
+PT02,Tilda Thomas,2015,38,PC,Star Wars The Clone Wars: Republic Heroes
+PT02,Tishie Thompson,2020,32,PSP,CID The Dummy
+PT02,Tressa Jackson,2015,24,DS,Strike Witches: Aoi no Dengekisen - Shin Taichou Funtousuru!
+PT02,Viva Wilson,2018,21,Wii,My Ballet Studio
+PT02,Yetta White,2020,36,Wii,CID The Dummy
+PT02,Zena Martin,2019,40,DS,Catan
+PT02,Zola Garcia,2020,31,DS,Bae Yong-joon to Manabu Kankokugo DS
+PT02,Abby Taylor,2017,38,DS,My DoItAll
+PT02,Aileen Lee,2017,41,Wii,Monster Mayhem: Build and Battle
+PT02,Alda Rodriguez,2015,42,PC,The Lord of the Rings: Conquest
+PT02,Alla Moore,2019,40,DS,Marker Man Adventures
+PT02,Alverta Thomas,2016,31,DS,Moyashimon DS
+PT02,Ara Lee,2020,39,PC,Battlestations: Pacific
+PT02,Ardelia Martinez,2019,35,PC,X-Men Origins: Wolverine - Uncaged Edition
+PT02,Ardella Lee,2016,20,Wii,Ocean Commander
+PT02,Arrie Thompson,2020,44,PSP,Soul Eater: Battle Resonance
+PT02,Arvilla Jackson,2020,28,PS2,Evangelion: Jo
+PT02,Aurora Garcia,2020,22,Wii,Marines: Modern Urban Combat
+PT02,Bama Moore,2018,39,PS3,Gekiatsu!! Pachi Game Tamashi: CR Evangelion - Hajimari no Fukuin
+PT02,Bena White,2017,23,PC,Apache: Air Assault
+PT02,Calla Jackson,2017,34,Wii,Maximum Racing: Drag & Stock Racer
+PT02,Camilla Lee,2015,22,PC,Prince of Persia: The Forgotten Sands
+PT02,Carlotta White,2020,29,DS,Yumeiro Patissiere: My Sweets Cooking
+PT02,Celestia Rodriguez,2019,30,Wii,Maximum Racing: GP Classic Racing
+PT02,Cherry Martinez,2020,18,DS,House M.D.
+PT02,Cinda Lee,2017,38,DS,Best Friends Tonight
+PT02,Classie Martinez,2016,33,DS,Sea Park Tycoon
+PT02,Claudine Garcia,2016,24,DS,Foto Showdown
+PT02,Clemie Martin,2018,23,DS,Sekai no Hate Made Itte Q! Chinjuu Hunter Mono no Daibouken
+PT02,Clyda Rodriguez,2020,25,PC,East India Company Collection
+PT02,Creola Martinez,2016,23,PSP,Classic Dungeon: Fuyoku no Masoujin
+PT02,Debbie Garcia,2019,30,DS,River City Super Sports Challenge
+PT02,Dinah Jackson,2018,20,DS,Gokujou!! Mecha Mote Iinchou: MM My Best Friend!
+PT02,Doshia Garcia,2018,29,PS3,SingStar Fussballhits
+PT02,Ednah Martinez,2019,45,X360,Chaos;Head - Love Chu*Chu!
+PT02,Edyth Garcia,2015,24,Wii,thinkSMART FAMILY!
+PT02,Eleanora Rodriguez,2020,40,PSP,Last Escort: Club Katze
+PT02,Electa Rodriguez,2020,28,PSP,Shin Koihime Musou: Otome Ryouran * Sangokushi Engi - Wei-Hen
+PT02,Eola Martinez,2018,20,PSP,Jikandia: The Timeless Land
+PT02,Eudora Garcia,2015,45,Wii,Boot Camp Academy
+PT02,Euphemia Martinez,2015,41,PS2,Kiniro no Corda 3
+PT02,Evalena Rodriguez,2018,19,PC,Shaun White Skateboarding
+PT02,Evaline Smith,2020,25,PSP,StormLover
+PT02,Faith Rodriguez,2018,34,PS3,Shin Sangoku Musou Online: Kamishou Ranbu
+PT02,Fidelia Garcia,2018,30,DS,Keshisasu-Kun: Battle Kas-tival
+PT02,Golda Johnson,2017,24,X360,Dennou Senki Virtual-On Force
+PT02,Helma Martinez,2017,43,DS,Nettou! Powerful Koushien
+PT02,Hermine Thomas,2017,21,PSP,Judie no Atelier: Guramnat no Renkinjutsu - Toraware no Morito
+PT02,Hessie Williams,2017,45,X360,Senko no Ronde DUO
+PT02,Ivah Martin,2015,18,PSP,Katekyoo Hitman Reborn! Kizuna no Tag Battle
+PT02,Janette Rodriguez,2018,32,DS,Hudson x GReeeeN Live!? DeeeeS!?
+PT02,Jennette Brown,2018,18,PSP,DJ Max Portable 3
+PT02,Joella Jones,2017,27,PS2,S.Y.K Renshouden
+PT02,Kathryne Miller,2016,34,PC,Star Wars: The Force Unleashed II
+PT02,Lanie Davis,2016,21,PSP,Armored Core: Last Raven Portable
+PT02,Lauretta Thomas,2016,24,Wii,SD Gundam: Gashapon Wars
+PT02,Leana Wilson,2017,40,PC,Commander: Conquest of the Americas
+PT02,Leatha Anderson,2017,36,DS,MapleStory DS
+PT02,Liller Lee,2016,24,Wii,Heathcliff! The Fast and the Furriest
+PT02,Lillis Thompson,2020,42,DS,Winx Club: Rockstars
+PT02,Louetta Moore,2019,35,X360,NatGeo Challenge! Wild Life
+PT02,Madie White,2016,39,PS3,Rugby League Live
+PT02,Mai Taylor,2016,41,DS,Girls Only
+PT02,Martina Jackson,2015,44,PSP,Blaze Union: Story to Reach the Future
+PT02,Maryann Smith,2016,42,DS,Higurashi no Naku Koro ni Kizuna: Dai-Yon-Kan - Kizuna
+PT02,Melva Smith,2015,35,Wii,101-in-1 Sports Party Megamix
+PT02,Mena Smith,2020,21,X360,DeathSmiles II
+PT02,Mercedes Smith,2017,34,PSP,Hyakumanton no Bara Bara
+PT02,Mima Johnson,2020,28,DS,1000 Cooking Recipes from ELLE Ã  table
+PT02,Minda Johnson,2020,30,PSP,Sokukoku no Kusabi: Hiiro no Kakera 3 Portable
+PT02,Monica Smith,2015,42,PSP,The King of Fighters Portable '94~'98: Chapter of Orochi
+PT02,Nealie Williams,2015,42,X360,Rugby League Live
+PT02,Netta Johnson,2019,35,PC,Age of Conan: Rise of the Godslayer
+PT02,Nolia Smith,2017,24,PSP,Shin Koihime Musou: Otome Ryouran * Sangokushi Engi - Wu-Hen
+PT02,Nonie Brown,2015,21,PC,Schlag den Raab
+PT02,Odelia Smith,2017,29,PC,UK Truck Simulator
+PT02,Ottilie Johnson,2018,28,PC,Divinity II: Flames of Vengeance
+PT02,Phyllis Brown,2015,37,PC,Lost Planet 2
+PT02,Sabina Garcia,2020,19,PSP,Clannad: Mitsumi Mamoru Sakamichi de - Gekan
+PT02,Sada Williams,2020,27,PSP,Sengoku Efuda Yuugi: Hototogisu Tairan
+PT02,Suzanne Jones,2019,44,Wii,Let's Play Ballerina
+PT02,Sybilla Jones,2020,25,DS,Imagine: Sweet 16
+PT02,Thea Rodriguez,2015,38,PSP,Starry ? Sky: In Autumn
+PT02,Tressie Brown,2017,22,DS,Tenkaichi * Sengoku Lovers
+PT02,Vallie Miller,2016,35,3DS,FabStyle
+PT02,Venie Jones,2016,42,PC,Supreme Ruler: Cold War
+PT02,Viney Williams,2016,27,PS3,Suzumiya Haruhi no Tsuisou
+PT02,Wilhelmine Johnson,2017,27,DS,Original Story from Fairy Tail: Gekitotsu! Kardia Daiseidou
+PT02,Winona Davis,2019,23,DS,Junior Island Adventure
+PT02,Zelda Johnson,2015,43,PC,Sacra Terra: Angelic Night
+PT02,Zilpha Martinez,2016,21,PS3,Makai Senki Disgaea 4: Fuuka & Desco-hen Hajime Mashita
+PT02,Adelle Smith,2020,28,PSP,Mashiro Iro Symphony: *mutsu-no-hana
+PT02,Adina Brown,2020,43,X360,Dream C Club Zero
+PT02,Adrienne Miller,2016,26,3DS,Angler's Club: Ultimate Bass Fishing 3D
+PT02,Albertine Miller,2017,26,PS3,Clannad
+PT02,Alys Williams,2019,44,Wii,Beastly
+PT02,Ana Smith,2018,25,PC,SBK 2011: FIM Superbike World Championship
+PT02,Araminta Williams,2019,27,PC,Nancy Drew: Alibi In Ashes
+PT02,Birtha Jones,2019,44,PC,Hallowed Legends: Samhain
+PT02,Bulah Davis,2017,45,X360,Battle vs. Chess
+PT02,Caddie Brown,2018,19,PC,Super Meat Boy: Ultra Edition!
+PT02,Celie Miller,2015,25,DS,Timmy Time
+PT02,Charlotta Williams,2017,37,PC,Take On Helicopters
+PT02,Concepcion Smith,2019,36,PSP,Mother Goose no Himitsu no Yakata
+PT02,Cordella Jones,2016,18,PSP,Gloria Union
+PT02,Corrine Johnson,2016,18,DS,Kokoro no Kokoron
+PT02,Delila Miller,2018,21,DS,Kaidan Restaurant: Zoku! Shin Menu 100-Sen
+PT02,Delphine Smith,2018,45,Wii,Dance Dance Revolution: Hottest Party 5
+PT02,Dosha Smith,2017,38,PC,Casino Chaos With Las Vegas Players Collection
+PT02,Elaine Smith,2019,41,PSP,Hiiro no Kakera: Shin Tamayori Hime Denshou - Piece of Future
+PT02,Elisa Wilson,2018,33,DS,Emily Archer and the Curse of Tutankhamun
+PT02,Ellar Davis,2020,25,X360,Monster Hunter Frontier Online: Season 10
+PT02,Elmire Brown,2018,25,PS3,Let's Dance with Mel B
+PT02,Elvina Jones,2016,33,PSP,Gekiatsu!! Pachi Game Tamashi Vol. 1: CR Evangelion - Shinjitsu no Tsubasa
+PT02,Ena Smith,2020,31,PS3,Gekiatsu!! Pachi Game Tamashi Vol. 2: CR Evangelion - Shinjitsu no Tsubasa
+PT02,Estie Moore,2015,39,X360,Triple Pack: Xbox Live Arcade Compilation
+PT02,Etter Taylor,2020,23,X360,PopCap Hits! Vol 2
+PT02,Fronnie Miller,2016,30,PC,Mystery Trackers: The Void
+PT02,Georgina Davis,2019,38,PSP,Nisenochigiri: Omoide no Saki e
+PT02,Gracia Johnson,2015,30,PSP,Mega Minis Volume 2
+PT02,Gwendolyn Davis,2017,42,PSP,Tsuku Monogatari
+PT02,Hassie Jones,2017,23,PSP,Kaitou Tenshi Twin Angel: Toki to Sekai no Meikyuu
+PT02,Honora Johnson,2018,33,PSV,Dream Club Zero Portable
+PT02,Icy Anderson,2016,43,Wii,TV Total Events
+PT02,Isa Taylor,2019,28,X360,Biohazard: Revival Selection
+PT02,Isadora Smith,2015,44,PC,Magicka
+PT02,Johannah Moore,2015,30,PSP,Otome wa Oanesama ni Koi Shiteru Portable: 2-Jin no Elder
+PT02,Juana Martin,2020,23,X360,Monster Hunter Frontier Online: Forward 1
+PT02,Junie Wilson,2016,36,PSP,Starry ? Sky: In Winter
+PT02,Lavonia Thomas,2020,36,PSP,Saka Agari Hurricane Portable
+PT02,Lella Smith,2017,35,PC,King Arthur II
+PT02,Lemma White,2019,20,PSP,"Hanayaka Kana, Ware ga Ichizoku Twin Pack"
+PT02,Letty Miller,2015,42,DS,Kaizoku Sentai Gokaiger: Atsumete Henshin! 35 Sentai!
+PT02,Linna Anderson,2020,23,3DS,Pro Evolution Soccer 2012
+PT02,Littie Wilson,2020,31,Wii,Bigfoot King of Crush
+PT02,Lollie Williams,2019,18,DS,Farm Frenzy 3
+PT02,Lorene Johnson,2017,21,PC,Air Conflicts: Secret Wars
+PT02,Lovisa Anderson,2019,29,X360,Alien Breed Trilogy
+PT02,Lucina Brown,2020,20,PC,Magicka Collection
+PT02,Madora Martin,2020,36,DS,I Heart Geeks
+PT02,Mahalia Thompson,2020,28,PSP,Wand of Fortune 2: Jikuu ni Shizumu Mokushiroku
+PT02,Manervia Smith,2018,21,X360,Monster Hunter Frontier Online: Forward 2
+PT02,Manuela Thomas,2018,22,Wii,Let's Dance with Mel B
+PT02,Margarett Anderson,2019,37,PC,LEGO Pirates of the Caribbean: The Video Game
+PT02,Margaretta Johnson,2017,27,PSP,Angelique: Maren no Rokukishi
+PT02,Margarita Smith,2019,21,PS3,Top Gun: Hard Lock
+PT02,Marilla Davis,2019,33,PS3,The Idolmaster: Gravure For You! Vol. 4
+PT02,Mignon Jackson,2019,31,PSP,Even in a Game Listen to Me Girls. I Am Your Father!
+PT02,Mozella Taylor,2016,37,PS3,Gekiatsu!! Pachi Game Tamashi Max: Evangelion 7 x Seimei no Kodou
+PT02,Natalie Brown,2018,40,3DS,Mame Goma: Shiro to Kuro no Meikyuu
+PT02,Nelia Garcia,2019,45,3DS,Deer Drive: Legends
+PT02,Nolie Lee,2018,33,PS3,K-On! After School Live!! HD Ver.
+PT02,Omie Thompson,2020,40,PC,The Binding of Isaac
+PT02,Ottilia Johnson,2016,38,PS3,.hack: Sekai no Mukou ni + Versus
+PT02,Parthenia Wilson,2016,32,PC,The Walking Dead: Season One
+PT02,Penelope Johnson,2018,25,PS3,Accel World: Ginyoku no Kakusei
+PT02,Pinkey Anderson,2017,25,DS,Captain Morgane and the Golden Turtle
+PT02,Pollie Moore,2019,18,DS,Silverlicious
+PT02,Rennie Wilson,2016,41,3DS,Onna no Ko to Misshitsu ni Itara **shichau Kamoshirenai
+PT02,Reta Brown,2016,44,PSP,Accel World: Ginyoku no Kakusei
+PT02,Roena Jones,2016,23,3DS,Zero Escape: Virtue's Last Reward
+PT02,Rosalee Johnson,2016,41,PC,NBA 2K13
+PT02,Roseanna Lee,2015,24,PSP,Jyuzaengi: Engetsu Sangokuden
+PT02,Ruthie Johnson,2015,33,3DS,Kyokugen Dasshutsu ADV: Zennin Shiboudesu
+PT02,Sabra Lee,2018,25,PS3,The Idolmaster: Gravure For You! Vol. 5
+PT02,Sannie Garcia,2019,44,PC,Doom 3 BFG Edition
+PT02,Selena Martin,2020,28,PSP,Oumagatoki: Kaidan Romance
+PT02,Sibyl Jones,2019,34,DS,Heroes of Hellas 2: Olympia
+PT02,Tella Martinez,2019,27,PSP,Detective Opera: Milky Holmes 2
+PT02,Tempie Thomas,2015,33,WiiU,Trine 2
+PT02,Tennessee Martin,2016,18,PC,Botanicula
+PT02,Teressa Miller,2016,45,X360,Onechanbara Z Kagura
+PT02,Texas White,2020,30,PSP,Harukanaru Toki no Naka de 5: Kazahanaki
+PT02,Theda Thomas,2018,42,PS3,The IdolM@ster: Gravure For You! Vol. 6
+PT02,Thursa Johnson,2019,37,DS,Secrets of the Titanic
+PT02,Ula Smith,2018,31,DS,Jewel Match 2
+PT02,Vannie Thompson,2018,41,DS,Jewel Quest 5: The Sleepless Star
+PT02,Verona Rodriguez,2016,29,PSP,Tiger & Bunny: On-Air Jack!
+PT02,Vertie White,2018,18,PS3,Eureka Seven AO: Jungfrau no Hanabanatachi
+PT02,Wilma Wilson,2018,36,PSP,Brothers Conflict: Passion Pink
+PT02,Adell Lee,2015,27,PS3,Captain Morgane and the Golden Turtle
+PT02,Aggie Jones,2016,31,PS3,Touch Shot! Love Application
+PT02,Alcie Taylor,2019,45,PC,Captain Morgane and the Golden Turtle
+PT02,Alfreda Moore,2019,26,PSV,Tokushu Houdoubu
+PT02,Alicia Brown,2017,35,PSV,Little Busters! Converted Edition
+PT02,Allene Williams,2015,45,X360,Capcom Digital Collection
+PT02,Almyra Taylor,2018,27,PSP,Wand of Fortune 2 FD: Kimi ni Sasageru Epilogue
+PT02,Anastacia Martin,2020,37,PSV,Kyokugen Dasshutsu ADV: Zennin Shiboudesu
+PT02,Aria Martinez,2016,28,DS,Turbo: Super Stunt Squad
+PT02,Arminda Moore,2018,34,WiiU,Adventure Time: Explore the Dungeon Because I Don't Know!
+PT02,Aura Rodriguez,2020,37,PS3,Fast & Furious: Showdown
+PT02,Avie Williams,2017,33,PS3,Onechanbara Z Kagura
+PT02,Berdie Williams,2017,39,PS3,XBLAZE Code: Embryo
+PT02,Buena Moore,2018,40,3DS,Clash of Elementalists
+PT02,Calista Miller,2016,35,3DS,Romance of the Three Kingdoms (3DS)
+PT02,Cammie Martin,2020,18,PSP,Diabolik Lovers: More Blood
+PT02,Cara Johnson,2019,18,Wii,Young Justice: Legacy
+PT02,Celesta White,2018,24,3DS,Yumi's Odd Odyssey
+PT02,Celeste Jackson,2020,26,3DS,Tamagotchi no Doki Doki Dream Omisecchi
+PT02,Chaney Davis,2015,18,3DS,Cooking Mama 5: Bon Appetit!
+PT02,Chanie White,2020,36,PSV,Super Robot Taisen OG Saga: Masou Kishin III - Pride of Justice
+PT02,Charlottie Williams,2019,38,3DS,Toriko: Ultimate Survival
+PT02,Chrissie Jones,2019,36,PC,The Inner World
+PT02,Christene Thomas,2019,31,PSV,Exstetra
+PT02,Christiana Thomas,2015,40,PSV,Sorcery Saga: The Curse of the Great Curry God
+PT02,Cleora Brown,2020,21,DS,LEGO Legends of Chima: Laval's Journey
+PT02,Clora Thompson,2020,22,PSP,Toaru Majutsu no Kagaku no Ensemble
+PT02,Coralie Miller,2019,23,PSP,Brothers Conflict: Brilliant Blue
+PT02,Dayse Jackson,2015,42,PS3,Darkstalkers Resurrection
+PT02,Delfina Thompson,2017,26,PSP,Renai 0 Kilometer
+PT02,Deliah Johnson,2017,41,PS3,Muv-Luv Alternative: Total Eclipse
+PT02,Delina Wilson,2016,45,3DS,Beyblade Evolution
+PT02,Delle Taylor,2020,39,3DS,Young Justice: Legacy
+PT02,Dicy Lee,2015,38,PSP,Megpoid the Music#
+PT02,Donia Williams,2016,28,WiiU,The Croods: Prehistoric Party!
+PT02,Dulcie White,2015,38,PSP,Kamigami no Asobi
+PT02,Edwina Garcia,2017,34,PS3,Samurai Warriors 2
+PT02,Ela Jones,2015,32,PSV,Labyrinth Cross Blood: Infinity
+PT02,Eleonora Williams,2015,24,PC,Star Trek: The Game
+PT02,Elta Brown,2019,45,3DS,Nekketsu Kouha Kunio-Kun SP: Rantou Kyousoukyoku
+PT02,Elzada Thompson,2019,44,WiiU,Monster High 13 Wishes
+PT02,Emaline Miller,2015,29,PSP,D.C. III: Da Capo III
+PT02,Eulah Anderson,2019,26,WiiU,Turbo: Super Stunt Squad
+PT02,Eulalie Brown,2015,30,PS3,Daito Giken Koushiki Pachi-Slot Simulator Hihouden: Taiyou o Motomeru Monotachi
+PT02,Euna Davis,2017,29,3DS,Cooking Mama: My Sweets Shop
+PT02,Zadie Brown,2016,34,PS4,Tour de France 2014
+PT02,Eveline Anderson,2017,24,PS3,MX vs. ATV Supercross
+PT02,Lelah Miller,2016,45,3DS,Detective Conan: Phantom Rhapsody
+PT02,Nanie Thomas,2018,22,PC,Trials Fusion
+PT02,Petra Moore,2016,39,3DS,Toushin Toshi
+PT02,Glennie Jones,2018,35,PC,Living Legends: Frozen Beauty
+PT02,Juliette Martin,2016,22,PS3,Super Hero Generation
+PT02,Mercy Williams,2015,33,PS3,Hajime no Ippo: The Fighting! (2014)
+PT02,Miranda Williams,2020,20,PSV,Infinite Stratos 2: Ignition Hearts
+PT02,Nana Brown,2015,44,PS3,Super Heroine Chronicle
+PT02,Zilpah Taylor,2020,19,PC,Lords of the Fallen
+PT02,Almedia Martinez,2019,18,PSV,Great Edo Blacksmith
+PT02,Byrdie Brown,2015,39,WiiU,Gotouchi Tetsudou: Gotouchi Chara to Nihon Zenkoku no Tabi
+PT02,Claribel Jackson,2019,24,3DS,Power Rangers Super Megaforce
+PT02,Coral Miller,2019,43,PS3,Cabela's Big Game Hunter: Pro Hunts
+PT02,Exie Miller,2016,26,3DS,HappinessCharge PreCure! Kawarun Collection
+PT02,Malissie Miller,2019,39,PSV,Nisekoi: Yomeiri!?
+PT02,Myrtice White,2016,38,XOne,The Golf Club
+PT02,Narcissus Davis,2018,29,PS3,Infinite Stratos 2: Ignition Hearts
+PT02,Rosamond Jones,2015,23,X360,Cabela's Big Game Hunter: Pro Hunts
+PT02,Theresia Jackson,2017,21,PC,GRID Autosport
+PT02,Valeria Thompson,2017,26,PSV,AMNESIA World
+PT02,Vessie Williams,2020,33,3DS,The Legend of Korra (3DS)
+PT02,Victorine Johnson,2019,44,WiiU,Disney Planes Fire & Rescue
+PT02,Arabella Jones,2020,27,PSV,Senran Kagura: Bon AppÃ©tit!
+PT02,Dottie Jackson,2017,29,3DS,DoraMoji: Nobita no Kanji Daisakusen
+PT02,Flo Davis,2017,21,PSV,The Legend of Heroes: Trails in the Sky SC Evolution
+PT02,Fredericka Miller,2019,19,3DS,SpongeBob: HeroPants
+PT02,Gusta Davis,2015,24,PSV,Criminal Girls 2
+PT02,Icie Davis,2017,22,PSV,Diabolik Lovers: Dark Fate
+PT02,Lillia Anderson,2019,27,X360,Game of Thrones (Telltale)
+PT02,Lota Garcia,2015,38,PS4,JoJo's Bizarre Adventure: Eyes of Heaven
+PT02,Nathalie Wilson,2017,33,PS3,Rugby League Live 3
+PT02,Nita Rodriguez,2020,36,PS3,Ukiyo no Shishi
+PT02,Ota Garcia,2016,41,WiiU,YoKai Watch Dance: Just Dance Special Version
+PT02,Ramona Jackson,2017,45,3DS,Medarot 9: Kabuto Ver. / Kuwagata Ver.
+PT02,Texie Williams,2016,40,Wii,Monster High: New Ghoul in School
+PT02,Zillah Rodriguez,2019,28,PS3,Dragon's Dogma Online
+PT02,Aida Miller,2016,26,PS3,Atelier Sophie: The Alchemist of the Mysterious Book
+PT02,Arra Williams,2020,31,PSV,A Good Librarian Like a Good Shepherd: Library Party
+PT02,Belva Brown,2016,19,PSV,Gal Gun: Double Peace
+PT02,Biddie Lee,2020,42,3DS,PriPara & Pretty Rhythm: PriPara de Tsukaeru Oshare Item 1450!
+PT02,Bula Garcia,2017,24,PS3,JoJo's Bizarre Adventure: Eyes of Heaven
+PT02,Carry Martinez,2020,32,3DS,Medabots 9: Metabee / Rokusho
+PT02,Crete Martinez,2020,25,PSV,Hakuoki Zuisouroku Omokage Hana
+PT02,Dossie Jones,2017,36,PSV,Airship Q
+PT02,Evangeline Davis,2018,24,XOne,MotoGP 15
+PT02,Flavia Jones,2018,36,PSV,Alia's Carnival! Sacrament
+PT02,Fleta Moore,2017,24,PSV,Ebikore Photo Kano Kiss
+PT02,Fronia Taylor,2018,35,PSV,Bad Apple Wars
+PT02,Gillie Moore,2016,18,PC,Transformers: Devastation
+PT02,Jinnie Miller,2019,18,PSV,Renai Revenge
+PT02,Katharina Taylor,2020,32,3DS,Langrisser: Re:Incarnation Tensei
+PT02,Mirtie Martinez,2020,37,3DS,Shantae and the Pirate's Curse
+PT02,Mora Davis,2016,38,3DS,The Peanuts Movie: Snoopy's Grand Adventure
+PT02,Ninnie Davis,2015,30,X360,Kung Fu Panda: Showdown of Legendary Legends
+PT02,Rettie Miller,2016,19,PSV,Phantasy Star Online 2: Episode 3 Deluxe Package
+PT02,Rozella Davis,2020,44,PSV,Hyperdimension Neptunia Vs. Sega Hard Girls: Yume no Gattai Special
+PT02,Sofia Brown,2020,24,PS3,Bladestorm: Nightmare
+PT02,Sybil Thomas,2020,30,PSV,Higurashi no Naku Koro ni Iki
+PT02,Sylvania Wilson,2015,29,XOne,Game of Thrones (Telltale)
+PT02,Tilla Wilson,2016,39,PSV,OZMAFIA!! -vivace-
+PT02,Ursula Rodriguez,2015,40,PSV,New Tokyo Legacy: Operation Babel
+PT02,Veda Davis,2020,31,X360,Rugby League Live 3
+PT02,Zaida Lee,2018,22,PS4,Exist Archive: The Other Side of the Sky
+PT02,Zenobia Jones,2015,23,3DS,Romance of the Three Kingdoms II
+PT02,Aletha Anderson,2016,37,PC,The Great Mystery Hidden Object Package 5
+PT02,Ason Taylor,2015,20,PSV,Parfait
+PT02,Bina Martin,2019,44,PC,Ride
+PT02,Chloie Martin,2018,42,PSV,Harukanaru Toki no Naka de 6
+PT02,Christie Moore,2018,18,3DS,Gudetama: Hanjuku de Tanomuwa
+PT02,Corean White,2019,18,PSV,Xblaze: Lost Memories
+PT02,Corinna Anderson,2019,38,PS4,Let's Sing 2016
+PT02,Elodie Brown,2015,41,PSV,Himoutou! Umaru-Chan: Himoutou Ikusei Keikaku
+PT02,Epsie Garcia,2020,29,PSV,Kisuato
+PT02,Exa Wilson,2020,25,PS3,Steins;Gate 0
+PT02,Georgine White,2020,42,3DS,Dream Girl Premier
+PT02,Gretta Anderson,2020,36,PS4,The Peanuts Movie: Snoopy's Grand Adventure
+PT02,Henriette Anderson,2015,22,PSV,MeiQ no Chika Ni Shisu: A Maze to Eradicate Them All
+PT02,Jemima Martinez,2016,27,X360,Back to the Future: The Game
+PT02,Jo Garcia,2016,24,PS4,God Eater Off Shot: Lindow-hen Twin Pack & Animation Vol. 2
+PT02,Josefa Martin,2020,20,X360,The Peanuts Movie: Snoopy's Grand Adventure
+PT02,Juliana Jackson,2018,41,PS4,Resident Evil 4 HD
+PT02,Katharyn Lee,2015,30,PS3,Nobunaga's Ambition: Sphere of Influence - Sengoku Risshiden
+PT02,Lavada Thomas,2020,18,XOne,Teenage Mutant Ninja Turtles: Mutants in Manhattan
+PT02,Leonore Thompson,2020,35,PSV,Dead or Alive Xtreme 3: Venus
+PT02,Levina Thompson,2016,18,PS4,NASCAR Heat Evolution
+PT02,Libby Martin,2016,33,3DS,Metroid Prime: Federation Force
+PT02,Lilie Davis,2016,37,3DS,Sonic Boom: Fire & Ice
+PT02,Louanna Taylor,2019,29,PSV,Gakusen Toshi Asterisk Festa: Houka Kenran
+PT02,Mabell Wilson,2020,18,PC,Hearts of Iron IV
+PT02,Madeleine Garcia,2020,37,PS4,Summon Night 6: Lost Borders
+PT02,Marinda Martin,2016,39,PSV,Atelier Shallie Plus: Alchemists of the Dusk Sea
+PT02,Mila Thomas,2019,42,X360,Teenage Mutant Ninja Turtles: Mutants in Manhattan
+PT02,Neta Lee,2020,41,PC,Need for Speed (2015)
+PT02,Orlena Taylor,2016,38,PC,Pro Cycling Manager 2016
+PT02,Ozella Lee,2016,21,XOne,Attack on Titan (KOEI)
+PT02,Ressie White,2016,30,3DS,Medabots Girls Mission: Metabee Ver. / Rokusho Ver.
+PT02,Rosena Martin,2018,38,3DS,My Hero Academia: Battle for All
+PT02,Rosey Anderson,2019,30,PC,Stellaris
+PT02,Senora Rodriguez,2019,31,PSV,Ao no Kanata no Four Rhythm
+PT02,Siddie Garcia,2015,42,PS4,Ghostbusters (2016)
+PT02,Susana Williams,2020,31,PSV,Darius Burst: Chronicle Saviours
+PT02,Susanne Martinez,2018,30,PS3,Aegis of Earth: Protonovus Assault
+PT02,Texanna Garcia,2016,38,XOne,Pro Evolution Soccer 2017
+PT02,Tiney Taylor,2016,33,PC,DiRT Rally
+PT02,Tinie Wilson,2015,30,3DS,3DS Classic Collection
+PT02,Tiny Martinez,2017,24,PS4,Sengoku Basara: Sanada Yukimura-Den
+PT02,Achsah Wilson,2019,21,WiiU,Terraria
+PT02,Agness Moore,2017,39,PSV,Diabolik Lovers: Lunatic Parade
+PT02,Ala Moore,2018,31,PS4,Psycho-Pass: Mandatory Happiness
+PT02,Alabama Jones,2018,33,PS4,Phantasy Star Online 2 Episode 4: Deluxe Package
+PT02,Alexina Rodriguez,2020,24,DS,Strongest Tokyo University Shogi DS
+PT02,Altie Martinez,2020,20,3DO,Bust-A-Move
+PT02,Ama Moore,2020,40,SNES,Sugoi Hebereke
+PT02,Amalie Rodriguez,2015,33,SAT,Pebble Beach Golf Links
+PT02,Amelie Martin,2020,24,SNES,World Class Rugby 2: Kokunai Gekitou Hen '93
+PT02,Amey Rodriguez,2019,18,SAT,America Oudan Ultra-Quiz
+PT02,Amma Taylor,2020,37,PS,Aquanaut's Holiday
+PT02,Ammie Lee,2019,35,3DO,Sotsugyou II: Neo Generation Special
+PT02,Anie Lee,2019,29,TG16,Ginga Fukei Densetsu: Sapphire
+PT02,Annabell Thompson,2020,21,NG,Super Dodge Ball
+PT02,Arta Thomas,2019,40,PC,You Don't Know Jack
+PT02,Attie Thomas,2018,21,SNES,Super Nazo Puyo Tsuu: Ruruu no Tetsuwan Hanjyouki
+PT02,Audra Martin,2017,40,SAT,Shippuu Mahou Daisakusen: Kingdom-Grandprix
+PT02,Azzie White,2017,29,SAT,NightTruth: Explanation of the Paranormal - The Making of Nighttruth: Voice Selection
+PT02,Cathryn Martinez,2015,45,PS,Brain Dead 13
+PT02,Cena Wilson,2020,30,PS,Tail of the Sun
+PT02,Chestina Anderson,2017,22,PS,Discworld II: Mortality Bytes!
+PT02,Crissie Wilson,2019,28,PS,Bugriders: The Race of Kings
+PT02,Cyntha Rodriguez,2015,25,PS,Kensei: Sacred Fist
+PT02,Daisye Moore,2016,25,PS,Bottom of the 9th '97
+PT02,Dellia Anderson,2016,27,PS,Ballblazer Champions
+PT02,Delta Wilson,2020,42,PS,Puzzle Star Sweep
+PT02,Dema White,2017,24,PS,The Crow: City of Angels
+PT02,Dezzie Thomas,2017,32,PC,Pharaoh
+PT02,Dola White,2019,39,PS,Bomberman Fantasy Race
+PT02,Dollye Thompson,2020,19,PS,Shanghai: True Valor
+PT02,Eithel Thompson,2020,40,PC,Homeworld
+PT02,Elba Anderson,2017,42,SAT,Code R
+PT02,Elfrieda White,2016,36,PS,Adidas Power Soccer 98
+PT02,Elna Thompson,2020,21,PS,Rising Zan: The Samurai Gunman
+PT02,Emogene Jackson,2016,44,PS,Irritating Stick
+PT02,Enola Moore,2019,38,PS,Board Game: Top Shop
+PT02,Verda Thompson,2020,22,PS,RayCrisis: Series Termination
+PT02,Gretchen Jackson,2019,34,PS,Jojo's Bizarre Adventure
+PT02,Hermina Davis,2020,19,N64,Super Bowling
+PT02,Nelly Wilson,2017,43,PS,Silent Bomber
+PT02,Eller Taylor,2017,32,PC,The Longest Journey
+PT02,Hetty Jackson,2017,34,PS,Iron Soldier 3
+PT02,Luetta Taylor,2015,42,PS,Shooter: Starfighter Sanvein
+PT02,Pennie Rodriguez,2018,42,N64,Rat Attack!
+PT02,Rosemary Lee,2015,34,PS,Hogs of War
+PT02,Beckie Anderson,2020,31,PS,Point Blank 3
+PT02,Buna Lee,2020,43,PC,Airline Tycoon
+PT02,Caldonia Taylor,2017,22,PS2,Lunatic Dawn Tempest
+PT02,Candace Anderson,2015,38,PC,Max Payne
+PT02,Edla White,2020,30,PC,The Settlers IV
+PT02,Florrie Jackson,2016,24,GBA,Prehistorik Man
+PT02,Luisa Thompson,2020,32,PS,Dance Dance Revolution Extra Mix
+PT02,Myrtis Jackson,2019,43,GBA,Car Battler Joe
+PT02,Trudie Moore,2015,22,GBA,Tiny Toon Adventures: Wacky Stackers
+PT02,Agusta Thomas,2019,19,GBA,Robopon 2: Cross Version
+PT02,Alphonsine Jackson,2020,24,PS,Digimon Rumble Arena
+PT02,Dellie Thomas,2019,41,PS,One Piece Mansion
+PT02,Delpha Martin,2019,32,PC,Worms World Party
+PT02,Kathyrn Martin,2018,31,GBA,Robopon 2: Ring Version
+PT02,Loretto Moore,2017,41,GC,ZooCube
+PT02,Lucindy Anderson,2018,23,GC,Road Trip: The Arcade Edition
+PT02,Maybell Thomas,2018,37,XB,NBA Starting Five
+PT02,Odile Jackson,2018,45,GBA,Colin McRae Rally 2.0
+PT02,Orah Thompson,2020,26,GBA,AirForce Delta Storm
+PT02,Prudie Taylor,2019,21,PS,Peter Pan in Disney's Return to Never Land
+PT02,Rhea White,2020,28,XB,Total Immersion Racing
+PT02,Rinda Thompson,2020,43,GBA,DemiKids: Dark Version
+PT02,Rosy Thomas,2018,33,GBA,Blender Bros.
+PT02,Roxy Thompson,2016,20,GBA,DemiKids: Light Version
+PT02,Sarrah Jackson,2017,18,GBA,Shaman King: Chou Senjiryokketsu 3
+PT02,Susannah Wilson,2018,22,XB,Toxic Grind
+PT02,Tula White,2016,42,PS,Tokyo Mew Mew
+PT02,Alwina Martin,2019,43,PS2,Jitsumei Jikkyou Keiba Dream Classic 2002
+PT02,Arah Garcia,2016,27,GC,RedCard 20-03
+PT02,Bernadine Taylor,2016,37,PS2,Evolution Snowboarding
+PT02,Capitola Lee,2017,22,PC,Maximum Capacity: Hotel Giant
+PT02,Cathern Rodriguez,2016,41,PS2,Natsuiro no Sunadokei
+PT02,Columbia Moore,2016,33,PS2,Whiteout
+PT02,Eileen Thomas,2017,41,GC,Casper: Spirit Dimensions
+PT02,Elizbeth Lee,2018,19,PS2,Butt-Ugly Martians: Zoom or Doom!
+PT02,Eura Martinez,2018,32,PS2,Kikou Heidan J-Phoenix: Cobalt Shoutaihen
+PT02,Hennie Lee,2015,29,GBA,Disney Sports Football
+PT02,Henretta Thompson,2020,32,GBA,F1 2002
+PT02,Ivie Jackson,2020,37,PS,Largo Winch .// Commando Sar
+PT02,Jeanie Garcia,2016,23,GC,ESPN MLS ExtraTime 2002
+PT02,Justina Moore,2016,20,GBA,Virtual Kasparov
+PT02,Leaner White,2017,45,XB,ESPN MLS ExtraTime 2002
+PT02,Leonia Jackson,2020,22,GBA,The Mummy
+PT02,Lorraine Lee,2019,36,XB,ESPN NFL Primetime 2002
+PT02,Lucetta White,2020,45,PS2,Tsuki no Hikari: Shizumeru Kane no Satsujin
+PT02,Macie Rodriguez,2018,19,GBA,Kong: The Animated Series
+PT02,Mahalie Martinez,2020,26,PC,Combat Flight Simulator 3: Battle for Europe
+PT02,Marry Lee,2020,27,GC,NHL 2K3
+PT02,Novella Martinez,2020,29,GBA,Space Channel 5: Ulala's Cosmic Attack
+PT02,Olevia Garcia,2017,27,GBA,Disney Sports Basketball
+PT02,Phillis Martin,2017,25,GC,Disney Sports Football
+PT02,Philomene Rodriguez,2018,44,PS2,Gadget Racers (PAL)
+PT02,Salina Martinez,2016,41,PS2,Roommate Asami: Okusama wa Joshikousei
+PT02,Sinda Garcia,2020,29,PS,Big Bass Fishing
+PT02,Tinnie Jackson,2015,31,GBA,WTA Tour Tennis
+PT02,Vashti Garcia,2019,24,GBA,Davis Cup Tennis
+PT02,Vella Martinez,2015,38,GC,Pro Rally
+PT02,Veva Garcia,2017,38,XB,Antz Extreme Racing
+PT02,Vicy Rodriguez,2020,41,PC,RollerCoaster Tycoon: Gold Edition
+PT02,Zita Rodriguez,2019,45,PS2,Technic Beat
+PT02,Affie Martinez,2017,41,XB,Stake: Fortune Fighters
+PT02,Albertha Garcia,2015,41,GBA,Disney's Magical Quest 3 Starring Mickey and Donald
+PT02,Anabel Martinez,2019,28,GBA,Summon Night: Swordcraft Story
+PT02,Artelia Rodriguez,2016,29,XB,Freestyle Metal X
+PT02,Barbra Smith,2017,44,PC,IL-2 Sturmovik: Forgotten Battles
+PT02,Beaulah Rodriguez,2017,23,GC,NFL Blitz Pro
+PT02,Bertina Garcia,2016,23,GC,Muppets Party Cruise
+PT02,Birdella Johnson,2017,27,XB,Group S Challenge
+PT02,Blossom Martinez,2020,18,XB,Dakar 2: The World's Ultimate Rally
+PT02,Carmela Thomas,2018,18,GC,XGRA: Extreme G Racing Association
+PT02,Carolyne Williams,2019,21,GBA,Wakeboarding Unleashed Featuring Shaun Murray
+PT02,Cilla Martin,2016,23,XB,XGRA: Extreme G Racing Association
+PT02,Denise Rodriguez,2015,24,PC,Vietcong
+PT02,Dorthea Brown,2015,22,PC,Commandos 3: Destination Berlin

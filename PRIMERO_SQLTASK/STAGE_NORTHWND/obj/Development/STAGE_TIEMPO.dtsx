@@ -1,0 +1,1435 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="3/29/2023 10:45:48 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-8RKHAGF"
+  DTS:CreatorName="DESKTOP-8RKHAGF\User"
+  DTS:DTSID="{98288C36-836D-4BE5-BADE-FBCCB19FC8D5}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.180"
+  DTS:LocaleID="9226"
+  DTS:ObjectName="STAGE_TIEMPO"
+  DTS:PackageType="5"
+  DTS:VersionBuild="14"
+  DTS:VersionGUID="{5B0FC104-1987-4013-9696-34E39D112B3E}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LocalHost.LOAD_NORTHWND.SA]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{8E92C667-87D8-45D8-8657-FEEEAB835FAD}"
+      DTS:ObjectName="LocalHost.LOAD_NORTHWND.SA">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=.;User ID=SA;Initial Catalog=LOAD_NORTHWND;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAe38fo/yGNESBcJe/g81kdgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAGfDbg34CQYZIBC+9ezGRQHqZdStlb0xoMFOlEua2BkAAAAAAOgAAAAAIAACAAAACFfqncy7w+LzaaH06ELCY32Wo5QWQU90szTtau4d6yzhAAAAC1hhidBWv6DXbcBYEkMbeTQAAAABl/zjUDSGH31+UGYpjjSrtwWolc6qsPbaz4P8nJfvYCzGb2a9Shjd+X4b30ju0bL/I7D7Ikr84Pupnyw89Q/iM</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LocalHost.NORTHWND_METADATA.SA]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{456E1261-BA08-4BC1-AAE9-5CD7BEA26419}"
+      DTS:ObjectName="LocalHost.NORTHWND_METADATA.SA">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=.;User ID=SA;Initial Catalog=NORTHWND_METADATA;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAe38fo/yGNESBcJe/g81kdgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADPdpS2eu8GuMzl8fjQUDksR1LWEefWffjoge/6YltfBQAAAAAOgAAAAAIAACAAAAC0sDM8AbFviikcMtSGw37iJWsS9edIspmeRv1mqtKJaBAAAAD6POQr3FFU2Dyqa8n7RYq5QAAAAIPw/Ps3GEoLgZnQ5Ny9h2tmHadWF2AUe7BO06R24OVdubuBiOzTP2MIYmXpagdS7/wfC2c7fFey6KK5wV/oIec</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LocalHost.STAGE_NORTHWND.SA]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{2ADD4D53-6A08-4AA6-9130-F96864FB4532}"
+      DTS:ObjectName="LocalHost.STAGE_NORTHWND.SA">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=.;User ID=SA;Initial Catalog=STAGE_NORTHWND;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAe38fo/yGNESBcJe/g81kdgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA9IU2/xWhWd0t5fapufbEzCWeqqh1kIsp1o8PHnRD+ygAAAAAOgAAAAAIAACAAAACS0bpKuQgMmoS77O8HMjgumh6fEGqfJlwnExNAhX1GaxAAAADJsMht6KNSgUefteDZif1jQAAAAOR1UsgfNCzgOeuka6M90j4y70rOwiq9+XmA0z7Yk5W8d7YOrZGAdNDa/W0bApcmhJa0At5ax+AjspP3CeyA0IA</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{5989803B-3890-496C-8E3A-0E6FE5CFF88F}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="ETLExecution">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{0D614758-7B20-4285-800F-BC84C838CF1D}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="ETLExecution_Ultimo">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{1BD37F31-FF91-47C7-9860-A48BED151072}"
+      DTS:IncludeInDebugDump="6789"
+      DTS:Namespace="User"
+      DTS:ObjectName="ETLRowCounts">
+      <DTS:VariableValue
+        DTS:DataType="3">0</DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\DF STAGE TIEMPO"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{819C8D99-B5CF-407B-8033-F91710B28D06}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="DF STAGE TIEMPO"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:EventHandlers>
+        <DTS:EventHandler
+          DTS:refId="Package\DF STAGE TIEMPO.EventHandlers[OnPostExecute]"
+          DTS:CreationName="OnPostExecute"
+          DTS:DTSID="{FADF30CA-D3EE-46FC-84A8-CD1CD23F9011}"
+          DTS:EventID="0"
+          DTS:EventName="OnPostExecute"
+          DTS:LocaleID="-1">
+          <DTS:Variables>
+            <DTS:Variable
+              DTS:CreationName=""
+              DTS:Description="The propagate property of the event"
+              DTS:DTSID="{1A44C341-FFD8-4D4D-B4B0-4B1F1BAC1990}"
+              DTS:IncludeInDebugDump="6789"
+              DTS:Namespace="System"
+              DTS:ObjectName="Propagate">
+              <DTS:VariableValue
+                DTS:DataType="11">-1</DTS:VariableValue>
+            </DTS:Variable>
+          </DTS:Variables>
+          <DTS:Executables>
+            <DTS:Executable
+              DTS:refId="Package\DF STAGE TIEMPO.EventHandlers[OnPostExecute]\ACTUALIZAR ETL ROWCOUNT NORTHWND_METADATA"
+              DTS:CreationName="Microsoft.ExecuteSQLTask"
+              DTS:Description="Tarea Ejecutar SQL"
+              DTS:DTSID="{DF80AF11-644E-45A6-93FC-391B4FA68951}"
+              DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+              DTS:LocaleID="-1"
+              DTS:ObjectName="ACTUALIZAR ETL ROWCOUNT NORTHWND_METADATA"
+              DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+              <DTS:Variables />
+              <DTS:ObjectData>
+                <SQLTask:SqlTaskData
+                  SQLTask:Connection="{456E1261-BA08-4BC1-AAE9-5CD7BEA26419}"
+                  SQLTask:SqlStatementSource="UPDATE ETLExecution&#xA;SET ETLCountRows = ?&#xA;WHERE ID = ?" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+                  <SQLTask:ParameterBinding
+                    SQLTask:ParameterName="0"
+                    SQLTask:DtsVariableName="User::ETLRowCounts"
+                    SQLTask:ParameterDirection="Input"
+                    SQLTask:DataType="3"
+                    SQLTask:ParameterSize="-1" />
+                  <SQLTask:ParameterBinding
+                    SQLTask:ParameterName="1"
+                    SQLTask:DtsVariableName="User::ETLExecution"
+                    SQLTask:ParameterDirection="Input"
+                    SQLTask:DataType="3"
+                    SQLTask:ParameterSize="-1" />
+                </SQLTask:SqlTaskData>
+              </DTS:ObjectData>
+            </DTS:Executable>
+          </DTS:Executables>
+        </DTS:EventHandler>
+        <DTS:EventHandler
+          DTS:refId="Package\DF STAGE TIEMPO.EventHandlers[OnPreExecute]"
+          DTS:CreationName="OnPreExecute"
+          DTS:DTSID="{4E781B47-6B09-4143-B822-5E51417B552A}"
+          DTS:EventID="0"
+          DTS:EventName="OnPreExecute"
+          DTS:LocaleID="-1">
+          <DTS:Variables>
+            <DTS:Variable
+              DTS:CreationName=""
+              DTS:Description="The propagate property of the event"
+              DTS:DTSID="{2B0EE420-5EED-4242-9048-02482016EC9D}"
+              DTS:IncludeInDebugDump="6789"
+              DTS:Namespace="System"
+              DTS:ObjectName="Propagate">
+              <DTS:VariableValue
+                DTS:DataType="11">-1</DTS:VariableValue>
+            </DTS:Variable>
+          </DTS:Variables>
+          <DTS:Executables>
+            <DTS:Executable
+              DTS:refId="Package\DF STAGE TIEMPO.EventHandlers[OnPreExecute]\INSERTAR REGISTROS EN NORTHWND METADATA"
+              DTS:CreationName="Microsoft.ExecuteSQLTask"
+              DTS:Description="Tarea Ejecutar SQL"
+              DTS:DTSID="{7026E5E5-946D-4B5E-A65B-F89D9506E53A}"
+              DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+              DTS:LocaleID="-1"
+              DTS:ObjectName="INSERTAR REGISTROS EN NORTHWND METADATA"
+              DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+              <DTS:Variables />
+              <DTS:ObjectData>
+                <SQLTask:SqlTaskData
+                  SQLTask:Connection="{456E1261-BA08-4BC1-AAE9-5CD7BEA26419}"
+                  SQLTask:SqlStatementSource=" INSERT INTO ETLExecution(NombreUsuario, NombreMaquina, NombrePaquete, ETLload)&#xA; VALUES (?,?,?,GETDATE())" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+                  <SQLTask:ParameterBinding
+                    SQLTask:ParameterName="0"
+                    SQLTask:DtsVariableName="System::UserName"
+                    SQLTask:ParameterDirection="Input"
+                    SQLTask:DataType="130"
+                    SQLTask:ParameterSize="-1" />
+                  <SQLTask:ParameterBinding
+                    SQLTask:ParameterName="1"
+                    SQLTask:DtsVariableName="System::MachineName"
+                    SQLTask:ParameterDirection="Input"
+                    SQLTask:DataType="130"
+                    SQLTask:ParameterSize="-1" />
+                  <SQLTask:ParameterBinding
+                    SQLTask:ParameterName="2"
+                    SQLTask:DtsVariableName="System::PackageName"
+                    SQLTask:ParameterDirection="Input"
+                    SQLTask:DataType="130"
+                    SQLTask:ParameterSize="-1" />
+                </SQLTask:SqlTaskData>
+              </DTS:ObjectData>
+            </DTS:Executable>
+            <DTS:Executable
+              DTS:refId="Package\DF STAGE TIEMPO.EventHandlers[OnPreExecute]\OBTENER ID"
+              DTS:CreationName="Microsoft.ExecuteSQLTask"
+              DTS:Description="Tarea Ejecutar SQL"
+              DTS:DTSID="{7F3C8727-A9F3-4B19-B60C-8652F23E8414}"
+              DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+              DTS:LocaleID="-1"
+              DTS:ObjectName="OBTENER ID"
+              DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+              <DTS:Variables />
+              <DTS:ObjectData>
+                <SQLTask:SqlTaskData
+                  SQLTask:Connection="{456E1261-BA08-4BC1-AAE9-5CD7BEA26419}"
+                  SQLTask:SqlStatementSource=" SELECT TOP(1) ID FROM ETLExecution&#xA;WHERE NombrePaquete=?&#xA;ORDER BY ID Desc"
+                  SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+                  <SQLTask:ResultBinding
+                    SQLTask:ResultName="0"
+                    SQLTask:DtsVariableName="User::ETLExecution" />
+                  <SQLTask:ParameterBinding
+                    SQLTask:ParameterName="0"
+                    SQLTask:DtsVariableName="System::PackageName"
+                    SQLTask:ParameterDirection="Input"
+                    SQLTask:DataType="130"
+                    SQLTask:ParameterSize="-1" />
+                </SQLTask:SqlTaskData>
+              </DTS:ObjectData>
+            </DTS:Executable>
+          </DTS:Executables>
+          <DTS:PrecedenceConstraints>
+            <DTS:PrecedenceConstraint
+              DTS:refId="Package\DF STAGE TIEMPO.EventHandlers[OnPreExecute].PrecedenceConstraints[Restricción]"
+              DTS:CreationName=""
+              DTS:DTSID="{474A7939-52C3-42BC-83D6-F19A9A540ECB}"
+              DTS:From="Package\DF STAGE TIEMPO.EventHandlers[OnPreExecute]\INSERTAR REGISTROS EN NORTHWND METADATA"
+              DTS:LogicalAnd="True"
+              DTS:ObjectName="Restricción"
+              DTS:To="Package\DF STAGE TIEMPO.EventHandlers[OnPreExecute]\OBTENER ID" />
+          </DTS:PrecedenceConstraints>
+        </DTS:EventHandler>
+      </DTS:EventHandlers>
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\DF STAGE TIEMPO\AGREGAR COLUMNA"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+              name="AGREGAR COLUMNA"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\DF STAGE TIEMPO\AGREGAR COLUMNA.Inputs[Derived Column Input]"
+                  description="Input to the Derived Column Transformation"
+                  name="Derived Column Input">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DF STAGE TIEMPO\AGREGAR COLUMNA.Outputs[Derived Column Output]"
+                  description="Default Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  name="Derived Column Output"
+                  synchronousInputId="Package\DF STAGE TIEMPO\AGREGAR COLUMNA.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\AGREGAR COLUMNA.Outputs[Derived Column Output].Columns[ETLload]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\DF STAGE TIEMPO\AGREGAR COLUMNA.Outputs[Derived Column Output].Columns[ETLload]"
+                      name="ETLload"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">[GETDATE]()</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">GETDATE()</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\AGREGAR COLUMNA.Outputs[Derived Column Output].Columns[ETLExecution]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\DF STAGE TIEMPO\AGREGAR COLUMNA.Outputs[Derived Column Output].Columns[ETLExecution]"
+                      name="ETLExecution"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Expression"
+                          name="Expression">@[User::ETLExecution]</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Derived Column Friendly Expression"
+                          expressionType="Notify"
+                          name="FriendlyExpression">@[User::ETLExecution]</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\DF STAGE TIEMPO\AGREGAR COLUMNA.Outputs[Derived Column Error Output]"
+                  description="Error Output of the Derived Column Transformation"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Derived Column Error Output"
+                  synchronousInputId="Package\DF STAGE TIEMPO\AGREGAR COLUMNA.Inputs[Derived Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\AGREGAR COLUMNA.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF STAGE TIEMPO\AGREGAR COLUMNA.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\AGREGAR COLUMNA.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF STAGE TIEMPO\AGREGAR COLUMNA.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DF STAGE TIEMPO\CONTAR CANTIDAD FILAS"
+              componentClassID="Microsoft.RowCount"
+              contactInfo="Row Count;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Counts rows as they pass through a data flow. For example, use the number of rows processed to determine whether or not to perform cleanup operations, or update text in an e-mail message to communicate processing status."
+              name="CONTAR CANTIDAD FILAS">
+              <properties>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable to hold the row count."
+                  name="VariableName">User::ETLRowCounts</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\DF STAGE TIEMPO\CONTAR CANTIDAD FILAS.Inputs[Row Count Input 1]"
+                  hasSideEffects="true"
+                  name="Row Count Input 1">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DF STAGE TIEMPO\CONTAR CANTIDAD FILAS.Outputs[Row Count Output 1]"
+                  name="Row Count Output 1"
+                  synchronousInputId="Package\DF STAGE TIEMPO\CONTAR CANTIDAD FILAS.Inputs[Row Count Input 1]">
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="LOAD NORTHWND TIEMPO"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT Distinct(OrderDate),
+	YEAR(OrderDate) AS Anio,
+	DATEPART(QUARTER,OrderDate) as Trimestre,
+	DATEPART(MONTH,OrderDate) as Mes,
+	DATEPART(WEEK,OrderDate) as Semana,
+	DATEPART(DAYOFYEAR,OrderDate) as DiaDeAnio,
+	DATEPART(DAY,OrderDate) as DiaDeMes,
+	DATEPART(WEEKDAY,OrderDate-1) as DiaDeSemana,
+	IIF((DATEPART(WEEKDAY,OrderDate-1)=6 OR DATEPART(WEEKDAY,OrderDate-1)=7),1,0) AS EsFinSemana,
+	IIF((DATEPART(MONTH,OrderDate) = 6 AND DATEPART(DAY,OrderDate) = 29) OR
+		(DATEPART(MONTH,OrderDate) = 7 AND DATEPART(DAY,OrderDate) = 28) OR
+		(DATEPART(MONTH,OrderDate) = 7 AND DATEPART(DAY,OrderDate) = 29) OR
+		(DATEPART(MONTH,OrderDate) = 8 AND DATEPART(DAY,OrderDate) = 30) OR
+		(DATEPART(MONTH,OrderDate) = 10 AND DATEPART(DAY,OrderDate) = 8) OR
+		(DATEPART(MONTH,OrderDate) = 11 AND DATEPART(DAY,OrderDate) = 1) OR
+		(DATEPART(MONTH,OrderDate) = 12 AND DATEPART(DAY,OrderDate) = 8) OR
+		(DATEPART(MONTH,OrderDate) = 12 AND DATEPART(DAY,OrderDate) = 25)
+		,1,0) AS EsFeriado,
+	'1 -&gt; (V) / 0 -&gt; (F)' AS Comentarios,
+	DATEPART(WEEK,OrderDate) as SemanaCalendario,
+	DATEPART(WEEK,OrderDate) as SemanasDelAñoLaborales,
+	IIF(DATEPART(DAYOFYEAR,OrderDate) = 366, 1, 0) AS AñoBisiesto
+FROM [LOAD_NORTHWND].[dbo].Orders
+WHERE ETLExecution = ?</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping">"Parámetro0:Input",{0D614758-7B20-4285-800F-BC84C838CF1D};</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.LOAD_NORTHWND.SA]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.LOAD_NORTHWND.SA]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[OrderDate]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[OrderDate]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[OrderDate]"
+                      name="OrderDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[Anio]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[Anio]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[Anio]"
+                      name="Anio"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[Trimestre]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[Trimestre]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[Trimestre]"
+                      name="Trimestre"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[Mes]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[Mes]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[Mes]"
+                      name="Mes"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[Semana]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[Semana]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[Semana]"
+                      name="Semana"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[DiaDeAnio]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[DiaDeAnio]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[DiaDeAnio]"
+                      name="DiaDeAnio"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[DiaDeMes]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[DiaDeMes]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[DiaDeMes]"
+                      name="DiaDeMes"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[DiaDeSemana]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[DiaDeSemana]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[DiaDeSemana]"
+                      name="DiaDeSemana"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[EsFinSemana]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[EsFinSemana]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[EsFinSemana]"
+                      name="EsFinSemana"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[EsFeriado]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[EsFeriado]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[EsFeriado]"
+                      name="EsFeriado"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[Comentarios]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[Comentarios]"
+                      length="19"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[Comentarios]"
+                      name="Comentarios"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[SemanaCalendario]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[SemanaCalendario]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[SemanaCalendario]"
+                      name="SemanaCalendario"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[SemanasDelAñoLaborales]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[SemanasDelAñoLaborales]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[SemanasDelAñoLaborales]"
+                      name="SemanasDelAñoLaborales"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[AñoBisiesto]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[AñoBisiesto]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[AñoBisiesto]"
+                      name="AñoBisiesto"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[OrderDate]"
+                      dataType="dbTimeStamp"
+                      name="OrderDate" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[Anio]"
+                      dataType="i4"
+                      name="Anio" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[Trimestre]"
+                      dataType="i4"
+                      name="Trimestre" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[Mes]"
+                      dataType="i4"
+                      name="Mes" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[Semana]"
+                      dataType="i4"
+                      name="Semana" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[DiaDeAnio]"
+                      dataType="i4"
+                      name="DiaDeAnio" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[DiaDeMes]"
+                      dataType="i4"
+                      name="DiaDeMes" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[DiaDeSemana]"
+                      dataType="i4"
+                      name="DiaDeSemana" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[EsFinSemana]"
+                      dataType="i4"
+                      name="EsFinSemana" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[EsFeriado]"
+                      dataType="i4"
+                      name="EsFeriado" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[Comentarios]"
+                      codePage="1252"
+                      dataType="str"
+                      length="19"
+                      name="Comentarios" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[SemanaCalendario]"
+                      dataType="i4"
+                      name="SemanaCalendario" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[SemanasDelAñoLaborales]"
+                      dataType="i4"
+                      name="SemanasDelAñoLaborales" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].ExternalColumns[AñoBisiesto]"
+                      dataType="i4"
+                      name="AñoBisiesto" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[OrderDate]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[OrderDate]"
+                      name="OrderDate" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[Anio]"
+                      dataType="i4"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[Anio]"
+                      name="Anio" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[Trimestre]"
+                      dataType="i4"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[Trimestre]"
+                      name="Trimestre" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[Mes]"
+                      dataType="i4"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[Mes]"
+                      name="Mes" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[Semana]"
+                      dataType="i4"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[Semana]"
+                      name="Semana" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[DiaDeAnio]"
+                      dataType="i4"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[DiaDeAnio]"
+                      name="DiaDeAnio" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[DiaDeMes]"
+                      dataType="i4"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[DiaDeMes]"
+                      name="DiaDeMes" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[DiaDeSemana]"
+                      dataType="i4"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[DiaDeSemana]"
+                      name="DiaDeSemana" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[EsFinSemana]"
+                      dataType="i4"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[EsFinSemana]"
+                      name="EsFinSemana" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[EsFeriado]"
+                      dataType="i4"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[EsFeriado]"
+                      name="EsFeriado" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[Comentarios]"
+                      codePage="1252"
+                      dataType="str"
+                      length="19"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[Comentarios]"
+                      name="Comentarios" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[SemanaCalendario]"
+                      dataType="i4"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[SemanaCalendario]"
+                      name="SemanaCalendario" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[SemanasDelAñoLaborales]"
+                      dataType="i4"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[SemanasDelAñoLaborales]"
+                      name="SemanasDelAñoLaborales" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[AñoBisiesto]"
+                      dataType="i4"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[AñoBisiesto]"
+                      name="AñoBisiesto" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="STAGE NORTHWND TIEMPO"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[Stage_TIEMPO]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.STAGE_NORTHWND.SA]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.STAGE_NORTHWND.SA]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].Columns[ETLload]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="ETLload"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[ETLLoad]"
+                      lineageId="Package\DF STAGE TIEMPO\AGREGAR COLUMNA.Outputs[Derived Column Output].Columns[ETLload]" />
+                    <inputColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].Columns[ETLExecution]"
+                      cachedDataType="i4"
+                      cachedName="ETLExecution"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[ETLExecution]"
+                      lineageId="Package\DF STAGE TIEMPO\AGREGAR COLUMNA.Outputs[Derived Column Output].Columns[ETLExecution]" />
+                    <inputColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].Columns[OrderDate]"
+                      cachedDataType="dbTimeStamp"
+                      cachedName="OrderDate"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_FechaActual]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[OrderDate]" />
+                    <inputColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].Columns[Anio]"
+                      cachedDataType="i4"
+                      cachedName="Anio"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_Anio]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[Anio]" />
+                    <inputColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].Columns[Trimestre]"
+                      cachedDataType="i4"
+                      cachedName="Trimestre"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_Trimestre]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[Trimestre]" />
+                    <inputColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].Columns[Mes]"
+                      cachedDataType="i4"
+                      cachedName="Mes"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_Mes]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[Mes]" />
+                    <inputColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].Columns[Semana]"
+                      cachedDataType="i4"
+                      cachedName="Semana"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_Semana]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[Semana]" />
+                    <inputColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].Columns[DiaDeAnio]"
+                      cachedDataType="i4"
+                      cachedName="DiaDeAnio"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_DiaDeAnio]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[DiaDeAnio]" />
+                    <inputColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].Columns[DiaDeMes]"
+                      cachedDataType="i4"
+                      cachedName="DiaDeMes"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_DiaDeMes]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[DiaDeMes]" />
+                    <inputColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].Columns[DiaDeSemana]"
+                      cachedDataType="i4"
+                      cachedName="DiaDeSemana"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_DiaDeSemana]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[DiaDeSemana]" />
+                    <inputColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].Columns[EsFinSemana]"
+                      cachedDataType="i4"
+                      cachedName="EsFinSemana"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_EsFinSemana]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[EsFinSemana]" />
+                    <inputColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].Columns[EsFeriado]"
+                      cachedDataType="i4"
+                      cachedName="EsFeriado"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_EsFeriado]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[EsFeriado]" />
+                    <inputColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].Columns[Comentarios]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="19"
+                      cachedName="Comentarios"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_Comentarios]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[Comentarios]" />
+                    <inputColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].Columns[SemanaCalendario]"
+                      cachedDataType="i4"
+                      cachedName="SemanaCalendario"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_SemanaCalendario]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[SemanaCalendario]" />
+                    <inputColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].Columns[SemanasDelAñoLaborales]"
+                      cachedDataType="i4"
+                      cachedName="SemanasDelAñoLaborales"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_SemanasDelAñoLaborales]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[SemanasDelAñoLaborales]" />
+                    <inputColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].Columns[AñoBisiesto]"
+                      cachedDataType="i4"
+                      cachedName="AñoBisiesto"
+                      externalMetadataColumnId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_AñoBisiesto]"
+                      lineageId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output].Columns[AñoBisiesto]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[ETLLoad]"
+                      dataType="dbTimeStamp"
+                      name="ETLLoad" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[ETLExecution]"
+                      dataType="i4"
+                      name="ETLExecution" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_Skey]"
+                      dataType="i4"
+                      name="Tiempo_Skey" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_FechaActual]"
+                      dataType="dbTimeStamp"
+                      name="Tiempo_FechaActual" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_Anio]"
+                      dataType="i4"
+                      name="Tiempo_Anio" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_Trimestre]"
+                      dataType="i4"
+                      name="Tiempo_Trimestre" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_Mes]"
+                      dataType="i4"
+                      name="Tiempo_Mes" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_Semana]"
+                      dataType="i4"
+                      name="Tiempo_Semana" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_DiaDeAnio]"
+                      dataType="i4"
+                      name="Tiempo_DiaDeAnio" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_DiaDeMes]"
+                      dataType="i4"
+                      name="Tiempo_DiaDeMes" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_DiaDeSemana]"
+                      dataType="i4"
+                      name="Tiempo_DiaDeSemana" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_EsFinSemana]"
+                      dataType="i4"
+                      name="Tiempo_EsFinSemana" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_EsFeriado]"
+                      dataType="i4"
+                      name="Tiempo_EsFeriado" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_Comentarios]"
+                      codePage="1252"
+                      dataType="str"
+                      length="20"
+                      name="Tiempo_Comentarios" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_SemanaCalendario]"
+                      dataType="i4"
+                      name="Tiempo_SemanaCalendario" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_SemanasDelAñoLaborales]"
+                      dataType="i4"
+                      name="Tiempo_SemanasDelAñoLaborales" />
+                    <externalMetadataColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input].ExternalColumns[Tiempo_AñoBisiesto]"
+                      dataType="ui1"
+                      name="Tiempo_AñoBisiesto" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\DF STAGE TIEMPO.Paths[Derived Column Output]"
+              endId="Package\DF STAGE TIEMPO\CONTAR CANTIDAD FILAS.Inputs[Row Count Input 1]"
+              name="Derived Column Output"
+              startId="Package\DF STAGE TIEMPO\AGREGAR COLUMNA.Outputs[Derived Column Output]" />
+            <path
+              refId="Package\DF STAGE TIEMPO.Paths[OLE DB Source Output]"
+              endId="Package\DF STAGE TIEMPO\AGREGAR COLUMNA.Inputs[Derived Column Input]"
+              name="OLE DB Source Output"
+              startId="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO.Outputs[OLE DB Source Output]" />
+            <path
+              refId="Package\DF STAGE TIEMPO.Paths[Row Count Output 1]"
+              endId="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO.Inputs[OLE DB Destination Input]"
+              name="Row Count Output 1"
+              startId="Package\DF STAGE TIEMPO\CONTAR CANTIDAD FILAS.Outputs[Row Count Output 1]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\LIMPIAR STAGE TIEMPO"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{A21A75CB-BC20-4835-99C6-AE317A9D7F81}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="LIMPIAR STAGE TIEMPO"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{2ADD4D53-6A08-4AA6-9130-F96864FB4532}"
+          SQLTask:SqlStatementSource="TRUNCATE TABLE [dbo].[Stage_Tiempo]" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\OBTENER ULTIMO ETL EXECUTION"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{9490359A-DBD3-4FB0-83EB-74CF91D65391}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="OBTENER ULTIMO ETL EXECUTION"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{8E92C667-87D8-45D8-8657-FEEEAB835FAD}"
+          SQLTask:SqlStatementSource="SELECT MAX(ETLExecution) FROM [LOAD_NORTHWND].[dbo].[Orders]"
+          SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="0"
+            SQLTask:DtsVariableName="User::ETLExecution_Ultimo" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción]"
+      DTS:CreationName=""
+      DTS:DTSID="{F3770763-6FC1-4B9F-961E-F763E8A2B0EF}"
+      DTS:From="Package\LIMPIAR STAGE TIEMPO"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción"
+      DTS:To="Package\OBTENER ULTIMO ETL EXECUTION" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{EAC12C45-091D-4FD3-AAB1-875A68EE7B5E}"
+      DTS:From="Package\OBTENER ULTIMO ETL EXECUTION"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción 1"
+      DTS:To="Package\DF STAGE TIEMPO" />
+  </DTS:PrecedenceConstraints>
+  <DTS:EventHandlers>
+    <DTS:EventHandler
+      DTS:refId="Package.EventHandlers[OnPreExecute]"
+      DTS:CreationName="OnPreExecute"
+      DTS:DTSID="{3CB94F5C-B0D9-4352-9F73-8758C9C285B6}"
+      DTS:EventID="0"
+      DTS:EventName="OnPreExecute"
+      DTS:LocaleID="-1">
+      <DTS:Variables>
+        <DTS:Variable
+          DTS:CreationName=""
+          DTS:Description="The propagate property of the event"
+          DTS:DTSID="{70C6CB1E-2071-4CC0-89DA-0026B426BC85}"
+          DTS:IncludeInDebugDump="6789"
+          DTS:Namespace="System"
+          DTS:ObjectName="Propagate">
+          <DTS:VariableValue
+            DTS:DataType="11">-1</DTS:VariableValue>
+        </DTS:Variable>
+      </DTS:Variables>
+      <DTS:Executables />
+    </DTS:EventHandler>
+  </DTS:EventHandlers>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="202,42"
+          Id="Package\DF STAGE TIEMPO"
+          TopLeft="204,199" />
+        <NodeLayout
+          Size="213,42"
+          Id="Package\LIMPIAR STAGE TIEMPO"
+          TopLeft="181,35" />
+        <NodeLayout
+          Size="267,42"
+          Id="Package\OBTENER ULTIMO ETL EXECUTION"
+          TopLeft="184,120" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción]"
+          TopLeft="287.5,77">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="30,43"
+              Start="0,0"
+              End="30,35.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,17.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,17.5"
+                    Point2="0,21.5"
+                    Point3="4,21.5" />
+                  <mssgle:LineSegment
+                    End="26,21.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="26,21.5"
+                    Point2="30,21.5"
+                    Point3="30,25.5" />
+                  <mssgle:LineSegment
+                    End="30,35.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción 1]"
+          TopLeft="317.5,162">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-12.5,37"
+              Start="0,0"
+              End="-12.5,29.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.5"
+                    Point2="0,18.5"
+                    Point3="-4,18.5" />
+                  <mssgle:LineSegment
+                    End="-8.5,18.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-8.5,18.5"
+                    Point2="-12.5,18.5"
+                    Point3="-12.5,22.5" />
+                  <mssgle:LineSegment
+                    End="-12.5,29.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\DF STAGE TIEMPO">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="245,42"
+          Id="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO"
+          TopLeft="182,30" />
+        <NodeLayout
+          Size="192,42"
+          Id="Package\DF STAGE TIEMPO\AGREGAR COLUMNA"
+          TopLeft="200,106" />
+        <NodeLayout
+          Size="252,42"
+          Id="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO"
+          TopLeft="195,245" />
+        <NodeLayout
+          Size="218,42"
+          Id="Package\DF STAGE TIEMPO\CONTAR CANTIDAD FILAS"
+          TopLeft="200,177" />
+        <EdgeLayout
+          Id="Package\DF STAGE TIEMPO.Paths[Row Count Output 1]"
+          TopLeft="309,219">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="12,26"
+              Start="0,0"
+              End="12,18.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,9" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,9"
+                    Point2="0,13"
+                    Point3="4,13" />
+                  <mssgle:LineSegment
+                    End="8,13" />
+                  <mssgle:CubicBezierSegment
+                    Point1="8,13"
+                    Point2="12,13"
+                    Point3="12,17" />
+                  <mssgle:LineSegment
+                    End="12,18.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DF STAGE TIEMPO.Paths[OLE DB Source Output]"
+          TopLeft="304.5,72">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-8.5,34"
+              Start="0,0"
+              End="-8.5,26.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13"
+                    Point2="0,17"
+                    Point3="-4,17" />
+                  <mssgle:LineSegment
+                    End="-4.5,17" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-4.5,17"
+                    Point2="-8.5,17"
+                    Point3="-8.5,21" />
+                  <mssgle:LineSegment
+                    End="-8.5,26.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DF STAGE TIEMPO.Paths[Derived Column Output]"
+          TopLeft="296,148">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="13,29"
+              Start="0,0"
+              End="13,21.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,10.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10.5"
+                    Point2="0,14.5"
+                    Point3="4,14.5" />
+                  <mssgle:LineSegment
+                    End="9,14.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="9,14.5"
+                    Point2="13,14.5"
+                    Point3="13,18.5" />
+                  <mssgle:LineSegment
+                    End="13,21.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <DtsEventHandler
+    design-time-name="Package\DF STAGE TIEMPO.EventHandlers[OnPreExecute]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="352,42"
+          Id="Package\DF STAGE TIEMPO.EventHandlers[OnPreExecute]\INSERTAR REGISTROS EN NORTHWND METADATA"
+          TopLeft="182,48" />
+        <NodeLayout
+          Size="146,42"
+          Id="Package\DF STAGE TIEMPO.EventHandlers[OnPreExecute]\OBTENER ID"
+          TopLeft="272,117" />
+        <EdgeLayout
+          Id="Package\DF STAGE TIEMPO.EventHandlers[OnPreExecute].PrecedenceConstraints[Restricción]"
+          TopLeft="358,90">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-13,27"
+              Start="0,0"
+              End="-13,19.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,9.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,9.5"
+                    Point2="0,13.5"
+                    Point3="-4,13.5" />
+                  <mssgle:LineSegment
+                    End="-9,13.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-9,13.5"
+                    Point2="-13,13.5"
+                    Point3="-13,17.5" />
+                  <mssgle:LineSegment
+                    End="-13,19.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
+  <DtsEventHandler
+    design-time-name="Package\DF STAGE TIEMPO.EventHandlers[OnPostExecute]">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="374,42"
+          Id="Package\DF STAGE TIEMPO.EventHandlers[OnPostExecute]\ACTUALIZAR ETL ROWCOUNT NORTHWND_METADATA"
+          TopLeft="210,59" />
+      </GraphLayout>
+    </LayoutInfo>
+  </DtsEventHandler>
+  <PipelineComponentMetadata
+    design-time-name="Package\DF STAGE TIEMPO\LOAD NORTHWND TIEMPO">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\DF STAGE TIEMPO\STAGE NORTHWND TIEMPO">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

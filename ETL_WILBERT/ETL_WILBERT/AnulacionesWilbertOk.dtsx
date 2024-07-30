@@ -1,0 +1,884 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="10/4/2023 6:11:39 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-8RKHAGF"
+  DTS:CreatorName="DESKTOP-8RKHAGF\User"
+  DTS:DTSID="{F89F1A68-BC9A-45A8-8870-DCEA384DBF3F}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.180"
+  DTS:LocaleID="9226"
+  DTS:ObjectName="Package2"
+  DTS:PackageType="5"
+  DTS:VersionBuild="13"
+  DTS:VersionGUID="{6B82F680-7E1F-4BD7-BF8C-064871AE5621}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Administrador de conexiones con Excel]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{E0491DDD-3AB8-44B8-97C1-F82815896F10}"
+      DTS:ObjectName="Administrador de conexiones con Excel">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Anulaciones\CM000123\CM000123ENTRADA.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ASSA]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{BC77754F-D84F-4CB1-BFD0-90958692E12D}"
+      DTS:ObjectName="ASSA">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="9226"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Anulaciones\CM000123\Nuevo Documento de texto.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TipoTrabajador"
+              DTS:DTSID="{C72A64F8-6237-4623-BA57-2FA5953300F1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IdentificadorTrabajdor"
+              DTS:DTSID="{0771ECD2-68A2-4205-8434-8CD26A7F885A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NombreTR"
+              DTS:DTSID="{0B8D1F91-6BF8-4863-88FE-4396E2067999}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TipooBeneficiario"
+              DTS:DTSID="{80565490-DD02-4B3E-9A50-A092DB24A7B1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IdentificadorBenef"
+              DTS:DTSID="{27C801C1-A6AA-4291-A084-1ED39CC3C1C1}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="NombreBenef"
+              DTS:DTSID="{0B361DA8-7486-4BDC-81A3-20D55B8F6558}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Parentesco"
+              DTS:DTSID="{95E0771C-23AD-4D66-BD03-B64D1838983E}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ValorPagar"
+              DTS:DTSID="{E17B67DB-A57F-4C6F-87B3-75E50404CEFB}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="PeriodoLiquid"
+              DTS:DTSID="{FD2488BA-EC4F-4EBF-A160-2D180F2898A4}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ForPago"
+              DTS:DTSID="{A2C583E8-6FD4-4D21-9B57-D8B7557D1505}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="5"
+              DTS:TextQualified="True"
+              DTS:ObjectName="IdBenGiro"
+              DTS:DTSID="{345000E4-8D15-442F-9DE3-C36C24B33973}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Concepto_Pago"
+              DTS:DTSID="{1F3ED400-D887-4A68-9849-9DF85D680551}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Estado"
+              DTS:DTSID="{077061FE-7DB8-4A5F-AB6D-841877587E9C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="255"
+              DTS:DataType="130"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Causal"
+              DTS:DTSID="{9633080A-AC4B-4A29-BD0D-ACE00EA73F9D}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Conexion_Archivo_Entrada]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{D9B568A4-1022-49D3-B333-5E5818B5342C}"
+      DTS:ObjectName="Conexion_Archivo_Entrada">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=C:\Anulaciones\CM000123\CM000123ENTRADA.xlsx;Provider=Microsoft.ACE.OLEDB.12.0;Persist Security Info=False;Extended Properties=&quot;Excel 12.0;HDR=YES;IMEX=1;&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{D5482F16-AC47-4C28-AA93-00A1D7C6DC45}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="CAMBIO">
+      <DTS:VariableValue
+        DTS:DataType="8">CM000123</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{3E734B42-BB22-483C-A2EA-2D3F1CA280FB}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="&quot;Provider=Microsoft.ACE.OLEDB.12.0;Data Source=&quot;+ @[User::RutaCambio] +&#xA; @[User::CAMBIO]+&quot;ENTRADA.xlsx&quot;+&quot;;Extended Properties=\&quot;Excel 12.0;HDR=YES;IMEX=1\&quot;;&quot;"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="Conexion_Entrada">
+      <DTS:VariableValue
+        DTS:DataType="8">Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Anulaciones\CM000123\CM000123ENTRADA.xlsx;Extended Properties="Excel 12.0;HDR=YES;IMEX=1";</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{CB0E877B-1E91-4486-9546-C60B412E920A}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="RutaAnulaciones">
+      <DTS:VariableValue
+        DTS:DataType="8">C:\Anulaciones\</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{41EFA8E1-6FED-4F61-B52A-70651600D300}"
+      DTS:EvaluateAsExpression="True"
+      DTS:Expression="@[User::RutaAnulaciones]+ @[User::CAMBIO]+&quot;\\&quot;"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="RutaCambio">
+      <DTS:VariableValue
+        DTS:DataType="8">C:\Anulaciones\CM000123\</DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Importar Datos desde Archivo"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{FE9EDF2C-E829-4729-AC22-E5910176B136}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Importar Datos desde Archivo"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\Importar Datos desde Archivo\Excel Source"
+              componentClassID="Microsoft.ExcelSource"
+              contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Excel Source"
+              name="Excel Source"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">Hoja1$</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="The mapping from parameters in the SQL command to variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Importar Datos desde Archivo\Excel Source.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Administrador de conexiones con Excel]"
+                  connectionManagerRefId="Package.ConnectionManagers[Administrador de conexiones con Excel]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output]"
+                  name="Excel Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[TipoTrabajador]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[TipoTrabajador]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[TipoTrabajador]"
+                      name="TipoTrabajador"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[IdentificadorTrabajdor]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[IdentificadorTrabajdor]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[IdentificadorTrabajdor]"
+                      name="IdentificadorTrabajdor"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[NombreTR]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[NombreTR]"
+                      length="255"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[NombreTR]"
+                      name="NombreTR"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[TipooBeneficiario]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[TipooBeneficiario]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[TipooBeneficiario]"
+                      name="TipooBeneficiario"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[IdentificadorBenef]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[IdentificadorBenef]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[IdentificadorBenef]"
+                      name="IdentificadorBenef"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[NombreBenef]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[NombreBenef]"
+                      length="255"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[NombreBenef]"
+                      name="NombreBenef"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[Parentesco]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[Parentesco]"
+                      length="255"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[Parentesco]"
+                      name="Parentesco"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[ValorPagar]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[ValorPagar]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[ValorPagar]"
+                      name="ValorPagar"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[PeriodoLiquid]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[PeriodoLiquid]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[PeriodoLiquid]"
+                      name="PeriodoLiquid"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[ForPago]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[ForPago]"
+                      length="255"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[ForPago]"
+                      name="ForPago"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[IdBenGiro]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[IdBenGiro]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[IdBenGiro]"
+                      name="IdBenGiro"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[Concepto_Pago]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[Concepto_Pago]"
+                      length="255"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[Concepto_Pago]"
+                      name="Concepto_Pago"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[Estado]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[Estado]"
+                      length="255"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[Estado]"
+                      name="Estado"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[Causal]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[Causal]"
+                      length="255"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[Causal]"
+                      name="Causal"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[TipoTrabajador]"
+                      dataType="r8"
+                      name="TipoTrabajador" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[IdentificadorTrabajdor]"
+                      dataType="r8"
+                      name="IdentificadorTrabajdor" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[NombreTR]"
+                      dataType="wstr"
+                      length="255"
+                      name="NombreTR" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[TipooBeneficiario]"
+                      dataType="r8"
+                      name="TipooBeneficiario" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[IdentificadorBenef]"
+                      dataType="r8"
+                      name="IdentificadorBenef" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[NombreBenef]"
+                      dataType="wstr"
+                      length="255"
+                      name="NombreBenef" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[Parentesco]"
+                      dataType="wstr"
+                      length="255"
+                      name="Parentesco" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[ValorPagar]"
+                      dataType="r8"
+                      name="ValorPagar" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[PeriodoLiquid]"
+                      dataType="r8"
+                      name="PeriodoLiquid" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[ForPago]"
+                      dataType="wstr"
+                      length="255"
+                      name="ForPago" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[IdBenGiro]"
+                      dataType="r8"
+                      name="IdBenGiro" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[Concepto_Pago]"
+                      dataType="wstr"
+                      length="255"
+                      name="Concepto_Pago" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[Estado]"
+                      dataType="wstr"
+                      length="255"
+                      name="Estado" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].ExternalColumns[Causal]"
+                      dataType="wstr"
+                      length="255"
+                      name="Causal" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output]"
+                  isErrorOut="true"
+                  name="Excel Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[TipoTrabajador]"
+                      dataType="r8"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[TipoTrabajador]"
+                      name="TipoTrabajador" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[IdentificadorTrabajdor]"
+                      dataType="r8"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[IdentificadorTrabajdor]"
+                      name="IdentificadorTrabajdor" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[NombreTR]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[NombreTR]"
+                      name="NombreTR" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[TipooBeneficiario]"
+                      dataType="r8"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[TipooBeneficiario]"
+                      name="TipooBeneficiario" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[IdentificadorBenef]"
+                      dataType="r8"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[IdentificadorBenef]"
+                      name="IdentificadorBenef" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[NombreBenef]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[NombreBenef]"
+                      name="NombreBenef" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[Parentesco]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[Parentesco]"
+                      name="Parentesco" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[ValorPagar]"
+                      dataType="r8"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[ValorPagar]"
+                      name="ValorPagar" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[PeriodoLiquid]"
+                      dataType="r8"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[PeriodoLiquid]"
+                      name="PeriodoLiquid" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[ForPago]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[ForPago]"
+                      name="ForPago" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[IdBenGiro]"
+                      dataType="r8"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[IdBenGiro]"
+                      name="IdBenGiro" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[Concepto_Pago]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[Concepto_Pago]"
+                      name="Concepto_Pago" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[Estado]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[Estado]"
+                      name="Estado" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[Causal]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[Causal]"
+                      name="Causal" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Importar Datos desde Archivo\Flat File Destination"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Flat File Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+              description="Flat File Destination"
+              localeId="9226"
+              name="Flat File Destination"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Specifies whether the data will overwrite or append to the destination file."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Specifies the text to write to the destination file before any data is written."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="When text qualifier is enabled, specifies whether the text qualifier in the data written to the destination file will be escaped or not."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Importar Datos desde Archivo\Flat File Destination.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[ASSA]"
+                  connectionManagerRefId="Package.ConnectionManagers[ASSA]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input]"
+                  hasSideEffects="true"
+                  name="Flat File Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].Columns[TipoTrabajador]"
+                      cachedDataType="r8"
+                      cachedName="TipoTrabajador"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[TipoTrabajador]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[TipoTrabajador]" />
+                    <inputColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].Columns[IdentificadorTrabajdor]"
+                      cachedDataType="r8"
+                      cachedName="IdentificadorTrabajdor"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[IdentificadorTrabajdor]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[IdentificadorTrabajdor]" />
+                    <inputColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].Columns[NombreTR]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="NombreTR"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[NombreTR]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[NombreTR]" />
+                    <inputColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].Columns[TipooBeneficiario]"
+                      cachedDataType="r8"
+                      cachedName="TipooBeneficiario"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[TipooBeneficiario]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[TipooBeneficiario]" />
+                    <inputColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].Columns[IdentificadorBenef]"
+                      cachedDataType="r8"
+                      cachedName="IdentificadorBenef"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[IdentificadorBenef]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[IdentificadorBenef]" />
+                    <inputColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].Columns[NombreBenef]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="NombreBenef"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[NombreBenef]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[NombreBenef]" />
+                    <inputColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].Columns[Parentesco]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Parentesco"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Parentesco]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[Parentesco]" />
+                    <inputColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].Columns[ValorPagar]"
+                      cachedDataType="r8"
+                      cachedName="ValorPagar"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ValorPagar]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[ValorPagar]" />
+                    <inputColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].Columns[PeriodoLiquid]"
+                      cachedDataType="r8"
+                      cachedName="PeriodoLiquid"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[PeriodoLiquid]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[PeriodoLiquid]" />
+                    <inputColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].Columns[ForPago]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="ForPago"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ForPago]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[ForPago]" />
+                    <inputColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].Columns[IdBenGiro]"
+                      cachedDataType="r8"
+                      cachedName="IdBenGiro"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[IdBenGiro]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[IdBenGiro]" />
+                    <inputColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].Columns[Concepto_Pago]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Concepto_Pago"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Concepto_Pago]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[Concepto_Pago]" />
+                    <inputColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].Columns[Estado]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Estado"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Estado]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[Estado]" />
+                    <inputColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].Columns[Causal]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="Causal"
+                      externalMetadataColumnId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Causal]"
+                      lineageId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output].Columns[Causal]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[TipoTrabajador]"
+                      dataType="r8"
+                      name="TipoTrabajador" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[IdentificadorTrabajdor]"
+                      dataType="r8"
+                      name="IdentificadorTrabajdor" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[NombreTR]"
+                      dataType="wstr"
+                      length="255"
+                      name="NombreTR" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[TipooBeneficiario]"
+                      dataType="r8"
+                      name="TipooBeneficiario" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[IdentificadorBenef]"
+                      dataType="r8"
+                      name="IdentificadorBenef" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[NombreBenef]"
+                      dataType="wstr"
+                      length="255"
+                      name="NombreBenef" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Parentesco]"
+                      dataType="wstr"
+                      length="255"
+                      name="Parentesco" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ValorPagar]"
+                      dataType="r8"
+                      name="ValorPagar" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[PeriodoLiquid]"
+                      dataType="r8"
+                      name="PeriodoLiquid" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[ForPago]"
+                      dataType="wstr"
+                      length="255"
+                      name="ForPago" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[IdBenGiro]"
+                      dataType="r8"
+                      name="IdBenGiro" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Concepto_Pago]"
+                      dataType="wstr"
+                      length="255"
+                      name="Concepto_Pago" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Estado]"
+                      dataType="wstr"
+                      length="255"
+                      name="Estado" />
+                    <externalMetadataColumn
+                      refId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input].ExternalColumns[Causal]"
+                      dataType="wstr"
+                      length="255"
+                      name="Causal" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\Importar Datos desde Archivo.Paths[Excel Source Output]"
+              endId="Package\Importar Datos desde Archivo\Flat File Destination.Inputs[Flat File Destination Input]"
+              name="Excel Source Output"
+              startId="Package\Importar Datos desde Archivo\Excel Source.Outputs[Excel Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="220,42"
+          Id="Package\Importar Datos desde Archivo"
+          TopLeft="232,50" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Importar Datos desde Archivo">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="139,42"
+          Id="Package\Importar Datos desde Archivo\Excel Source"
+          TopLeft="158,18" />
+        <NodeLayout
+          Size="172,42"
+          Id="Package\Importar Datos desde Archivo\Flat File Destination"
+          TopLeft="159,136" />
+        <EdgeLayout
+          Id="Package\Importar Datos desde Archivo.Paths[Excel Source Output]"
+          TopLeft="227.5,60">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="17.5,76"
+              Start="0,0"
+              End="17.5,68.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,34" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,34"
+                    Point2="0,38"
+                    Point3="4,38" />
+                  <mssgle:LineSegment
+                    End="13.5,38" />
+                  <mssgle:CubicBezierSegment
+                    Point1="13.5,38"
+                    Point2="17.5,38"
+                    Point3="17.5,42" />
+                  <mssgle:LineSegment
+                    End="17.5,68.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Importar Datos desde Archivo\Excel Source">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

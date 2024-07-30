@@ -1,0 +1,13 @@
+ProductID,ProductName,CategoryID,CategoryName,QuantityPerUnit,UnitPrice,UnitsInStock
+3,Aniseed Syrup,2,Condiments,12 - 550 ml bottles,10,13
+4,Chef Anton's Cajun Seasoning,2,Condiments,48 - 6 oz jars,22,53
+5,Chef Anton's Gumbo Mix,2,Condiments,36 boxes,21,35,0
+6,Grandma's Boysenberry Spread,2,Condiments,12 - 8 oz jars,25,120
+8,Northwoods Cranberry Sauce,2,Condiments,12 - 12 oz jars,40,6
+15,Genen Shouyu,2,Condiments,24 - 250 ml bottles,15,5,39
+44,Gula Malacca,2,Condiments,20 - 2 kg bags,19,45,27
+61,Sirop d'érable,2,Condiments,24 - 500 ml bottles,28,5,113
+63,Vegie-spread,2,Condiments,15 - 625 g jars,43,9,24
+65,Louisiana Fiery Hot Pepper Sauce,2,Condiments,32 - 8 oz bottles,21,05,76
+66,Louisiana Hot Spiced Okra,2,Condiments,24 - 8 oz jars,17,4
+77,Original Frankfurter grüne Soße,2,Condiments,12 boxes,13,32

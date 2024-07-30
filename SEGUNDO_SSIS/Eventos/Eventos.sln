@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Eventos", "Eventos.dtproj", "{FE904FD7-0BEC-4ADA-9499-730FCA753E19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE904FD7-0BEC-4ADA-9499-730FCA753E19}.Development|Default.ActiveCfg = Development
+		{FE904FD7-0BEC-4ADA-9499-730FCA753E19}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC14EC3D-56C5-4180-96C2-F182E19FE234}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+ProductID,ProductName,CategoryID,CategoryName,QuantityPerUnit,UnitPrice,UnitsInStock
+11,Queso Cabrales,4,Dairy Products,1 kg pkg.,21,22
+12,Queso Manchego La Pastora,4,Dairy Products,10 - 500 g pkgs.,38,86
+31,Gorgonzola Telino,4,Dairy Products,12 - 100 g pkgs,12,5,0
+32,Mascarpone Fabioli,4,Dairy Products,24 - 200 g pkgs.,32,9
+33,Geitost,4,Dairy Products,500 g,2,5,112
+59,Raclette Courdavault,4,Dairy Products,5 kg pkg.,55,79
+60,Camembert Pierrot,4,Dairy Products,15 - 300 g rounds,34,19
+69,Gudbrandsdalsost,4,Dairy Products,10 kg pkg.,36,26
+71,Flotemysost,4,Dairy Products,10 - 500 g pkgs.,21,5,26
+72,Mozzarella di Giovanni,4,Dairy Products,24 - 200 g pkgs.,34,8,14

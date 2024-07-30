@@ -1,0 +1,8 @@
+ProductID,ProductName,CategoryID,CategoryName,QuantityPerUnit,UnitPrice,UnitsInStock
+22,Gustaf's Knäckebröd,5,Grains/Cereals,24 - 500 g pkgs.,21,104
+23,Tunnbröd,5,Grains/Cereals,12 - 250 g pkgs.,9,61
+42,Singaporean Hokkien Fried Mee,5,Grains/Cereals,32 - 1 kg pkgs.,14,26
+52,Filo Mix,5,Grains/Cereals,16 - 2 kg boxes,7,38
+56,Gnocchi di nonna Alice,5,Grains/Cereals,24 - 250 g pkgs.,38,21
+57,Ravioli Angelo,5,Grains/Cereals,24 - 250 g pkgs.,19,5,36
+64,Wimmers gute Semmelknödel,5,Grains/Cereals,20 bags x 4 pieces,33,25,22

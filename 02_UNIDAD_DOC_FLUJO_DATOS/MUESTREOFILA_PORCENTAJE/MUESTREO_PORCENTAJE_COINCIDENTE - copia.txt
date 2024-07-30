@@ -1,0 +1,30 @@
+FirstName,LastName,BirthDate,Gender,EmailAddress,YearlyIncome,EnglishEducation,Phone
+Curtis,Lu,1969-05-03,M,curtis9@adventure-works.com,60000,Bachelors,1 (11) 500 555-0117
+Willie,Raji,1960-10-02,M,willie40@adventure-works.com,80000,High School,1 (11) 500 555-0151
+Melinda,Gill,1947-08-25,F,melinda9@adventure-works.com,60000,Graduate Degree,1 (11) 500 555-0117
+April,Anand,1948-07-01,F,april18@adventure-works.com,160000,Bachelors,702-555-0144
+Theresa,Serrano,1967-09-24,F,theresa12@adventure-works.com,110000,Bachelors,777-555-0162
+Sean,Evans,1965-12-17,M,sean31@adventure-works.com,110000,Partial College,791-555-0174
+Victoria,Lewis,1959-12-10,F,victoria20@adventure-works.com,60000,High School,586-555-0191
+Sydney,Garcia,1943-09-12,F,sydney78@adventure-works.com,90000,Bachelors,783-555-0116
+Damien,Shan,1983-05-11,M,damien26@adventure-works.com,10000,High School,1 (11) 500 555-0142
+Lance,Vazquez,1948-12-07,M,lance14@adventure-works.com,40000,Graduate Degree,1 (11) 500 555-0112
+Darren,Gill,1964-05-10,M,darren36@adventure-works.com,10000,High School,1 (11) 500 555-0166
+Dustin,Deng,1952-02-29,M,dustin1@adventure-works.com,170000,Bachelors,1 (11) 500 555-0168
+Ariana,Gray,1965-08-02,F,ariana5@adventure-works.com,90000,High School,1 (11) 500 555-0191
+Kyle,Patterson,1980-10-25,M,kyle5@adventure-works.com,80000,Bachelors,1 (11) 500 555-0145
+Donald,Chandra,1978-02-04,M,donald4@adventure-works.com,40000,Partial College,1 (11) 500 555-0191
+Deborah,Goel,1976-09-03,F,deborah21@adventure-works.com,20000,Partial High School,1 (11) 500 555-0168
+Terrence,Chander,1982-11-15,M,terrence16@adventure-works.com,30000,High School,1 (11) 500 555-0155
+Jenna,Green,1961-12-02,F,jenna14@adventure-works.com,40000,Partial College,961-555-0153
+Briana,Dominguez,1972-01-21,F,briana12@adventure-works.com,10000,Partial High School,1 (11) 500 555-0166
+Edgar,Sanchez,1982-12-01,M,edgar21@adventure-works.com,30000,Partial College,1 (11) 500 555-0117
+Abigail,Jones,1975-02-04,F,abigail50@adventure-works.com,70000,Graduate Degree,889-555-0151
+Willie,Pal,1973-11-12,M,willie31@adventure-works.com,60000,Bachelors,1 (11) 500 555-0164
+Ross,Fernandez,1972-08-10,M,ross15@adventure-works.com,80000,Graduate Degree,1 (11) 500 555-0177
+Cassidy,Diaz,1970-05-31,F,cassidy23@adventure-works.com,50000,Bachelors,323-555-0140
+Jada,Mitchell,1969-03-07,F,jada23@adventure-works.com,60000,Bachelors,416-555-0196
+Julio,Ortega,1975-04-07,M,julio23@adventure-works.com,90000,Graduate Degree,1 (11) 500 555-0180
+Angela,Henderson,1975-12-31,F,angela7@adventure-works.com,80000,Graduate Degree,1 (11) 500 555-0118
+Diane,Vazquez,1973-05-26,F,diane19@adventure-works.com,90000,Bachelors,1 (11) 500 555-0128
+Tonya,Chande,1972-06-09,F,tonya14@adventure-works.com,60000,Partial College,1 (11) 500 555-0177

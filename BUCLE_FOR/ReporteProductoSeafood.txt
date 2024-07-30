@@ -1,0 +1,13 @@
+ProductID,ProductName,CategoryID,CategoryName,QuantityPerUnit,UnitPrice,UnitsInStock
+10,Ikura,8,Seafood,12 - 200 ml jars,31,31
+13,Konbu,8,Seafood,2 kg box,6,24
+18,Carnarvon Tigers,8,Seafood,16 kg pkg.,62,5,42
+30,Nord-Ost Matjeshering,8,Seafood,10 - 200 g glasses,25,89,10
+36,Inlagd Sill,8,Seafood,24 - 250 g  jars,19,112
+37,Gravad lax,8,Seafood,12 - 500 g pkgs.,26,11
+40,Boston Crab Meat,8,Seafood,24 - 4 oz tins,18,4,123
+41,Jack's New England Clam Chowder,8,Seafood,12 - 12 oz cans,9,65,85
+45,Rogede sild,8,Seafood,1k pkg.,9,5,5
+46,Spegesild,8,Seafood,4 - 450 g glasses,12,95
+58,Escargots de Bourgogne,8,Seafood,24 pieces,13,25,62
+73,Röd Kaviar,8,Seafood,24 - 150 g jars,15,101

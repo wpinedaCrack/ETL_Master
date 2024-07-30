@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "04_IMPLEMENTAR_DATAMARK", "04_IMPLEMENTAR_DATAMARK.dtproj", "{2B0C8B96-01B8-4135-9A59-BE68E1FD1184}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B0C8B96-01B8-4135-9A59-BE68E1FD1184}.Development|Default.ActiveCfg = Development
+		{2B0C8B96-01B8-4135-9A59-BE68E1FD1184}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E177FB0C-DE40-46D6-8AC2-7B2380AA294B}
+	EndGlobalSection
+EndGlobal

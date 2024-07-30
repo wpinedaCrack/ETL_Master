@@ -1,0 +1,86 @@
+//#####################################
+//SCRIPT DESARROLLADO EN C#
+//#####################################
+
+//COPIAR Y PEGAR LAS IMPORTACIONES
+using System.IO;
+using System.Data.OleDb;
+using System.Data.SqlClient;
+
+
+			//COPIAR Y PEGAR DENTRO DE LA ENTRADA DE PROCESOS
+            try
+            {
+                //Declaracion de variables
+                //User::NombreCategoria,User::NombreExcel,User::NombreHoja,User::RutaCarpeta,User::TablaCategories,User::TablaProducts
+                string NombreExcel = Dts.Variables["User::NombreExcel"].Value.ToString();
+                string NombreHoja = Dts.Variables["User::NombreHoja"].Value.ToString();
+                string RutaCarpeta = Dts.Variables["User::RutaCarpeta"].Value.ToString();
+                string TablaProducts = Dts.Variables["User::TablaProducts"].Value.ToString();
+                string TablaCategories = Dts.Variables["User::TablaCategories"].Value.ToString();
+
+                OleDbConnection Excel_OLE_Con = new OleDbConnection();
+                OleDbCommand Excel_OLE_Cmd = new OleDbCommand();
+
+                //Contruyendo la conexion al archivo Excel
+                string connstring = "Provider=Microsoft.ACE.OLEDB.12.0;" + "Data Source=" + RutaCarpeta + NombreExcel
+                    + ";" + "Extended Properties=\"Excel 12.0 Xml;HDR=YES;\"";
+
+                //Eliminar el archivo excel si existe
+                File.Delete(RutaCarpeta + "\\"+ NombreExcel + ".xlsx");
+
+                //Conexion de SSIS hacia la tabla de SQL Server
+                SqlConnection myADONETConnection = new SqlConnection();
+                myADONETConnection = (SqlConnection)(Dts.Connections["DB_Conn_NORTHWND"].AcquireConnection(Dts.Transaction) as SqlConnection);
+
+                //Cargar datos desde SQL SERVER
+                //Asume que la conexión es un objeto SqlConnection válido.
+                string queryString = "SELECT P.ProductID, P.ProductName,P.CategoryID, C.CategoryName, P.QuantityPerUnit, P.UnitPrice, P.UnitsInStock FROM "+ TablaProducts + " AS P inner join "+ TablaCategories + " AS C ON P.CategoryID=C.CategoryID";
+                SqlDataAdapter adapter = new SqlDataAdapter(queryString, myADONETConnection);
+                DataSet ds = new DataSet();
+                adapter.Fill(ds);
+                
+                //Obtener Emcabezado de columnas
+                string TableColumns = "";
+
+                //Obtenga la lista de columnas de la tabla de datos para poder crear una hoja de Excel con encabezado
+                foreach (DataTable table in ds.Tables)
+                {
+                    foreach (DataColumn column in table.Columns)
+                    {
+                        TableColumns += column + "],[";
+                    }
+                }
+
+
+                //Reemplazar la coma más correcta de Columnlist
+                                TableColumns = ("[" + TableColumns.Replace(",", " Text,").TrimEnd(','));
+                TableColumns = TableColumns.Remove(TableColumns.Length - 2);
+
+
+                //Utilice la conexión OLE DB y cree una hoja de Excel
+                Excel_OLE_Con.ConnectionString = connstring;
+                Excel_OLE_Con.Open();
+                Excel_OLE_Cmd.Connection = Excel_OLE_Con;
+                Excel_OLE_Cmd.CommandText = "Create table " + NombreHoja + " (" + TableColumns + ")";
+                Excel_OLE_Cmd.ExecuteNonQuery();
+                
+                Excel_OLE_Con.Close();
+                
+                Dts.TaskResult = (int)ScriptResults.Success;
+
+            }
+            catch (Exception exception)
+            {
+                // Crear archivo Log cuando cae en Error
+                //Declaracion de variables
+                //User::NombreCategoria,User::NombreExcel,User::NombreHoja,User::RutaCarpeta,User::TablaCategories,User::TablaProducts
+                using (StreamWriter sw = File.CreateText(Dts.Variables["User::RutaCarpeta"].Value.ToString() + "\\" +
+                    Dts.Variables["User::NombreExcel"].Value.ToString() + ".log"))
+                {
+                    sw.WriteLine(exception.ToString());
+                    Dts.TaskResult = (int)ScriptResults.Failure;
+
+                }
+            }
+

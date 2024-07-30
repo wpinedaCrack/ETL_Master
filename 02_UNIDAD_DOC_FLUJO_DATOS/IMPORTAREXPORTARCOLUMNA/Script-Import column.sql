@@ -1,0 +1,24 @@
+--IMPORT COLUMN
+
+--USAR LA BASE DE DATOS [STREAMING]
+USE STREAMING
+GO
+
+--VALIDAR SI EXISTE LA TABLA Fotografia
+IF EXISTS(SELECT NAME FROM SYS.tables WHERE NAME='Fotografia')
+BEGIN
+	DROP TABLE Fotografia
+END
+GO
+
+--CREANDO LA TABLA Fotografia
+CREATE TABLE Fotografia(
+FotografiaID INT IDENTITY,
+RutaFotografia varchar(255),
+ImagenFotografia IMAGE
+)
+GO
+
+--CONSULTANDO LA TABLA Fotografia
+SELECT * FROM Fotografia
+GO

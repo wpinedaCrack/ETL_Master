@@ -1,0 +1,478 @@
+CountryRegionCode,EnglishCountryRegionName,StateProvinceName,City,IpAddressLocator
+FR,France,Charente-Maritime,Saint Ouen,198.51.100.180
+FR,France,Garonne (Haute),Colomiers,198.51.100.181
+FR,France,Gers,Aujan Mournede,198.51.100.182
+FR,France,Loir et Cher,Saint Ouen,198.51.100.183
+FR,France,Loiret,Orleans,198.51.100.184
+FR,France,Moselle,Metz,198.51.100.185
+FR,France,Nord,Croix,198.51.100.186
+FR,France,Nord,Dunkerque,198.51.100.187
+FR,France,Nord,Lille,198.51.100.188
+FR,France,Nord,Roncq,198.51.100.189
+FR,France,Nord,Roubaix,198.51.100.190
+FR,France,Nord,Villeneuve-d'Ascq,198.51.100.191
+FR,France,Pas de Calais,Boulogne-sur-Mer,198.51.100.192
+FR,France,Seine (Paris),Paris,198.51.100.193
+FR,France,Seine (Paris),Paris,198.51.100.194
+FR,France,Seine (Paris),Paris,198.51.100.195
+FR,France,Seine (Paris),Paris,198.51.100.196
+FR,France,Seine (Paris),Paris,198.51.100.197
+FR,France,Seine (Paris),Paris,198.51.100.198
+FR,France,Seine (Paris),Paris,198.51.100.199
+FR,France,Seine (Paris),Paris,198.51.100.200
+FR,France,Seine (Paris),Paris,198.51.100.201
+FR,France,Seine (Paris),Paris,198.51.100.202
+FR,France,Seine (Paris),Paris,198.51.100.203
+FR,France,Seine (Paris),Paris,198.51.100.204
+FR,France,Seine (Paris),Paris,198.51.100.205
+FR,France,Seine et Marne,Lieusaint,198.51.100.206
+FR,France,Seine et Marne,Roissy en Brie,198.51.100.207
+FR,France,Yveline,Chatou,198.51.100.208
+FR,France,Yveline,Saint Germain en Laye,198.51.100.209
+FR,France,Yveline,Versailles,198.51.100.210
+FR,France,Somme,Saint Ouen,198.51.100.211
+FR,France,Essonne,Les Ulis,198.51.100.212
+FR,France,Essonne,Morangis,198.51.100.213
+FR,France,Essonne,Verrieres Le Buisson,198.51.100.214
+FR,France,Hauts de Seine,Boulogne-Billancourt,198.51.100.215
+FR,France,Hauts de Seine,Colombes,198.51.100.216
+FR,France,Hauts de Seine,Courbevoie,198.51.100.217
+FR,France,Hauts de Seine,Paris La Defense,198.51.100.218
+FR,France,Hauts de Seine,Sèvres,198.51.100.219
+FR,France,Hauts de Seine,Suresnes,198.51.100.220
+FR,France,Seine Saint Denis,Bobigny,198.51.100.221
+FR,France,Seine Saint Denis,Drancy,198.51.100.222
+FR,France,Seine Saint Denis,Pantin,198.51.100.223
+FR,France,Seine Saint Denis,Saint-Denis,198.51.100.224
+FR,France,Seine Saint Denis,Tremblay-en-France,198.51.100.225
+FR,France,Val de Marne,Orly,198.51.100.226
+FR,France,Val d'Oise,Cergy,198.51.100.227
+GB,United Kingdom,England,Abingdon,198.51.100.228
+GB,United Kingdom,England,Basingstoke Hants,198.51.100.229
+GB,United Kingdom,England,Berks,198.51.100.230
+GB,United Kingdom,England,Berkshire,198.51.100.231
+GB,United Kingdom,England,Billericay,198.51.100.232
+GB,United Kingdom,England,Birmingham,198.51.100.233
+GB,United Kingdom,England,Bracknell,198.51.100.234
+GB,United Kingdom,England,Bury,198.51.100.235
+GB,United Kingdom,England,Cambridge,198.51.100.236
+GB,United Kingdom,England,Cheltenham,198.51.100.237
+GB,United Kingdom,England,Esher-Molesey,198.51.100.238
+GB,United Kingdom,England,Gateshead,198.51.100.239
+GB,United Kingdom,England,Gloucestershire,198.51.100.240
+GB,United Kingdom,England,High Wycombe,198.51.100.241
+GB,United Kingdom,England,Kirkby,198.51.100.242
+GB,United Kingdom,England,Lancaster,198.51.100.243
+GB,United Kingdom,England,Leeds,198.51.100.244
+GB,United Kingdom,England,London,198.51.100.245
+GB,United Kingdom,England,London,198.51.100.246
+GB,United Kingdom,England,London,198.51.100.247
+GB,United Kingdom,England,London,198.51.100.248
+GB,United Kingdom,England,London,198.51.100.249
+GB,United Kingdom,England,London,198.51.100.250
+GB,United Kingdom,England,London,198.51.100.251
+GB,United Kingdom,England,London,198.51.100.252
+GB,United Kingdom,England,London,198.51.100.253
+GB,United Kingdom,England,London,198.51.100.254
+GB,United Kingdom,England,London,192.0.2.1
+GB,United Kingdom,England,London,192.0.2.2
+GB,United Kingdom,England,London,192.0.2.3
+GB,United Kingdom,England,London,192.0.2.4
+GB,United Kingdom,England,Maidenhead,192.0.2.5
+GB,United Kingdom,England,Milton Keynes,192.0.2.6
+GB,United Kingdom,England,Milton Keynes,192.0.2.7
+GB,United Kingdom,England,Newcastle upon Tyne,192.0.2.8
+GB,United Kingdom,England,Oxford,192.0.2.9
+GB,United Kingdom,England,Oxford,192.0.2.10
+GB,United Kingdom,England,Oxon,192.0.2.11
+GB,United Kingdom,England,Peterborough,192.0.2.12
+GB,United Kingdom,England,Reading,192.0.2.13
+GB,United Kingdom,England,Runcorn,192.0.2.14
+GB,United Kingdom,England,Liverpool,192.0.2.15
+GB,United Kingdom,England,Stoke-on-Trent,192.0.2.16
+GB,United Kingdom,England,W. York,192.0.2.17
+GB,United Kingdom,England,Warrington,192.0.2.18
+GB,United Kingdom,England,Warrington,192.0.2.19
+GB,United Kingdom,England,Watford,192.0.2.20
+GB,United Kingdom,England,West Sussex,192.0.2.21
+GB,United Kingdom,England,Wokingham,192.0.2.22
+GB,United Kingdom,England,Woolston,192.0.2.23
+GB,United Kingdom,England,York,192.0.2.24
+GB,United Kingdom,England,York,192.0.2.25
+GB,United Kingdom,England,York,192.0.2.26
+US,United States,Alabama,Birmingham,192.0.2.27
+US,United States,Alabama,Florence,192.0.2.28
+US,United States,Alabama,Huntsville,192.0.2.29
+US,United States,Alabama,Mobile,192.0.2.30
+US,United States,Alabama,Montgomery,192.0.2.31
+US,United States,Arizona,Chandler,192.0.2.32
+US,United States,Arizona,Gilbert,192.0.2.33
+US,United States,Arizona,Mesa,192.0.2.34
+US,United States,Arizona,Phoenix,192.0.2.35
+US,United States,Arizona,Scottsdale,192.0.2.36
+US,United States,Arizona,Surprise,192.0.2.37
+US,United States,Arizona,Tucson,192.0.2.38
+US,United States,California,Alhambra,192.0.2.39
+US,United States,California,Alpine,192.0.2.40
+US,United States,California,Auburn,192.0.2.41
+US,United States,California,Baldwin Park,192.0.2.42
+US,United States,California,Barstow,192.0.2.43
+US,United States,California,Bell Gardens,192.0.2.44
+US,United States,California,Bellflower,192.0.2.45
+US,United States,California,Berkeley,192.0.2.46
+US,United States,California,Beverly Hills,192.0.2.47
+US,United States,California,Burbank,192.0.2.48
+US,United States,California,Burlingame,192.0.2.49
+US,United States,California,Camarillo,192.0.2.50
+US,United States,California,Canoga Park,192.0.2.51
+US,United States,California,Carson,192.0.2.52
+US,United States,California,Cerritos,192.0.2.53
+US,United States,California,Chula Vista,192.0.2.54
+US,United States,California,Citrus Heights,192.0.2.55
+US,United States,California,City Of Commerce,192.0.2.56
+US,United States,California,Colma,192.0.2.57
+US,United States,California,Concord,192.0.2.58
+US,United States,California,Coronado,192.0.2.59
+US,United States,California,Culver City,192.0.2.60
+US,United States,California,Daly City,192.0.2.61
+US,United States,California,Downey,192.0.2.62
+US,United States,California,El Cajon,192.0.2.63
+US,United States,California,El Segundo,192.0.2.64
+US,United States,California,Elk Grove,192.0.2.65
+US,United States,California,Escondido,192.0.2.66
+US,United States,California,Eureka,192.0.2.67
+US,United States,California,Fontana,192.0.2.68
+US,United States,California,Fremont,192.0.2.69
+US,United States,California,Fullerton,192.0.2.70
+US,United States,California,Gilroy,192.0.2.71
+US,United States,California,Glendale,192.0.2.72
+US,United States,California,Grossmont,192.0.2.73
+US,United States,California,Hanford,192.0.2.74
+US,United States,California,Hayward,192.0.2.75
+US,United States,California,Imperial Beach,192.0.2.76
+US,United States,California,Irvine,192.0.2.77
+US,United States,California,La Jolla,192.0.2.78
+US,United States,California,La Mesa,192.0.2.79
+US,United States,California,Lake Elsinore,192.0.2.80
+US,United States,California,Lakewood,192.0.2.81
+US,United States,California,Lemon Grove,192.0.2.82
+US,United States,California,Lincoln Acres,192.0.2.83
+US,United States,California,Long Beach,192.0.2.84
+US,United States,California,Los Angeles,192.0.2.85
+US,United States,California,Mill Valley,192.0.2.86
+US,United States,California,Milpitas,192.0.2.87
+US,United States,California,Modesto,192.0.2.88
+US,United States,California,Monrovia,192.0.2.89
+US,United States,California,National City,192.0.2.90
+US,United States,California,Newark,192.0.2.91
+US,United States,California,Newport Beach,192.0.2.92
+US,United States,California,Norwalk,192.0.2.93
+US,United States,California,Novato,192.0.2.94
+US,United States,California,Oakland,192.0.2.95
+US,United States,California,Ontario,192.0.2.96
+US,United States,California,Orange,192.0.2.97
+US,United States,California,Oxnard,192.0.2.98
+US,United States,California,Palo Alto,192.0.2.99
+US,United States,California,Pleasanton,192.0.2.100
+US,United States,California,Redlands,192.0.2.101
+US,United States,California,Redwood City,192.0.2.102
+US,United States,California,Sacramento,192.0.2.103
+US,United States,California,San Bruno,192.0.2.104
+US,United States,California,San Carlos,192.0.2.105
+US,United States,California,San Diego,192.0.2.106
+US,United States,California,San Francisco,192.0.2.107
+US,United States,California,San Gabriel,192.0.2.108
+US,United States,California,San Jose,192.0.2.109
+US,United States,California,San Mateo,192.0.2.110
+US,United States,California,San Ramon,192.0.2.111
+US,United States,California,San Ysidro,192.0.2.112
+US,United States,California,Sand City,192.0.2.113
+US,United States,California,Santa Ana,192.0.2.114
+US,United States,California,Santa Cruz,192.0.2.115
+US,United States,California,Santa Monica,192.0.2.116
+US,United States,California,Sherman Oaks,192.0.2.117
+US,United States,California,Simi Valley,192.0.2.118
+US,United States,California,Spring Valley,192.0.2.119
+US,United States,California,Stockton,192.0.2.120
+US,United States,California,Torrance,192.0.2.121
+US,United States,California,Trabuco Canyon,192.0.2.122
+US,United States,California,Union City,192.0.2.123
+US,United States,California,Upland,192.0.2.124
+US,United States,California,Vacaville,192.0.2.125
+US,United States,California,Van Nuys,192.0.2.126
+US,United States,California,Visalia,192.0.2.127
+US,United States,California,Vista,192.0.2.128
+US,United States,California,Walnut Creek,192.0.2.129
+US,United States,California,West Covina,192.0.2.130
+US,United States,California,Whittier,192.0.2.131
+US,United States,California,Woodland Hills,192.0.2.132
+US,United States,Colorado,Denver,192.0.2.133
+US,United States,Colorado,Englewood,192.0.2.134
+US,United States,Colorado,Greeley,192.0.2.135
+US,United States,Colorado,Longmont,192.0.2.136
+US,United States,Colorado,Loveland,192.0.2.137
+US,United States,Colorado,Parker,192.0.2.138
+US,United States,Colorado,Westminster,192.0.2.139
+US,United States,Connecticut,East Haven,192.0.2.140
+US,United States,Connecticut,Farmington,192.0.2.141
+US,United States,Connecticut,Hamden,192.0.2.142
+US,United States,Connecticut,Milford,192.0.2.143
+US,United States,Connecticut,New Haven,192.0.2.144
+US,United States,Connecticut,Stamford,192.0.2.145
+US,United States,Connecticut,Waterbury,192.0.2.146
+US,United States,Connecticut,Westport,192.0.2.147
+US,United States,Florida,Altamonte Springs,192.0.2.148
+US,United States,Florida,Bradenton,192.0.2.149
+US,United States,Florida,Clearwater,192.0.2.150
+US,United States,Florida,Destin,192.0.2.151
+US,United States,Florida,Hollywood,192.0.2.152
+US,United States,Florida,Kendall,192.0.2.153
+US,United States,Florida,Lakeland,192.0.2.154
+US,United States,Florida,Merritt Island,192.0.2.155
+US,United States,Florida,Miami,192.0.2.156
+US,United States,Florida,North Miami Beach,192.0.2.157
+US,United States,Florida,Orlando,192.0.2.158
+US,United States,Florida,Sarasota,192.0.2.159
+US,United States,Florida,Sunrise,192.0.2.160
+US,United States,Florida,Tampa,192.0.2.161
+US,United States,Florida,Vero Beach,192.0.2.162
+US,United States,Georgia,Atlanta,192.0.2.163
+US,United States,Georgia,Augusta,192.0.2.164
+US,United States,Georgia,Austell,192.0.2.165
+US,United States,Georgia,Byron,192.0.2.166
+US,United States,Georgia,Clarkston,192.0.2.167
+US,United States,Georgia,Columbus,192.0.2.168
+US,United States,Georgia,Decatur,192.0.2.169
+US,United States,Georgia,La Grange,192.0.2.170
+US,United States,Georgia,Marietta,192.0.2.171
+US,United States,Georgia,Mcdonough,192.0.2.172
+US,United States,Georgia,Savannah,192.0.2.173
+US,United States,Georgia,Suwanee,192.0.2.174
+US,United States,Idaho,Idaho Falls,192.0.2.175
+US,United States,Idaho,Lewiston,192.0.2.176
+US,United States,Idaho,Sandpoint,192.0.2.177
+US,United States,Illinois,Carol Stream,192.0.2.178
+US,United States,Illinois,Chicago,192.0.2.179
+US,United States,Illinois,Elgin,192.0.2.180
+US,United States,Illinois,Joliet,192.0.2.181
+US,United States,Illinois,Moline,192.0.2.182
+US,United States,Illinois,Norridge,192.0.2.183
+US,United States,Illinois,Peoria,192.0.2.184
+US,United States,Illinois,Tuscola,192.0.2.185
+US,United States,Illinois,West Chicago,192.0.2.186
+US,United States,Illinois,Wood Dale,192.0.2.187
+US,United States,Indiana,Daleville,192.0.2.188
+US,United States,Indiana,Fort Wayne,192.0.2.189
+US,United States,Indiana,Indianapolis,192.0.2.190
+US,United States,Indiana,Logansport,192.0.2.191
+US,United States,Indiana,Michigan City,192.0.2.192
+US,United States,Indiana,New Castle,192.0.2.193
+US,United States,Indiana,South Bend,192.0.2.194
+US,United States,Kentucky,Campbellsville,192.0.2.195
+US,United States,Kentucky,Florence,192.0.2.196
+US,United States,Kentucky,Newport,192.0.2.197
+US,United States,Kentucky,Saint Matthews,192.0.2.198
+US,United States,Kentucky,Somerset,192.0.2.199
+US,United States,Massachusetts,Braintree,192.0.2.200
+US,United States,Massachusetts,Norwood,192.0.2.201
+US,United States,Massachusetts,Randolph,192.0.2.202
+US,United States,Massachusetts,Saugus,192.0.2.203
+US,United States,Massachusetts,Wrentham,192.0.2.204
+US,United States,Maryland,Baltimore,192.0.2.205
+US,United States,Maine,Kittery,192.0.2.206
+US,United States,Michigan,Detroit,192.0.2.207
+US,United States,Michigan,Holland,192.0.2.208
+US,United States,Michigan,Howell,192.0.2.209
+US,United States,Michigan,Madison Heights,192.0.2.210
+US,United States,Michigan,Midland,192.0.2.211
+US,United States,Michigan,Monroe,192.0.2.212
+US,United States,Michigan,Novi,192.0.2.213
+US,United States,Michigan,Pontiac,192.0.2.214
+US,United States,Michigan,Port Huron,192.0.2.215
+US,United States,Michigan,Redford,192.0.2.216
+US,United States,Michigan,Saginaw,192.0.2.217
+US,United States,Michigan,Southfield,192.0.2.218
+US,United States,Michigan,Southgate,192.0.2.219
+US,United States,Michigan,Westland,192.0.2.220
+US,United States,Michigan,Zeeland,192.0.2.221
+US,United States,Minnesota,Branch,192.0.2.222
+US,United States,Minnesota,Duluth,192.0.2.223
+US,United States,Minnesota,Edina,192.0.2.224
+US,United States,Minnesota,Medford,192.0.2.225
+US,United States,Minnesota,Minneapolis,192.0.2.226
+US,United States,Minnesota,Woodbury,192.0.2.227
+US,United States,Missouri,Branson,192.0.2.228
+US,United States,Missouri,Ferguson,192.0.2.229
+US,United States,Missouri,Jefferson City,192.0.2.230
+US,United States,Missouri,Kansas City,192.0.2.231
+US,United States,Missouri,Odessa,192.0.2.232
+US,United States,Missouri,Saint Ann,192.0.2.233
+US,United States,Missouri,Saint Louis,192.0.2.234
+US,United States,Mississippi,Biloxi,192.0.2.235
+US,United States,Mississippi,Gulfport,192.0.2.236
+US,United States,Mississippi,Tupelo,192.0.2.237
+US,United States,Montana,Billings,192.0.2.238
+US,United States,Montana,Great Falls,192.0.2.239
+US,United States,Montana,Missoula,192.0.2.240
+US,United States,North Carolina,Charlotte,192.0.2.241
+US,United States,North Carolina,Greensboro,192.0.2.242
+US,United States,North Carolina,Kannapolis,192.0.2.243
+US,United States,North Carolina,Raleigh,192.0.2.244
+US,United States,North Carolina,Rocky Mount,192.0.2.245
+US,United States,North Carolina,Smithfield,192.0.2.246
+US,United States,North Carolina,Winston-Salem,192.0.2.247
+US,United States,New Hampshire,Hooksett,192.0.2.248
+US,United States,New Hampshire,Nashua,192.0.2.249
+US,United States,New Hampshire,Plaistow,192.0.2.250
+US,United States,New Hampshire,Tilton,192.0.2.251
+US,United States,New Mexico,Las Cruces,192.0.2.252
+US,United States,New Mexico,Rio Rancho,192.0.2.253
+US,United States,New Mexico,Santa Fe,192.0.2.254
+US,United States,Nevada,Fernley,203.0.113.1
+US,United States,Nevada,Las Vegas,203.0.113.2
+US,United States,Nevada,North Las Vegas,203.0.113.3
+US,United States,Nevada,Reno,203.0.113.4
+US,United States,Nevada,Sparks,203.0.113.5
+US,United States,New York,Central Valley,203.0.113.6
+US,United States,New York,Cheektowaga,203.0.113.7
+US,United States,New York,Clay,203.0.113.8
+US,United States,New York,De Witt,203.0.113.9
+US,United States,New York,Endicott,203.0.113.10
+US,United States,New York,Ithaca,203.0.113.11
+US,United States,New York,Lake George,203.0.113.12
+US,United States,New York,Melville,203.0.113.13
+US,United States,New York,New Hartford,203.0.113.14
+US,United States,New York,New York,203.0.113.15
+US,United States,New York,Valley Stream,203.0.113.16
+US,United States,Ohio,Burbank,203.0.113.17
+US,United States,Ohio,Cincinnati,203.0.113.18
+US,United States,Ohio,Columbus,203.0.113.19
+US,United States,Ohio,Euclid,203.0.113.20
+US,United States,Ohio,Heath,203.0.113.21
+US,United States,Ohio,Holland,203.0.113.22
+US,United States,Ohio,Mansfield,203.0.113.23
+US,United States,Ohio,Mentor,203.0.113.24
+US,United States,Ohio,North Randall,203.0.113.25
+US,United States,Ohio,Oberlin,203.0.113.26
+US,United States,Ohio,Springdale,203.0.113.27
+US,United States,Oregon,Albany,203.0.113.28
+US,United States,Oregon,Beaverton,203.0.113.29
+US,United States,Oregon,Clackamas,203.0.113.30
+US,United States,Oregon,Clackamas,203.0.113.31
+US,United States,Oregon,Corvallis,203.0.113.32
+US,United States,Oregon,Hillsboro,203.0.113.33
+US,United States,Oregon,Klamath Falls,203.0.113.34
+US,United States,Oregon,Lake Oswego,203.0.113.35
+US,United States,Oregon,Lebanon,203.0.113.36
+US,United States,Oregon,Medford,203.0.113.37
+US,United States,Oregon,Milwaukie,203.0.113.38
+US,United States,Oregon,Oregon City,203.0.113.39
+US,United States,Oregon,Portland,203.0.113.40
+US,United States,Oregon,Salem,203.0.113.41
+US,United States,Oregon,Springfield,203.0.113.42
+US,United States,Oregon,Tigard,203.0.113.43
+US,United States,Oregon,Troutdale,203.0.113.44
+US,United States,Oregon,W. Linn,203.0.113.45
+US,United States,Oregon,Woodburn,203.0.113.46
+US,United States,Rhode Island,Warwick,203.0.113.47
+US,United States,Rhode Island,West Kingston,203.0.113.48
+US,United States,Rhode Island,Woonsocket,203.0.113.49
+US,United States,South Carolina,Bluffton,203.0.113.50
+US,United States,South Carolina,Gaffney,203.0.113.51
+US,United States,South Carolina,Myrtle Beach,203.0.113.52
+US,United States,South Dakota,Denby,203.0.113.53
+US,United States,South Dakota,North Sioux City,203.0.113.54
+US,United States,Tennessee,Crossville,203.0.113.55
+US,United States,Tennessee,Hixson,203.0.113.56
+US,United States,Tennessee,Kingsport,203.0.113.57
+US,United States,Tennessee,La Vergne,203.0.113.58
+US,United States,Tennessee,Maryville,203.0.113.59
+US,United States,Tennessee,Memphis,203.0.113.60
+US,United States,Tennessee,Millington,203.0.113.61
+US,United States,Tennessee,Nashville,203.0.113.62
+US,United States,Tennessee,Pigeon Forge,203.0.113.63
+US,United States,Texas,Arlington,203.0.113.64
+US,United States,Texas,Austin,203.0.113.65
+US,United States,Texas,Baytown,203.0.113.66
+US,United States,Texas,Carrollton,203.0.113.67
+US,United States,Texas,Cedar Park,203.0.113.68
+US,United States,Texas,College Station,203.0.113.69
+US,United States,Texas,Corpus Christi,203.0.113.70
+US,United States,Texas,Dallas,203.0.113.71
+US,United States,Texas,Fort Worth,203.0.113.72
+US,United States,Texas,Garland,203.0.113.73
+US,United States,Texas,Hillsboro,203.0.113.74
+US,United States,Texas,Houston,203.0.113.75
+US,United States,Texas,Humble,203.0.113.76
+US,United States,Texas,Irving,203.0.113.77
+US,United States,Texas,Killeen,203.0.113.78
+US,United States,Texas,La Marque,203.0.113.79
+US,United States,Texas,Laredo,203.0.113.80
+US,United States,Texas,Mesquite,203.0.113.81
+US,United States,Texas,Plano,203.0.113.82
+US,United States,Texas,Round Rock,203.0.113.83
+US,United States,Texas,San Antonio,203.0.113.84
+US,United States,Texas,Stafford,203.0.113.85
+US,United States,Texas,Sugar Land,203.0.113.86
+US,United States,Utah,Bountiful,203.0.113.87
+US,United States,Utah,Cedar City,203.0.113.88
+US,United States,Utah,Ogden,203.0.113.89
+US,United States,Utah,Park City,203.0.113.90
+US,United States,Utah,Riverton,203.0.113.91
+US,United States,Utah,Salt Lake City,203.0.113.92
+US,United States,Utah,Sandy,203.0.113.93
+US,United States,Utah,Tooele,203.0.113.94
+US,United States,Virginia,Chantilly,203.0.113.95
+US,United States,Virginia,Falls Church,203.0.113.96
+US,United States,Virginia,Leesburg,203.0.113.97
+US,United States,Virginia,Newport News,203.0.113.98
+US,United States,Virginia,Virginia Beach,203.0.113.99
+US,United States,Washington,Ballard,203.0.113.100
+US,United States,Washington,Bellevue,203.0.113.101
+US,United States,Washington,Bellingham,203.0.113.102
+US,United States,Washington,Bothell,203.0.113.103
+US,United States,Washington,Bremerton,203.0.113.104
+US,United States,Washington,Burien,203.0.113.105
+US,United States,Washington,Chehalis,203.0.113.106
+US,United States,Washington,Edmonds,203.0.113.107
+US,United States,Washington,Ellensburg,203.0.113.108
+US,United States,Washington,Everett,203.0.113.109
+US,United States,Washington,Federal Way,203.0.113.110
+US,United States,Washington,Issaquah,203.0.113.111
+US,United States,Washington,Kelso,203.0.113.112
+US,United States,Washington,Kenmore,203.0.113.113
+US,United States,Washington,Kennewick,203.0.113.114
+US,United States,Washington,Kent,203.0.113.115
+US,United States,Washington,Kirkland,203.0.113.116
+US,United States,Washington,Lacey,203.0.113.117
+US,United States,Washington,Longview,203.0.113.118
+US,United States,Washington,Lynnwood,203.0.113.119
+US,United States,Washington,Marysville,203.0.113.120
+US,United States,Washington,Monroe,203.0.113.121
+US,United States,Washington,Newport Hills,203.0.113.122
+US,United States,Washington,North Bend,203.0.113.123
+US,United States,Washington,Olympia,203.0.113.124
+US,United States,Washington,Port Orchard,203.0.113.125
+US,United States,Washington,Puyallup,203.0.113.126
+US,United States,Washington,Redmond,203.0.113.127
+US,United States,Washington,Renton,203.0.113.128
+US,United States,Washington,Sammamish,203.0.113.129
+US,United States,Washington,Seattle,203.0.113.130
+US,United States,Washington,Sedro Woolley,203.0.113.131
+US,United States,Washington,Sequim,203.0.113.132
+US,United States,Washington,Shelton,203.0.113.133
+US,United States,Washington,Spokane,203.0.113.134
+US,United States,Washington,Tacoma,203.0.113.135
+US,United States,Washington,Union Gap,203.0.113.136
+US,United States,Washington,Walla Walla,203.0.113.137
+US,United States,Washington,Washougal,203.0.113.138
+US,United States,Washington,Wenatchee,203.0.113.139
+US,United States,Washington,Woodinville,203.0.113.140
+US,United States,Washington,Yakima,203.0.113.141
+US,United States,Wisconsin,Johnson Creek,203.0.113.142
+US,United States,Wisconsin,Milwaukee,203.0.113.143
+US,United States,Wisconsin,Mosinee,203.0.113.144
+US,United States,Wisconsin,Racine,203.0.113.145
+US,United States,Wyoming,Casper,203.0.113.146
+US,United States,Wyoming,Cheyenne,203.0.113.147
+US,United States,Wyoming,Rock Springs,203.0.113.148

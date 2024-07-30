@@ -1,0 +1,2443 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="2/14/2023 4:53:49 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-8RKHAGF"
+  DTS:CreatorName="DESKTOP-8RKHAGF\User"
+  DTS:DTSID="{48EB6AB6-12D6-4EFC-9957-2595300F78BC}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.180"
+  DTS:LocaleID="9226"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{8D2314F7-9385-435B-B2AA-172116D6CFA4}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ListaEmpleados]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{1CBC679D-53B3-462D-9036-8E7CE2BB75D5}"
+      DTS:ObjectName="ListaEmpleados">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\UdemyFull\BaseDatos\SISS_CERO_EXPERTO\02_UNIDAD_DOC_FLUJO_DATOS\SPLIT_CONDICIONAL\Lista Empleado.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LocalHost.STREAMING.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{A7C18443-A6CD-482E-908B-CD7649AFAC90}"
+      DTS:ObjectName="LocalHost.STREAMING.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=.;User ID=sa;Initial Catalog=STREAMING;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAART4qWSXfQECzmgjmR6/+KQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADCb8hFJH1FczaJyO4hTIDRBqDhYu21y7pEoq5TjNVdmAAAAAAOgAAAAAIAACAAAABsw27Ex2SPBOl+xrtw2sV2b41yVqMub2HMZAYTXCIuShAAAAAWWTQcuaWJ0lm706fcnRPCQAAAAOvkwNUt9kkRj84F29cYJJNRnsCO/K6V+1yiC/7HOMK+hjVXlpryTETQiSS3qSuZHhLvWXn+p4HeuxfBK8NsBac</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Carga Empleado Temp"
+      DTS:CreationName="STOCK:SEQUENCE"
+      DTS:Description="Contenedor de secuencias"
+      DTS:DTSID="{97F81888-44CA-45AA-95BC-884C00B4F0AD}"
+      DTS:ExecutableType="STOCK:SEQUENCE"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Carga Empleado Temp">
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\Carga Empleado Temp\Carga Empleados Temp"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Data Flow Task"
+          DTS:DTSID="{84AD7AE5-AB62-428F-B488-9F0661B127B6}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Carga Empleados Temp"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <component
+                  refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado"
+                  componentClassID="Microsoft.ExcelSource"
+                  contactInfo="Excel Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+                  description="Excel Source"
+                  name="Archivo Empleado"
+                  usesDispositions="true"
+                  version="1">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">Hoja1$</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                    <property
+                      dataType="System.String"
+                      description="The variable that contains the SQL command to be executed."
+                      name="SqlCommandVariable"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">0</property>
+                    <property
+                      dataType="System.String"
+                      description="The mapping from parameters in the SQL command to variables."
+                      name="ParameterMapping"></property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[ListaEmpleados]"
+                      connectionManagerRefId="Package.ConnectionManagers[ListaEmpleados]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output]"
+                      name="Excel Source Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[EmpleadoID]"
+                          dataType="r8"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].ExternalColumns[EmpleadoID]"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[EmpleadoID]"
+                          name="EmpleadoID"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[Nombre]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].ExternalColumns[Nombre]"
+                          length="255"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[Nombre]"
+                          name="Nombre"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[Apellido]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].ExternalColumns[Apellido]"
+                          length="255"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[Apellido]"
+                          name="Apellido"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[Email]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].ExternalColumns[Email]"
+                          length="255"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[Email]"
+                          name="Email"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[EstadoCivil]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].ExternalColumns[EstadoCivil]"
+                          length="255"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[EstadoCivil]"
+                          name="EstadoCivil"
+                          truncationRowDisposition="FailComponent" />
+                      </outputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].ExternalColumns[EmpleadoID]"
+                          dataType="r8"
+                          name="EmpleadoID" />
+                        <externalMetadataColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].ExternalColumns[Nombre]"
+                          dataType="wstr"
+                          length="255"
+                          name="Nombre" />
+                        <externalMetadataColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].ExternalColumns[Apellido]"
+                          dataType="wstr"
+                          length="255"
+                          name="Apellido" />
+                        <externalMetadataColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].ExternalColumns[Email]"
+                          dataType="wstr"
+                          length="255"
+                          name="Email" />
+                        <externalMetadataColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].ExternalColumns[EstadoCivil]"
+                          dataType="wstr"
+                          length="255"
+                          name="EstadoCivil" />
+                      </externalMetadataColumns>
+                    </output>
+                    <output
+                      refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Error Output]"
+                      isErrorOut="true"
+                      name="Excel Source Error Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Error Output].Columns[EmpleadoID]"
+                          dataType="r8"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Error Output].Columns[EmpleadoID]"
+                          name="EmpleadoID" />
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Error Output].Columns[Nombre]"
+                          dataType="wstr"
+                          length="255"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Error Output].Columns[Nombre]"
+                          name="Nombre" />
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Error Output].Columns[Apellido]"
+                          dataType="wstr"
+                          length="255"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Error Output].Columns[Apellido]"
+                          name="Apellido" />
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Error Output].Columns[Email]"
+                          dataType="wstr"
+                          length="255"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Error Output].Columns[Email]"
+                          name="Email" />
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Error Output].Columns[EstadoCivil]"
+                          dataType="wstr"
+                          length="255"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Error Output].Columns[EstadoCivil]"
+                          name="EstadoCivil" />
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion"
+                  componentClassID="Microsoft.DataConvert"
+                  contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Data Conversion"
+                  name="Data Conversion"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Inputs[Data Conversion Input]"
+                      name="Data Conversion Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Inputs[Data Conversion Input].Columns[EmpleadoID]"
+                          cachedDataType="r8"
+                          cachedName="EmpleadoID"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[EmpleadoID]" />
+                        <inputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Inputs[Data Conversion Input].Columns[Nombre]"
+                          cachedDataType="wstr"
+                          cachedLength="255"
+                          cachedName="Nombre"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[Nombre]" />
+                        <inputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Inputs[Data Conversion Input].Columns[Apellido]"
+                          cachedDataType="wstr"
+                          cachedLength="255"
+                          cachedName="Apellido"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[Apellido]" />
+                        <inputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Inputs[Data Conversion Input].Columns[Email]"
+                          cachedDataType="wstr"
+                          cachedLength="255"
+                          cachedName="Email"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[Email]" />
+                        <inputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Inputs[Data Conversion Input].Columns[EstadoCivil]"
+                          cachedDataType="wstr"
+                          cachedLength="255"
+                          cachedName="EstadoCivil"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[EstadoCivil]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Output]"
+                      exclusionGroup="1"
+                      name="Data Conversion Output"
+                      synchronousInputId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Inputs[Data Conversion Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de EmpleadoID]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de EmpleadoID]"
+                          name="Copia de EmpleadoID"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the input column used as the source of data for the conversion."
+                              name="SourceInputColumnLineageID">#{Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[EmpleadoID]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Nombre]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          length="50"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Nombre]"
+                          name="Copia de Nombre"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the input column used as the source of data for the conversion."
+                              name="SourceInputColumnLineageID">#{Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[Nombre]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Apellido]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          length="50"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Apellido]"
+                          name="Copia de Apellido"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the input column used as the source of data for the conversion."
+                              name="SourceInputColumnLineageID">#{Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[Apellido]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Email]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          length="50"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Email]"
+                          name="Copia de Email"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the input column used as the source of data for the conversion."
+                              name="SourceInputColumnLineageID">#{Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[Email]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de EstadoCivil]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          length="1"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de EstadoCivil]"
+                          name="Copia de EstadoCivil"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="Specifies the input column used as the source of data for the conversion."
+                              name="SourceInputColumnLineageID">#{Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output].Columns[EstadoCivil]}</property>
+                            <property
+                              dataType="System.Boolean"
+                              description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                              name="FastParse">false</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Data Conversion Error Output"
+                      synchronousInputId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Inputs[Data Conversion Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB Destination"
+                  name="OLE DB Destination"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dbo].[Empleado_Temp]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">0</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                      name="FastLoadOptions"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[LocalHost.STREAMING.sa]"
+                      connectionManagerRefId="Package.ConnectionManagers[LocalHost.STREAMING.sa]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                      errorOrTruncationOperation="Insert"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="OLE DB Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copia de EmpleadoID]"
+                          cachedDataType="i4"
+                          cachedName="Copia de EmpleadoID"
+                          externalMetadataColumnId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[EmpleadoID]"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de EmpleadoID]" />
+                        <inputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copia de Apellido]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Copia de Apellido"
+                          externalMetadataColumnId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Apellido]"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Apellido]" />
+                        <inputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copia de Email]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Copia de Email"
+                          externalMetadataColumnId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Email]"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Email]" />
+                        <inputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copia de EstadoCivil]"
+                          cachedDataType="wstr"
+                          cachedLength="1"
+                          cachedName="Copia de EstadoCivil"
+                          externalMetadataColumnId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[EstadoCivil]"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de EstadoCivil]" />
+                        <inputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Copia de Nombre]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Copia de Nombre"
+                          externalMetadataColumnId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Nombre]"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Nombre]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[EmpleadoID]"
+                          dataType="i4"
+                          name="EmpleadoID" />
+                        <externalMetadataColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Nombre]"
+                          dataType="wstr"
+                          length="50"
+                          name="Nombre" />
+                        <externalMetadataColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Apellido]"
+                          dataType="wstr"
+                          length="50"
+                          name="Apellido" />
+                        <externalMetadataColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Email]"
+                          dataType="wstr"
+                          length="50"
+                          name="Email" />
+                        <externalMetadataColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[EstadoCivil]"
+                          dataType="wstr"
+                          length="1"
+                          name="EstadoCivil" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="OLE DB Destination Error Output"
+                      synchronousInputId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Inputs[OLE DB Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+              </components>
+              <paths>
+                <path
+                  refId="Package\Carga Empleado Temp\Carga Empleados Temp.Paths[Data Conversion Output]"
+                  endId="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination.Inputs[OLE DB Destination Input]"
+                  name="Data Conversion Output"
+                  startId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Outputs[Data Conversion Output]" />
+                <path
+                  refId="Package\Carga Empleado Temp\Carga Empleados Temp.Paths[Excel Source Output]"
+                  endId="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion.Inputs[Data Conversion Input]"
+                  name="Excel Source Output"
+                  startId="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado.Outputs[Excel Source Output]" />
+              </paths>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Carga Empleado Temp\Tarea Ejecutar SQL"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Tarea Ejecutar SQL"
+          DTS:DTSID="{CB2B1A23-DC34-4280-8B03-DF5A9D077225}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Tarea Ejecutar SQL"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{A7C18443-A6CD-482E-908B-CD7649AFAC90}"
+              SQLTask:SqlStatementSource="truncate table Empleado_Temp" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+      <DTS:PrecedenceConstraints>
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Carga Empleado Temp.PrecedenceConstraints[Restricción]"
+          DTS:CreationName=""
+          DTS:DTSID="{6129AE1E-B24F-43E4-B042-A7826BF4FE23}"
+          DTS:From="Package\Carga Empleado Temp\Tarea Ejecutar SQL"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Restricción"
+          DTS:To="Package\Carga Empleado Temp\Carga Empleados Temp" />
+      </DTS:PrecedenceConstraints>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Contenedor de secuencias"
+      DTS:CreationName="STOCK:SEQUENCE"
+      DTS:Description="Contenedor de secuencias"
+      DTS:DTSID="{2C96DFE8-02DB-4CAA-A48D-C2FB6A9AF89C}"
+      DTS:ExecutableType="STOCK:SEQUENCE"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Contenedor de secuencias">
+      <DTS:Variables />
+      <DTS:Executables>
+        <DTS:Executable
+          DTS:refId="Package\Contenedor de secuencias\Actualizar Empleado"
+          DTS:CreationName="Microsoft.ExecuteSQLTask"
+          DTS:Description="Tarea Ejecutar SQL"
+          DTS:DTSID="{6CF23B9B-C962-468E-B2E3-21EDCBEC3696}"
+          DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Actualizar Empleado"
+          DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+          DTS:ThreadHint="0">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <SQLTask:SqlTaskData
+              SQLTask:Connection="{A7C18443-A6CD-482E-908B-CD7649AFAC90}"
+              SQLTask:SqlStatementSource="UPDATE Empleado&#xA;SET Empleado.Nombre=Empleado_Temp.Nombre,&#xA;&#x9;Empleado.Apellido=Empleado_Temp.Apellido,&#xA;&#x9;Empleado.Email=Empleado_Temp.Email,&#xA;&#x9;Empleado.EstadoCivil=Empleado_Temp.EstadoCivil&#xA;FROM Empleado INNER JOIN Empleado_Temp&#xA;ON Empleado.EmpleadoID=Empleado_Temp.EmpleadoID" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          </DTS:ObjectData>
+        </DTS:Executable>
+        <DTS:Executable
+          DTS:refId="Package\Contenedor de secuencias\Division Condicional"
+          DTS:CreationName="Microsoft.Pipeline"
+          DTS:Description="Data Flow Task"
+          DTS:DTSID="{BE988B37-D91F-4D87-B072-E4E8E7380A82}"
+          DTS:ExecutableType="Microsoft.Pipeline"
+          DTS:LocaleID="-1"
+          DTS:ObjectName="Division Condicional"
+          DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+          <DTS:Variables />
+          <DTS:ObjectData>
+            <pipeline
+              version="1">
+              <components>
+                <component
+                  refId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB Destination"
+                  name="Carga Datos Empleado"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dbo].[Empleado]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">3</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                      name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[LocalHost.STREAMING.sa]"
+                      connectionManagerRefId="Package.ConnectionManagers[LocalHost.STREAMING.sa]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Inputs[OLE DB Destination Input]"
+                      errorOrTruncationOperation="Insert"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="OLE DB Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Inputs[OLE DB Destination Input].Columns[EmpleadoID_temp]"
+                          cachedDataType="i4"
+                          cachedName="EmpleadoID_temp"
+                          cachedSortKeyPosition="1"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Inputs[OLE DB Destination Input].ExternalColumns[EmpleadoID]"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[EmpleadoID_temp]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Inputs[OLE DB Destination Input].Columns[Nombre_temp]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Nombre_temp"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Inputs[OLE DB Destination Input].ExternalColumns[Nombre]"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Nombre_temp]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Inputs[OLE DB Destination Input].Columns[Apellido_temp]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Apellido_temp"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Inputs[OLE DB Destination Input].ExternalColumns[Apellido]"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Apellido_temp]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Inputs[OLE DB Destination Input].Columns[Email_temp]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Email_temp"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Inputs[OLE DB Destination Input].ExternalColumns[Email]"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Email_temp]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Inputs[OLE DB Destination Input].Columns[EstadoCivil_temp]"
+                          cachedDataType="wstr"
+                          cachedLength="1"
+                          cachedName="EstadoCivil_temp"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Inputs[OLE DB Destination Input].ExternalColumns[EstadoCivil]"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[EstadoCivil_temp]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Inputs[OLE DB Destination Input].ExternalColumns[EmpleadoID]"
+                          dataType="i4"
+                          name="EmpleadoID" />
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Inputs[OLE DB Destination Input].ExternalColumns[Nombre]"
+                          dataType="wstr"
+                          length="50"
+                          name="Nombre" />
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Inputs[OLE DB Destination Input].ExternalColumns[Apellido]"
+                          dataType="wstr"
+                          length="50"
+                          name="Apellido" />
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Inputs[OLE DB Destination Input].ExternalColumns[Email]"
+                          dataType="wstr"
+                          length="50"
+                          name="Email" />
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Inputs[OLE DB Destination Input].ExternalColumns[EstadoCivil]"
+                          dataType="wstr"
+                          length="1"
+                          name="EstadoCivil" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Outputs[OLE DB Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="OLE DB Destination Error Output"
+                      synchronousInputId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Inputs[OLE DB Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Contenedor de secuencias\Division Condicional\Conditional Split"
+                  componentClassID="Microsoft.ConditionalSplit"
+                  contactInfo="Conditional Split;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Routes data rows to different outputs depending on the content of the data. Use conditions (SSIS expressions) to specify which rows are routed. For example, separate records that need to be cleaned from those that are ready to be loaded or route only a subset of records."
+                  name="Conditional Split"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Inputs[Conditional Split Input]"
+                      description="Input to the Conditional Split Transformation"
+                      name="Conditional Split Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Inputs[Conditional Split Input].Columns[EmpleadoID]"
+                          cachedDataType="i4"
+                          cachedName="EmpleadoID"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[EmpleadoID]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Inputs[Conditional Split Input].Columns[Nombre_temp]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Nombre_temp"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Nombre_temp]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Inputs[Conditional Split Input].Columns[Apellido_temp]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Apellido_temp"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Apellido_temp]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Inputs[Conditional Split Input].Columns[Email_temp]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Email_temp"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Email_temp]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Inputs[Conditional Split Input].Columns[EstadoCivil_temp]"
+                          cachedDataType="wstr"
+                          cachedLength="1"
+                          cachedName="EstadoCivil_temp"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[EstadoCivil_temp]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Inputs[Conditional Split Input].Columns[Nombre]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Nombre"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Nombre]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Inputs[Conditional Split Input].Columns[Apellido]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Apellido"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Apellido]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Inputs[Conditional Split Input].Columns[EstadoCivil]"
+                          cachedDataType="wstr"
+                          cachedLength="1"
+                          cachedName="EstadoCivil"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[EstadoCivil]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Outputs[Empleado_Nuevo]"
+                      description="Output 1 of the Conditional Split Transformation"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      exclusionGroup="1"
+                      name="Empleado_Nuevo"
+                      synchronousInputId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Inputs[Conditional Split Input]"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                          name="Expression">[ISNULL](#{Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[EmpleadoID]})</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Specifies the friendly version of the expression. This expression version uses column names."
+                          expressionType="Notify"
+                          name="FriendlyExpression">ISNULL(EmpleadoID)</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                          name="EvaluationOrder">0</property>
+                      </properties>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Outputs[Empleado_Modificado]"
+                      description="Output 2 of the Conditional Split Transformation"
+                      errorOrTruncationOperation="Computation"
+                      errorRowDisposition="FailComponent"
+                      exclusionGroup="1"
+                      name="Empleado_Modificado"
+                      synchronousInputId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Inputs[Conditional Split Input]"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Specifies the expression. This expression version uses lineage identifiers instead of column names."
+                          name="Expression">#{Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Nombre_temp]} != #{Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Nombre]} || #{Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Apellido_temp]} != #{Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Apellido]} || #{Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Email_temp]} != #{Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Apellido]} || #{Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[EstadoCivil_temp]} != #{Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[EstadoCivil]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Specifies the friendly version of the expression. This expression version uses column names."
+                          expressionType="Notify"
+                          name="FriendlyExpression">Nombre_temp != Nombre || Apellido_temp != Apellido || Email_temp != Apellido || EstadoCivil_temp != EstadoCivil</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies the position of the condition in the list of conditions that the transformation evaluates. The evaluation order is from the lowest to the highest value."
+                          name="EvaluationOrder">1</property>
+                      </properties>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Outputs[Conditional Split Default Output]"
+                      description="Default Output of the Conditional Split Transformation"
+                      exclusionGroup="1"
+                      name="Conditional Split Default Output"
+                      synchronousInputId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Inputs[Conditional Split Input]">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          name="IsDefaultOut">true</property>
+                      </properties>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Outputs[Conditional Split Error Output]"
+                      description="Error Output of the Conditional Split Transformation"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Conditional Split Error Output"
+                      synchronousInputId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Inputs[Conditional Split Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Contenedor de secuencias\Division Condicional\Derived Column"
+                  componentClassID="Microsoft.DerivedColumn"
+                  contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+                  description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
+                  name="Derived Column"
+                  usesDispositions="true">
+                  <inputs>
+                    <input
+                      refId="Package\Contenedor de secuencias\Division Condicional\Derived Column.Inputs[Derived Column Input]"
+                      description="Input to the Derived Column Transformation"
+                      name="Derived Column Input">
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Contenedor de secuencias\Division Condicional\Derived Column.Outputs[Derived Column Output]"
+                      description="Default Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      name="Derived Column Output"
+                      synchronousInputId="Package\Contenedor de secuencias\Division Condicional\Derived Column.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Derived Column.Outputs[Derived Column Output].Columns[FechaRegistro]"
+                          dataType="dbTimeStamp"
+                          errorOrTruncationOperation="Computation"
+                          errorRowDisposition="FailComponent"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Derived Column.Outputs[Derived Column Output].Columns[FechaRegistro]"
+                          name="FechaRegistro"
+                          truncationRowDisposition="FailComponent">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Expression"
+                              name="Expression">[GETDATE]()</property>
+                            <property
+                              containsID="true"
+                              dataType="System.String"
+                              description="Derived Column Friendly Expression"
+                              expressionType="Notify"
+                              name="FriendlyExpression">GETDATE()</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                    <output
+                      refId="Package\Contenedor de secuencias\Division Condicional\Derived Column.Outputs[Derived Column Error Output]"
+                      description="Error Output of the Derived Column Transformation"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="Derived Column Error Output"
+                      synchronousInputId="Package\Contenedor de secuencias\Division Condicional\Derived Column.Inputs[Derived Column Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod"
+                  componentClassID="Microsoft.OLEDBDestination"
+                  contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+                  description="OLE DB Destination"
+                  name="Inserta Empleado_Mod"
+                  usesDispositions="true"
+                  version="4">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset">[dbo].[Empleado_Mod]</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">3</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepIdentity">false</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                      name="FastLoadKeepNulls">false</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                      name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                      name="FastLoadMaxInsertCommitSize">2147483647</property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[LocalHost.STREAMING.sa]"
+                      connectionManagerRefId="Package.ConnectionManagers[LocalHost.STREAMING.sa]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <inputs>
+                    <input
+                      refId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input]"
+                      errorOrTruncationOperation="Insert"
+                      errorRowDisposition="FailComponent"
+                      hasSideEffects="true"
+                      name="OLE DB Destination Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input].Columns[EmpleadoID]"
+                          cachedDataType="i4"
+                          cachedName="EmpleadoID"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input].ExternalColumns[EmpleadoID]"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[EmpleadoID]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input].Columns[Nombre]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Nombre"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input].ExternalColumns[Nombre]"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Nombre]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input].Columns[Apellido]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Apellido"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input].ExternalColumns[Apellido]"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Apellido]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input].Columns[Email]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Email"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input].ExternalColumns[Email]"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Email]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input].Columns[EstadoCivil]"
+                          cachedDataType="wstr"
+                          cachedLength="1"
+                          cachedName="EstadoCivil"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input].ExternalColumns[EstadoCivil]"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[EstadoCivil]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input].Columns[FechaRegistro]"
+                          cachedDataType="dbTimeStamp"
+                          cachedName="FechaRegistro"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input].ExternalColumns[FechaRegistro]"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Derived Column.Outputs[Derived Column Output].Columns[FechaRegistro]" />
+                      </inputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input].ExternalColumns[EmpleadoID]"
+                          dataType="i4"
+                          name="EmpleadoID" />
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input].ExternalColumns[Nombre]"
+                          dataType="wstr"
+                          length="50"
+                          name="Nombre" />
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input].ExternalColumns[Apellido]"
+                          dataType="wstr"
+                          length="50"
+                          name="Apellido" />
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input].ExternalColumns[Email]"
+                          dataType="wstr"
+                          length="50"
+                          name="Email" />
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input].ExternalColumns[EstadoCivil]"
+                          dataType="wstr"
+                          length="1"
+                          name="EstadoCivil" />
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input].ExternalColumns[FechaRegistro]"
+                          dataType="dbTimeStamp"
+                          name="FechaRegistro" />
+                      </externalMetadataColumns>
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Outputs[OLE DB Destination Error Output]"
+                      exclusionGroup="1"
+                      isErrorOut="true"
+                      name="OLE DB Destination Error Output"
+                      synchronousInputId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input]">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Contenedor de secuencias\Division Condicional\Merge Join"
+                  componentClassID="Microsoft.MergeJoin"
+                  contactInfo="Merge Join;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
+                  description="Combine two sorted data flows into one using the FULL, LEFT, or INNER join. We recommend this transformation when data flows can be sorted at their sources."
+                  name="Merge Join"
+                  version="1">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the type of join to perform."
+                      name="JoinType"
+                      typeConverter="JoinType">1</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the number of columns in the ordering key."
+                      name="NumKeyColumns">1</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Indicates whether the null values are treated as equal values."
+                      name="TreatNullsAsEqual">true</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Indicates the requested maximum buffers per input before blocking."
+                      name="MaxBuffersPerInput">5</property>
+                  </properties>
+                  <inputs>
+                    <input
+                      refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Left Input]"
+                      hasSideEffects="true"
+                      name="Merge Join Left Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Left Input].Columns[EmpleadoID]"
+                          cachedDataType="i4"
+                          cachedName="EmpleadoID"
+                          cachedSortKeyPosition="1"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].Columns[EmpleadoID]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Left Input].Columns[Nombre]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Nombre"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].Columns[Nombre]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Left Input].Columns[Apellido]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Apellido"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].Columns[Apellido]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Left Input].Columns[Email]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Email"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].Columns[Email]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Left Input].Columns[EstadoCivil]"
+                          cachedDataType="wstr"
+                          cachedLength="1"
+                          cachedName="EstadoCivil"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].Columns[EstadoCivil]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                    <input
+                      refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Right Input]"
+                      hasSideEffects="true"
+                      name="Merge Join Right Input">
+                      <inputColumns>
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Right Input].Columns[EmpleadoID]"
+                          cachedDataType="i4"
+                          cachedName="EmpleadoID"
+                          cachedSortKeyPosition="1"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].Columns[EmpleadoID]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Right Input].Columns[Nombre]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Nombre"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].Columns[Nombre]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Right Input].Columns[Apellido]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Apellido"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].Columns[Apellido]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Right Input].Columns[Email]"
+                          cachedDataType="wstr"
+                          cachedLength="50"
+                          cachedName="Email"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].Columns[Email]" />
+                        <inputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Right Input].Columns[EstadoCivil]"
+                          cachedDataType="wstr"
+                          cachedLength="1"
+                          cachedName="EstadoCivil"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].Columns[EstadoCivil]" />
+                      </inputColumns>
+                      <externalMetadataColumns />
+                    </input>
+                  </inputs>
+                  <outputs>
+                    <output
+                      refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output]"
+                      isSorted="true"
+                      name="Merge Join Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[EmpleadoID_temp]"
+                          dataType="i4"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[EmpleadoID_temp]"
+                          name="EmpleadoID_temp"
+                          sortKeyPosition="1">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="The input column associated with this output column"
+                              name="InputColumnID">#{Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Left Input].Columns[EmpleadoID]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Nombre_temp]"
+                          dataType="wstr"
+                          length="50"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Nombre_temp]"
+                          name="Nombre_temp">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="The input column associated with this output column"
+                              name="InputColumnID">#{Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Left Input].Columns[Nombre]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Apellido_temp]"
+                          dataType="wstr"
+                          length="50"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Apellido_temp]"
+                          name="Apellido_temp">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="The input column associated with this output column"
+                              name="InputColumnID">#{Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Left Input].Columns[Apellido]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Email_temp]"
+                          dataType="wstr"
+                          length="50"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Email_temp]"
+                          name="Email_temp">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="The input column associated with this output column"
+                              name="InputColumnID">#{Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Left Input].Columns[Email]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[EstadoCivil_temp]"
+                          dataType="wstr"
+                          length="1"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[EstadoCivil_temp]"
+                          name="EstadoCivil_temp">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="The input column associated with this output column"
+                              name="InputColumnID">#{Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Left Input].Columns[EstadoCivil]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[EmpleadoID]"
+                          dataType="i4"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[EmpleadoID]"
+                          name="EmpleadoID">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="The input column associated with this output column"
+                              name="InputColumnID">#{Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Right Input].Columns[EmpleadoID]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Nombre]"
+                          dataType="wstr"
+                          length="50"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Nombre]"
+                          name="Nombre">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="The input column associated with this output column"
+                              name="InputColumnID">#{Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Right Input].Columns[Nombre]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Apellido]"
+                          dataType="wstr"
+                          length="50"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Apellido]"
+                          name="Apellido">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="The input column associated with this output column"
+                              name="InputColumnID">#{Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Right Input].Columns[Apellido]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Email]"
+                          dataType="wstr"
+                          length="50"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[Email]"
+                          name="Email">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="The input column associated with this output column"
+                              name="InputColumnID">#{Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Right Input].Columns[Email]}</property>
+                          </properties>
+                        </outputColumn>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[EstadoCivil]"
+                          dataType="wstr"
+                          length="1"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output].Columns[EstadoCivil]"
+                          name="EstadoCivil">
+                          <properties>
+                            <property
+                              containsID="true"
+                              dataType="System.Int32"
+                              description="The input column associated with this output column"
+                              name="InputColumnID">#{Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Right Input].Columns[EstadoCivil]}</property>
+                          </properties>
+                        </outputColumn>
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado"
+                  componentClassID="Microsoft.OLEDBSource"
+                  contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+                  description="OLE DB Source"
+                  name="Origen Empleado"
+                  usesDispositions="true"
+                  version="7">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset"></property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT * FROM Empleado
+order by EmpleadoId</property>
+                    <property
+                      dataType="System.String"
+                      description="The variable that contains the SQL command to be executed."
+                      name="SqlCommandVariable"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">2</property>
+                    <property
+                      dataType="System.String"
+                      description="The mappings between the parameters in the SQL command and variables."
+                      name="ParameterMapping"></property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[LocalHost.STREAMING.sa]"
+                      connectionManagerRefId="Package.ConnectionManagers[LocalHost.STREAMING.sa]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output]"
+                      isSorted="true"
+                      name="OLE DB Source Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].Columns[EmpleadoID]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].ExternalColumns[EmpleadoID]"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].Columns[EmpleadoID]"
+                          name="EmpleadoID"
+                          sortKeyPosition="1"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].Columns[Nombre]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].ExternalColumns[Nombre]"
+                          length="50"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].Columns[Nombre]"
+                          name="Nombre"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].Columns[Apellido]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].ExternalColumns[Apellido]"
+                          length="50"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].Columns[Apellido]"
+                          name="Apellido"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].Columns[Email]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].ExternalColumns[Email]"
+                          length="50"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].Columns[Email]"
+                          name="Email"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].Columns[EstadoCivil]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].ExternalColumns[EstadoCivil]"
+                          length="1"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].Columns[EstadoCivil]"
+                          name="EstadoCivil"
+                          truncationRowDisposition="FailComponent" />
+                      </outputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].ExternalColumns[EmpleadoID]"
+                          dataType="i4"
+                          name="EmpleadoID" />
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].ExternalColumns[Nombre]"
+                          dataType="wstr"
+                          length="50"
+                          name="Nombre" />
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].ExternalColumns[Apellido]"
+                          dataType="wstr"
+                          length="50"
+                          name="Apellido" />
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].ExternalColumns[Email]"
+                          dataType="wstr"
+                          length="50"
+                          name="Email" />
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output].ExternalColumns[EstadoCivil]"
+                          dataType="wstr"
+                          length="1"
+                          name="EstadoCivil" />
+                      </externalMetadataColumns>
+                    </output>
+                    <output
+                      refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Error Output]"
+                      isErrorOut="true"
+                      name="OLE DB Source Error Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Error Output].Columns[EmpleadoID]"
+                          dataType="i4"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Error Output].Columns[EmpleadoID]"
+                          name="EmpleadoID" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Error Output].Columns[Nombre]"
+                          dataType="wstr"
+                          length="50"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Error Output].Columns[Nombre]"
+                          name="Nombre" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Error Output].Columns[Apellido]"
+                          dataType="wstr"
+                          length="50"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Error Output].Columns[Apellido]"
+                          name="Apellido" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Error Output].Columns[Email]"
+                          dataType="wstr"
+                          length="50"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Error Output].Columns[Email]"
+                          name="Email" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Error Output].Columns[EstadoCivil]"
+                          dataType="wstr"
+                          length="1"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Error Output].Columns[EstadoCivil]"
+                          name="EstadoCivil" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+                <component
+                  refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp"
+                  componentClassID="Microsoft.OLEDBSource"
+                  contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+                  description="OLE DB Source"
+                  name="Origen Empleado Temp"
+                  usesDispositions="true"
+                  version="7">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                      name="CommandTimeout">0</property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the name of the database object used to open a rowset."
+                      name="OpenRowset"></property>
+                    <property
+                      dataType="System.String"
+                      description="Specifies the variable that contains the name of the database object used to open a rowset."
+                      name="OpenRowsetVariable"></property>
+                    <property
+                      dataType="System.String"
+                      description="The SQL command to be executed."
+                      name="SqlCommand"
+                      UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT * FROM Empleado_Temp
+order by EmpleadoId</property>
+                    <property
+                      dataType="System.String"
+                      description="The variable that contains the SQL command to be executed."
+                      name="SqlCommandVariable"></property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the column code page to use when code page information is unavailable from the data source."
+                      name="DefaultCodePage">1252</property>
+                    <property
+                      dataType="System.Boolean"
+                      description="Forces the use of the DefaultCodePage property value when describing character data."
+                      name="AlwaysUseDefaultCodePage">false</property>
+                    <property
+                      dataType="System.Int32"
+                      description="Specifies the mode used to access the database."
+                      name="AccessMode"
+                      typeConverter="AccessMode">2</property>
+                    <property
+                      dataType="System.String"
+                      description="The mappings between the parameters in the SQL command and variables."
+                      name="ParameterMapping"></property>
+                  </properties>
+                  <connections>
+                    <connection
+                      refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Connections[OleDbConnection]"
+                      connectionManagerID="Package.ConnectionManagers[LocalHost.STREAMING.sa]"
+                      connectionManagerRefId="Package.ConnectionManagers[LocalHost.STREAMING.sa]"
+                      description="The OLE DB runtime connection used to access the database."
+                      name="OleDbConnection" />
+                  </connections>
+                  <outputs>
+                    <output
+                      refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output]"
+                      isSorted="true"
+                      name="OLE DB Source Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].Columns[EmpleadoID]"
+                          dataType="i4"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].ExternalColumns[EmpleadoID]"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].Columns[EmpleadoID]"
+                          name="EmpleadoID"
+                          sortKeyPosition="1"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].Columns[Nombre]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].ExternalColumns[Nombre]"
+                          length="50"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].Columns[Nombre]"
+                          name="Nombre"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].Columns[Apellido]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].ExternalColumns[Apellido]"
+                          length="50"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].Columns[Apellido]"
+                          name="Apellido"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].Columns[Email]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].ExternalColumns[Email]"
+                          length="50"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].Columns[Email]"
+                          name="Email"
+                          truncationRowDisposition="FailComponent" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].Columns[EstadoCivil]"
+                          dataType="wstr"
+                          errorOrTruncationOperation="Conversion"
+                          errorRowDisposition="FailComponent"
+                          externalMetadataColumnId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].ExternalColumns[EstadoCivil]"
+                          length="1"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].Columns[EstadoCivil]"
+                          name="EstadoCivil"
+                          truncationRowDisposition="FailComponent" />
+                      </outputColumns>
+                      <externalMetadataColumns
+                        isUsed="True">
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].ExternalColumns[EmpleadoID]"
+                          dataType="i4"
+                          name="EmpleadoID" />
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].ExternalColumns[Nombre]"
+                          dataType="wstr"
+                          length="50"
+                          name="Nombre" />
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].ExternalColumns[Apellido]"
+                          dataType="wstr"
+                          length="50"
+                          name="Apellido" />
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].ExternalColumns[Email]"
+                          dataType="wstr"
+                          length="50"
+                          name="Email" />
+                        <externalMetadataColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output].ExternalColumns[EstadoCivil]"
+                          dataType="wstr"
+                          length="1"
+                          name="EstadoCivil" />
+                      </externalMetadataColumns>
+                    </output>
+                    <output
+                      refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Error Output]"
+                      isErrorOut="true"
+                      name="OLE DB Source Error Output">
+                      <outputColumns>
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Error Output].Columns[EmpleadoID]"
+                          dataType="i4"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Error Output].Columns[EmpleadoID]"
+                          name="EmpleadoID" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Error Output].Columns[Nombre]"
+                          dataType="wstr"
+                          length="50"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Error Output].Columns[Nombre]"
+                          name="Nombre" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Error Output].Columns[Apellido]"
+                          dataType="wstr"
+                          length="50"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Error Output].Columns[Apellido]"
+                          name="Apellido" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Error Output].Columns[Email]"
+                          dataType="wstr"
+                          length="50"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Error Output].Columns[Email]"
+                          name="Email" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Error Output].Columns[EstadoCivil]"
+                          dataType="wstr"
+                          length="1"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Error Output].Columns[EstadoCivil]"
+                          name="EstadoCivil" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                          dataType="i4"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                          name="ErrorCode"
+                          specialFlags="1" />
+                        <outputColumn
+                          refId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                          dataType="i4"
+                          lineageId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                          name="ErrorColumn"
+                          specialFlags="2" />
+                      </outputColumns>
+                      <externalMetadataColumns />
+                    </output>
+                  </outputs>
+                </component>
+              </components>
+              <paths>
+                <path
+                  refId="Package\Contenedor de secuencias\Division Condicional.Paths[Derived Column Output]"
+                  endId="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod.Inputs[OLE DB Destination Input]"
+                  name="Derived Column Output"
+                  startId="Package\Contenedor de secuencias\Division Condicional\Derived Column.Outputs[Derived Column Output]" />
+                <path
+                  refId="Package\Contenedor de secuencias\Division Condicional.Paths[Empleado_Modificado]"
+                  endId="Package\Contenedor de secuencias\Division Condicional\Derived Column.Inputs[Derived Column Input]"
+                  name="Empleado_Modificado"
+                  startId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Outputs[Empleado_Modificado]" />
+                <path
+                  refId="Package\Contenedor de secuencias\Division Condicional.Paths[Empleado_Nuevo]"
+                  endId="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado.Inputs[OLE DB Destination Input]"
+                  name="Empleado_Nuevo"
+                  startId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Outputs[Empleado_Nuevo]" />
+                <path
+                  refId="Package\Contenedor de secuencias\Division Condicional.Paths[Merge Join Output]"
+                  endId="Package\Contenedor de secuencias\Division Condicional\Conditional Split.Inputs[Conditional Split Input]"
+                  name="Merge Join Output"
+                  startId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Outputs[Merge Join Output]" />
+                <path
+                  refId="Package\Contenedor de secuencias\Division Condicional.Paths[OLE DB Source Output]"
+                  endId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Left Input]"
+                  name="OLE DB Source Output"
+                  startId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp.Outputs[OLE DB Source Output]" />
+                <path
+                  refId="Package\Contenedor de secuencias\Division Condicional.Paths[OLE DB Source Output1]"
+                  endId="Package\Contenedor de secuencias\Division Condicional\Merge Join.Inputs[Merge Join Right Input]"
+                  name="OLE DB Source Output"
+                  startId="Package\Contenedor de secuencias\Division Condicional\Origen Empleado.Outputs[OLE DB Source Output]" />
+              </paths>
+            </pipeline>
+          </DTS:ObjectData>
+        </DTS:Executable>
+      </DTS:Executables>
+      <DTS:PrecedenceConstraints>
+        <DTS:PrecedenceConstraint
+          DTS:refId="Package\Contenedor de secuencias.PrecedenceConstraints[Restricción]"
+          DTS:CreationName=""
+          DTS:DTSID="{6C91CA4E-164A-4EE3-ACC4-5E3E232871CB}"
+          DTS:From="Package\Contenedor de secuencias\Division Condicional"
+          DTS:LogicalAnd="True"
+          DTS:ObjectName="Restricción"
+          DTS:To="Package\Contenedor de secuencias\Actualizar Empleado" />
+      </DTS:PrecedenceConstraints>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Restricción]"
+      DTS:CreationName=""
+      DTS:DTSID="{024BAA3F-54C3-48C4-B1BE-AF8924077450}"
+      DTS:From="Package\Carga Empleado Temp"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Restricción"
+      DTS:To="Package\Contenedor de secuencias" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="198,42"
+          Id="Package\Carga Empleado Temp\Carga Empleados Temp"
+          TopLeft="21,85" />
+        <NodeLayout
+          Size="176,42"
+          Id="Package\Carga Empleado Temp\Tarea Ejecutar SQL"
+          TopLeft="34.5,12" />
+        <EdgeLayout
+          Id="Package\Carga Empleado Temp.PrecedenceConstraints[Restricción]"
+          TopLeft="121.25,54">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,31"
+              Start="0,0"
+              End="0,23.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="247,182"
+          Size="247,225"
+          Id="Package\Carga Empleado Temp"
+          TopLeft="43,87" />
+        <NodeLayout
+          Size="178,42"
+          Id="Package\Contenedor de secuencias\Division Condicional"
+          TopLeft="14,2" />
+        <EdgeLayout
+          Id="Package\Contenedor de secuencias.PrecedenceConstraints[Restricción]"
+          TopLeft="106.5,44">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,50"
+              Start="0,0"
+              End="0,42.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,42.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Contenedor de secuencias\Actualizar Empleado"
+          TopLeft="20,94" />
+        <ContainerLayout
+          HeaderHeight="43"
+          IsExpanded="True"
+          PanelSize="226,158"
+          Size="226,201"
+          Id="Package\Contenedor de secuencias"
+          TopLeft="349,91" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Restricción]"
+          TopLeft="290,199.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="59,-8"
+              Start="0,0"
+              End="51.5,-8">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="25.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="25.5,0"
+                    Point2="29.5,0"
+                    Point3="29.5,-4" />
+                  <mssgle:LineSegment
+                    End="29.5,-4" />
+                  <mssgle:CubicBezierSegment
+                    Point1="29.5,-4"
+                    Point2="29.5,-8"
+                    Point3="33.5,-8" />
+                  <mssgle:LineSegment
+                    End="51.5,-8" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\Carga Empleado Temp\Carga Empleados Temp">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="177,42"
+          Id="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination"
+          TopLeft="162,182" />
+        <NodeLayout
+          Size="161,42"
+          Id="Package\Carga Empleado Temp\Carga Empleados Temp\Data Conversion"
+          TopLeft="170,107" />
+        <NodeLayout
+          Size="168,42"
+          Id="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado"
+          TopLeft="163,31" />
+        <EdgeLayout
+          Id="Package\Carga Empleado Temp\Carga Empleados Temp.Paths[Data Conversion Output]"
+          TopLeft="250.5,149">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,33"
+              Start="0,0"
+              End="0,25.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga Empleado Temp\Carga Empleados Temp.Paths[Excel Source Output]"
+          TopLeft="248.75,73">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34"
+              Start="0,0"
+              End="0,26.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Empleado Temp\Carga Empleados Temp\OLE DB Destination">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Carga Empleado Temp\Carga Empleados Temp\Archivo Empleado">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Contenedor de secuencias\Division Condicional">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="165,42"
+          Id="Package\Contenedor de secuencias\Division Condicional\Origen Empleado"
+          TopLeft="321,47" />
+        <NodeLayout
+          Size="133,42"
+          Id="Package\Contenedor de secuencias\Division Condicional\Merge Join"
+          TopLeft="208,133" />
+        <NodeLayout
+          Size="196,42"
+          Id="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp"
+          TopLeft="95,50" />
+        <EdgeLayout
+          Id="Package\Contenedor de secuencias\Division Condicional.Paths[OLE DB Source Output1]"
+          TopLeft="403.5,89">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-108.166666666667,44"
+              Start="0,0"
+              End="-108.166666666667,36.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.0861812778603" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,22.0861812778603"
+                    Point2="0,26.0861812778603"
+                    Point3="-4,26.0861812778603" />
+                  <mssgle:LineSegment
+                    End="-104.166666666667,26.0861812778603" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-104.166666666667,26.0861812778603"
+                    Point2="-108.166666666667,26.0861812778603"
+                    Point3="-108.166666666667,30.0861812778603" />
+                  <mssgle:LineSegment
+                    End="-108.166666666667,36.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Contenedor de secuencias\Division Condicional.Paths[OLE DB Source Output]"
+          TopLeft="193,92">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="81.5,41"
+              Start="0,0"
+              End="81.5,33.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.5"
+                    Point2="0,20.5"
+                    Point3="4,20.5" />
+                  <mssgle:LineSegment
+                    End="77.5,20.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="77.5,20.5"
+                    Point2="81.5,20.5"
+                    Point3="81.5,24.5" />
+                  <mssgle:LineSegment
+                    End="81.5,33.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="159,42"
+          Id="Package\Contenedor de secuencias\Division Condicional\Conditional Split"
+          TopLeft="194,205" />
+        <EdgeLayout
+          Id="Package\Contenedor de secuencias\Division Condicional.Paths[Merge Join Output]"
+          TopLeft="274,175">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,30"
+              Start="0,0"
+              End="0,22.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="193,42"
+          Id="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado"
+          TopLeft="122,284" />
+        <EdgeLayout
+          Id="Package\Contenedor de secuencias\Division Condicional.Paths[Empleado_Nuevo]"
+          TopLeft="273.5,247">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-55,37"
+              Start="0,0"
+              End="-55,29.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.5"
+                    Point2="0,18.5"
+                    Point3="-4,18.5" />
+                  <mssgle:LineSegment
+                    End="-51,18.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-51,18.5"
+                    Point2="-55,18.5"
+                    Point3="-55,22.5" />
+                  <mssgle:LineSegment
+                    End="-55,29.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-66.33203125,23.5,77.6640625,11.609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="193,42"
+          Id="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod"
+          TopLeft="355,357" />
+        <NodeLayout
+          Size="158,42"
+          Id="Package\Contenedor de secuencias\Division Condicional\Derived Column"
+          TopLeft="354,284" />
+        <EdgeLayout
+          Id="Package\Contenedor de secuencias\Division Condicional.Paths[Empleado_Modificado]"
+          TopLeft="298.666666666667,247">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="134.333333333333,37"
+              Start="0,0"
+              End="134.333333333333,29.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,11.0211706102117" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,11.0211706102117"
+                    Point2="0,15.0211706102117"
+                    Point3="4,15.0211706102117" />
+                  <mssgle:LineSegment
+                    End="130.333333333333,15.0211706102117" />
+                  <mssgle:CubicBezierSegment
+                    Point1="130.333333333333,15.0211706102117"
+                    Point2="134.333333333333,15.0211706102117"
+                    Point3="134.333333333333,19.0211706102117" />
+                  <mssgle:LineSegment
+                    End="134.333333333333,29.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="18.6696354166667,20.0211706102117,96.9940625,11.658203125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Contenedor de secuencias\Division Condicional.Paths[Derived Column Output]"
+          TopLeft="433,326">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="18.5,31"
+              Start="0,0"
+              End="18.5,23.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,11.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,11.5"
+                    Point2="0,15.5"
+                    Point3="4,15.5" />
+                  <mssgle:LineSegment
+                    End="14.5,15.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="14.5,15.5"
+                    Point2="18.5,15.5"
+                    Point3="18.5,19.5" />
+                  <mssgle:LineSegment
+                    End="18.5,23.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Contenedor de secuencias\Division Condicional\Origen Empleado">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Contenedor de secuencias\Division Condicional\Origen Empleado Temp">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Contenedor de secuencias\Division Condicional\Carga Datos Empleado">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Contenedor de secuencias\Division Condicional\Inserta Empleado_Mod">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

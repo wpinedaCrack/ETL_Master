@@ -1,0 +1,28 @@
+FirstName,LastName,BirthDate,Gender,EmailAddress,YearlyIncome,EnglishEducation,Phone
+Carol,Rai,1986-01-15,F,carol8@adventure-works.com,40000,Partial High School,654-555-0180
+Angela,James,1981-12-21,F,angela34@adventure-works.com,40000,High School,847-555-0111
+Jasmine,Barnes,1978-01-29,F,jasmine43@adventure-works.com,80000,Bachelors,178-555-0156
+Charles,Cook,1956-05-31,M,charles69@adventure-works.com,60000,High School,755-555-0111
+Adrian,Stewart,1957-06-01,M,adrian21@adventure-works.com,70000,Partial College,812-555-0122
+Katelyn,Hernandez,1939-03-20,F,katelyn42@adventure-works.com,70000,Graduate Degree,249-555-0116
+Micah,Zhou,1965-12-20,M,micah19@adventure-works.com,110000,Partial College,497-555-0185
+Hailey,Ward,1959-03-31,F,hailey12@adventure-works.com,70000,Graduate Degree,767-555-0151
+Robin,Ramos,1962-09-09,F,robin13@adventure-works.com,10000,Partial College,1 (11) 500 555-0111
+Mitchell,Kumar,1964-08-29,M,mitchell7@adventure-works.com,20000,Partial College,1 (11) 500 555-0119
+Tiffany,Wang,1971-10-13,F,tiffany1@adventure-works.com,30000,Bachelors,1 (11) 500 555-0192
+Pamela,Garcia,1964-12-03,F,pamela18@adventure-works.com,80000,Partial College,1 (11) 500 555-0182
+Gary,Ortega,1976-04-15,M,gary31@adventure-works.com,40000,Partial College,1 (11) 500 555-0197
+Joan,Washington,1968-08-15,F,joan7@adventure-works.com,40000,Partial College,732-555-0144
+Ebony,Gill,1968-07-17,F,ebony35@adventure-works.com,40000,Partial College,327-555-0157
+Meredith,Ruiz,1983-12-30,F,meredith24@adventure-works.com,30000,Partial College,1 (11) 500 555-0113
+Megan,Rodriguez,1978-10-18,F,megan23@adventure-works.com,50000,Graduate Degree,156-555-0144
+Katelyn,Perez,1977-03-19,F,katelyn35@adventure-works.com,70000,Graduate Degree,864-555-0116
+Megan,Cox,1976-10-31,F,megan39@adventure-works.com,70000,Graduate Degree,466-555-0163
+Brooke,Richardson,1979-05-18,F,brooke9@adventure-works.com,60000,Graduate Degree,752-555-0155
+Erick,Sanchez,1970-02-04,M,erick20@adventure-works.com,60000,Partial College,827-555-0145
+Carlos,Gray,1976-09-06,M,carlos7@adventure-works.com,60000,Graduate Degree,252-555-0175
+Jill,Martin,1977-10-03,F,jill6@adventure-works.com,70000,Graduate Degree,884-555-0127
+Michele,Alvarez,1969-10-06,F,michele39@adventure-works.com,50000,Bachelors,103-555-0162
+Jonathan,Brown,1966-01-31,M,jonathan54@adventure-works.com,60000,Partial College,108-555-0111
+Stacy,Alvarez,1973-08-18,F,stacy6@adventure-works.com,60000,Bachelors,1 (11) 500 555-0171
+Justin,Shan,1983-04-13,M,justin27@adventure-works.com,40000,Partial High School,215-555-0113

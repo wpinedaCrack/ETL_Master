@@ -1,0 +1,6 @@
+ProductID,ProductName,CategoryID,CategoryName,QuantityPerUnit,UnitPrice,UnitsInStock
+7,Uncle Bob's Organic Dried Pears,7,Produce,12 - 1 lb pkgs.,30,15
+14,Tofu,7,Produce,40 - 100 g pkgs.,23,25,35
+28,Rössle Sauerkraut,7,Produce,25 - 825 g cans,45,6,26
+51,Manjimup Dried Apples,7,Produce,50 - 300 g pkgs.,53,20
+74,Longlife Tofu,7,Produce,5 kg pkg.,10,4

@@ -1,0 +1,7 @@
+ProductID,ProductName,CategoryID,CategoryName,QuantityPerUnit,UnitPrice,UnitsInStock
+9,Mishi Kobe Niku,6,Meat/Poultry,18 - 500 g pkgs.,97,29
+17,Alice Mutton,6,Meat/Poultry,20 - 1 kg tins,39,0
+29,Thüringer Rostbratwurst,6,Meat/Poultry,50 bags x 30 sausgs.,123,79,0
+53,Perth Pasties,6,Meat/Poultry,48 pieces,32,8,0
+54,Tourtière,6,Meat/Poultry,16 pies,7,45,21
+55,Pâté chinois,6,Meat/Poultry,24 boxes x 2 pies,24,115

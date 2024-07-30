@@ -1,0 +1,23 @@
+--Librerias a importar
+using System.Net;
+using System.Net.Mail;
+
+
+--Código para enviar correo electrónico
+SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
+            smtp.EnableSsl = true;
+            smtp.UseDefaultCredentials = false;
+            smtp.Credentials = new NetworkCredential("IntroducirCorreoElectronico", "IntroducirContraseña");
+            MailMessage msg = new MailMessage();
+            msg.IsBodyHtml = true;
+            msg.From = new MailAddress("IntroducirCorreoElectronico");
+
+            string addresses = "IntroducirCorreoElectronico;IntroducirCorreoElectronico";
+            foreach (var address in addresses.Split(new[] { ";" }, StringSplitOptions.RemoveEmptyEntries))
+            {
+                msg.To.Add(address);
+            }
+
+            msg.Subject = "Introducir Asunto";
+            msg.Body = "Introducir Contenido.";
+            smtp.Send(msg);

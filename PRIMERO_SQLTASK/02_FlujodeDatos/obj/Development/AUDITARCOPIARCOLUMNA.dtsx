@@ -1,0 +1,1079 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="2/21/2023 11:43:34 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-8RKHAGF"
+  DTS:CreatorName="DESKTOP-8RKHAGF\User"
+  DTS:DTSID="{8E6E5F6E-B19E-4136-8D2E-B209219807BA}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.180"
+  DTS:LocaleID="9226"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="1"
+  DTS:VersionGUID="{E686BA07-F61A-4A19-987F-3939960D4275}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LocalHost.AdventureWorksDW2016.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{A5782C78-E88B-4DDA-851E-8FC4C381A7F4}"
+      DTS:ObjectName="LocalHost.AdventureWorksDW2016.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=.;User ID=sa;Initial Catalog=AdventureWorksDW2016;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAART4qWSXfQECzmgjmR6/+KQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABZGBNnaqpKEQTYSyzXUptpv+mZFmL0zhsTSnV3lk6USgAAAAAOgAAAAAIAACAAAABfX9ciOxDqMW3uDgnmpY3R4kEgj9O+dr5EF8snqJEPXxAAAADwnQxaQyDxD0rtR6y5+hr1QAAAAGxjia+1ewQUKRHpz65xrtF+fEU/dIQwYgnt4lZGZr/cxmyLxOnY85Oqur20ExqR5NPZW5EFUXGVlgO4ejJ6U18</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[LocalHost.STREAMING.sa]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{4F6DE82A-A848-4318-9923-0656EA741494}"
+      DTS:ObjectName="LocalHost.STREAMING.sa">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=.;User ID=sa;Initial Catalog=STREAMING;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAART4qWSXfQECzmgjmR6/+KQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABxEeC860BXW4zEqGvmxcmzQrzmpEYgfTr2KqKPNR99xgAAAAAOgAAAAAIAACAAAADboBt9V+pWETDdrOCcXY7ZG7gO6l7md4jaZzKaZQ/RRhAAAABbxu72Qlm1F6/Xy9Vg6nWAQAAAAFjP34TbM5p1jgyIx0f1bzIqQGKLluIb6UMw0Ahjl6nyWCqkzmOUwasEmufIRxWqxik+SNvL9K2gxcQE04gvS/U</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\AUDITAR COPIAR COLUMNA"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Data Flow Task"
+      DTS:DTSID="{B928F210-D605-4DC1-A5C2-A7A1AAA3B74D}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="AUDITAR COPIAR COLUMNA"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\AUDITAR COPIAR COLUMNA\Audit"
+              componentClassID="Microsoft.Lineage"
+              contactInfo="Audit;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Includes data about the environment in which the package runs. Map system variables to new output columns. For example, add the name of the computer and operator to the data flow."
+              name="Audit">
+              <inputs>
+                <input
+                  refId="Package\AUDITAR COPIAR COLUMNA\Audit.Inputs[Audit Input 1]"
+                  name="Audit Input 1">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1]"
+                  exclusionGroup="1"
+                  name="Audit Output 1"
+                  synchronousInputId="Package\AUDITAR COPIAR COLUMNA\Audit.Inputs[Audit Input 1]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[Package name]"
+                      dataType="wstr"
+                      length="64"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[Package name]"
+                      name="Package name">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies which audit item this column produces."
+                          name="LineageItemSelected"
+                          typeConverter="LineageItemSelected">2</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[Execution start time]"
+                      dataType="date"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[Execution start time]"
+                      name="Execution start time">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies which audit item this column produces."
+                          name="LineageItemSelected"
+                          typeConverter="LineageItemSelected">4</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[Machine name]"
+                      dataType="wstr"
+                      length="15"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[Machine name]"
+                      name="Machine name">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies which audit item this column produces."
+                          name="LineageItemSelected"
+                          typeConverter="LineageItemSelected">5</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[User name]"
+                      dataType="wstr"
+                      length="64"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[User name]"
+                      name="User name">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies which audit item this column produces."
+                          name="LineageItemSelected"
+                          typeConverter="LineageItemSelected">6</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[Task name]"
+                      dataType="wstr"
+                      length="64"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[Task name]"
+                      name="Task name">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Specifies which audit item this column produces."
+                          name="LineageItemSelected"
+                          typeConverter="LineageItemSelected">7</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\AUDITAR COPIAR COLUMNA\Copy Column"
+              componentClassID="Microsoft.CopyMap"
+              contactInfo="Copy Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Copies input columns to new columns in the transformation output. For example, create a copy of the 'address' column so that it can be cleaned by subsequent transformations and leave the original column in place for auditing."
+              name="Copy Column">
+              <inputs>
+                <input
+                  refId="Package\AUDITAR COPIAR COLUMNA\Copy Column.Inputs[Copy Column Input]"
+                  name="Copy Column Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Copy Column.Inputs[Copy Column Input].Columns[PromotionKey]"
+                      cachedDataType="i4"
+                      cachedName="PromotionKey"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[PromotionKey]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\AUDITAR COPIAR COLUMNA\Copy Column.Outputs[Copy Column Output]"
+                  name="Copy Column Output"
+                  synchronousInputId="Package\AUDITAR COPIAR COLUMNA\Copy Column.Inputs[Copy Column Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Copy Column.Outputs[Copy Column Output].Columns[Copia de PromotionKey]"
+                      dataType="i4"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Copy Column.Outputs[Copy Column Output].Columns[Copia de PromotionKey]"
+                      name="Copia de PromotionKey">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the lineage identifier of the column to copy."
+                          name="copyColumnId">#{Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[PromotionKey]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\AUDITAR COPIAR COLUMNA\Data Conversion"
+              componentClassID="Microsoft.DataConvert"
+              contactInfo="Data Conversion;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
+              description="Data Conversion"
+              name="Data Conversion"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Inputs[Data Conversion Input]"
+                  name="Data Conversion Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Inputs[Data Conversion Input].Columns[Package name]"
+                      cachedDataType="wstr"
+                      cachedLength="64"
+                      cachedName="Package name"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[Package name]" />
+                    <inputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Inputs[Data Conversion Input].Columns[Machine name]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="Machine name"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[Machine name]" />
+                    <inputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Inputs[Data Conversion Input].Columns[User name]"
+                      cachedDataType="wstr"
+                      cachedLength="64"
+                      cachedName="User name"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[User name]" />
+                    <inputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Inputs[Data Conversion Input].Columns[Task name]"
+                      cachedDataType="wstr"
+                      cachedLength="64"
+                      cachedName="Task name"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[Task name]" />
+                    <inputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Inputs[Data Conversion Input].Columns[Execution start time]"
+                      cachedDataType="date"
+                      cachedName="Execution start time"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[Execution start time]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Output]"
+                  exclusionGroup="1"
+                  name="Data Conversion Output"
+                  synchronousInputId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Package name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="100"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Package name]"
+                      name="Copia de Package name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[Package name]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Machine name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="100"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Machine name]"
+                      name="Copia de Machine name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[Machine name]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de User name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="100"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de User name]"
+                      name="Copia de User name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[User name]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Task name]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Task name]"
+                      name="Copia de Task name"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[Task name]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Execution start time]"
+                      dataType="date"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Execution start time]"
+                      name="Copia de Execution start time"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Specifies the input column used as the source of data for the conversion."
+                          name="SourceInputColumnLineageID">#{Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1].Columns[Execution start time]}</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
+                          name="FastParse">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Data Conversion Error Output"
+                  synchronousInputId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Inputs[Data Conversion Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
+              description="OLE DB Destination"
+              name="DESTINO Promocion"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset">[dbo].[Promocion]</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.STREAMING.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.STREAMING.sa]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input]"
+                  errorOrTruncationOperation="Insert"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="OLE DB Destination Input">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].Columns[Copia de PromotionKey]"
+                      cachedDataType="i4"
+                      cachedName="Copia de PromotionKey"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[PromocionID]"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Copy Column.Outputs[Copy Column Output].Columns[Copia de PromotionKey]" />
+                    <inputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].Columns[SpanishPromotionName]"
+                      cachedDataType="wstr"
+                      cachedLength="255"
+                      cachedName="SpanishPromotionName"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[NombrePromocion]"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[SpanishPromotionName]" />
+                    <inputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].Columns[DiscountPct]"
+                      cachedDataType="r8"
+                      cachedName="DiscountPct"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[PorcentajeDescuento]"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[DiscountPct]" />
+                    <inputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].Columns[SpanishPromotionType]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="SpanishPromotionType"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[TipoPromocion]"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[SpanishPromotionType]" />
+                    <inputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].Columns[SpanishPromotionCategory]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="SpanishPromotionCategory"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[CategoriaPromocion]"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[SpanishPromotionCategory]" />
+                    <inputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].Columns[MinQty]"
+                      cachedDataType="i4"
+                      cachedName="MinQty"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[CantidadMinima]"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[MinQty]" />
+                    <inputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].Columns[MaxQty]"
+                      cachedDataType="i4"
+                      cachedName="MaxQty"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[CantidadMaxima]"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[MaxQty]" />
+                    <inputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].Columns[Copia de Package name]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Copia de Package name"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[NombrePaquete]"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Package name]" />
+                    <inputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].Columns[Copia de Execution start time]"
+                      cachedDataType="date"
+                      cachedName="Copia de Execution start time"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[HoraEjecucion]"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Execution start time]" />
+                    <inputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].Columns[Copia de Machine name]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Copia de Machine name"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[NombreMaquina]"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Machine name]" />
+                    <inputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].Columns[Copia de User name]"
+                      cachedDataType="wstr"
+                      cachedLength="100"
+                      cachedName="Copia de User name"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[NombreUsuario]"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de User name]" />
+                    <inputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].Columns[Copia de Task name]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Copia de Task name"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[NombreTarea]"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Output].Columns[Copia de Task name]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[PromocionID]"
+                      dataType="i4"
+                      name="PromocionID" />
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[NombrePromocion]"
+                      dataType="wstr"
+                      length="255"
+                      name="NombrePromocion" />
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[PorcentajeDescuento]"
+                      dataType="r8"
+                      name="PorcentajeDescuento" />
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[TipoPromocion]"
+                      dataType="wstr"
+                      length="50"
+                      name="TipoPromocion" />
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[CategoriaPromocion]"
+                      dataType="wstr"
+                      length="50"
+                      name="CategoriaPromocion" />
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[CantidadMinima]"
+                      dataType="i4"
+                      name="CantidadMinima" />
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[CantidadMaxima]"
+                      dataType="i4"
+                      name="CantidadMaxima" />
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[NombrePaquete]"
+                      dataType="wstr"
+                      length="100"
+                      name="NombrePaquete" />
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[HoraEjecucion]"
+                      dataType="dbTimeStamp"
+                      name="HoraEjecucion" />
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[NombreMaquina]"
+                      dataType="wstr"
+                      length="100"
+                      name="NombreMaquina" />
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[NombreUsuario]"
+                      dataType="wstr"
+                      length="100"
+                      name="NombreUsuario" />
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input].ExternalColumns[NombreTarea]"
+                      dataType="wstr"
+                      length="50"
+                      name="NombreTarea" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Outputs[OLE DB Destination Error Output]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="OLE DB Destination Error Output"
+                  synchronousInputId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="OLE DB Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;7"
+              description="OLE DB Source"
+              name="ORIGEN DimPromotion"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the name of the database object used to open a rowset."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Specifies the variable that contains the name of the database object used to open a rowset."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="The SQL command to be executed."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT TOP (10) 
+	   [PromotionKey]
+      ,[SpanishPromotionName]
+      ,[DiscountPct]
+      ,[SpanishPromotionType]
+      ,[SpanishPromotionCategory]
+      ,[MinQty]
+      ,[MaxQty]
+FROM [AdventureWorksDW2016].[dbo].[DimPromotion]</property>
+                <property
+                  dataType="System.String"
+                  description="The variable that contains the SQL command to be executed."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the column code page to use when code page information is unavailable from the data source."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Forces the use of the DefaultCodePage property value when describing character data."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Specifies the mode used to access the database."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="The mappings between the parameters in the SQL command and variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[LocalHost.AdventureWorksDW2016.sa]"
+                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.AdventureWorksDW2016.sa]"
+                  description="The OLE DB runtime connection used to access the database."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output]"
+                  name="OLE DB Source Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[PromotionKey]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].ExternalColumns[PromotionKey]"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[PromotionKey]"
+                      name="PromotionKey"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[SpanishPromotionName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].ExternalColumns[SpanishPromotionName]"
+                      length="255"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[SpanishPromotionName]"
+                      name="SpanishPromotionName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[DiscountPct]"
+                      dataType="r8"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].ExternalColumns[DiscountPct]"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[DiscountPct]"
+                      name="DiscountPct"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[SpanishPromotionType]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].ExternalColumns[SpanishPromotionType]"
+                      length="50"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[SpanishPromotionType]"
+                      name="SpanishPromotionType"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[SpanishPromotionCategory]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].ExternalColumns[SpanishPromotionCategory]"
+                      length="50"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[SpanishPromotionCategory]"
+                      name="SpanishPromotionCategory"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[MinQty]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].ExternalColumns[MinQty]"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[MinQty]"
+                      name="MinQty"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[MaxQty]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].ExternalColumns[MaxQty]"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].Columns[MaxQty]"
+                      name="MaxQty"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].ExternalColumns[PromotionKey]"
+                      dataType="i4"
+                      name="PromotionKey" />
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].ExternalColumns[SpanishPromotionName]"
+                      dataType="wstr"
+                      length="255"
+                      name="SpanishPromotionName" />
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].ExternalColumns[DiscountPct]"
+                      dataType="r8"
+                      name="DiscountPct" />
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].ExternalColumns[SpanishPromotionType]"
+                      dataType="wstr"
+                      length="50"
+                      name="SpanishPromotionType" />
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].ExternalColumns[SpanishPromotionCategory]"
+                      dataType="wstr"
+                      length="50"
+                      name="SpanishPromotionCategory" />
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].ExternalColumns[MinQty]"
+                      dataType="i4"
+                      name="MinQty" />
+                    <externalMetadataColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output].ExternalColumns[MaxQty]"
+                      dataType="i4"
+                      name="MaxQty" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output]"
+                  isErrorOut="true"
+                  name="OLE DB Source Error Output">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output].Columns[PromotionKey]"
+                      dataType="i4"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output].Columns[PromotionKey]"
+                      name="PromotionKey" />
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output].Columns[SpanishPromotionName]"
+                      dataType="wstr"
+                      length="255"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output].Columns[SpanishPromotionName]"
+                      name="SpanishPromotionName" />
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output].Columns[DiscountPct]"
+                      dataType="r8"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output].Columns[DiscountPct]"
+                      name="DiscountPct" />
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output].Columns[SpanishPromotionType]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output].Columns[SpanishPromotionType]"
+                      name="SpanishPromotionType" />
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output].Columns[SpanishPromotionCategory]"
+                      dataType="wstr"
+                      length="50"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output].Columns[SpanishPromotionCategory]"
+                      name="SpanishPromotionCategory" />
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output].Columns[MinQty]"
+                      dataType="i4"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output].Columns[MinQty]"
+                      name="MinQty" />
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output].Columns[MaxQty]"
+                      dataType="i4"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output].Columns[MaxQty]"
+                      name="MaxQty" />
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Error Output].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\AUDITAR COPIAR COLUMNA.Paths[Audit Output 1]"
+              endId="Package\AUDITAR COPIAR COLUMNA\Copy Column.Inputs[Copy Column Input]"
+              name="Audit Output 1"
+              startId="Package\AUDITAR COPIAR COLUMNA\Audit.Outputs[Audit Output 1]" />
+            <path
+              refId="Package\AUDITAR COPIAR COLUMNA.Paths[Copy Column Output]"
+              endId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Inputs[Data Conversion Input]"
+              name="Copy Column Output"
+              startId="Package\AUDITAR COPIAR COLUMNA\Copy Column.Outputs[Copy Column Output]" />
+            <path
+              refId="Package\AUDITAR COPIAR COLUMNA.Paths[Data Conversion Output]"
+              endId="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion.Inputs[OLE DB Destination Input]"
+              name="Data Conversion Output"
+              startId="Package\AUDITAR COPIAR COLUMNA\Data Conversion.Outputs[Data Conversion Output]" />
+            <path
+              refId="Package\AUDITAR COPIAR COLUMNA.Paths[OLE DB Source Output]"
+              endId="Package\AUDITAR COPIAR COLUMNA\Audit.Inputs[Audit Input 1]"
+              name="OLE DB Source Output"
+              startId="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion.Outputs[OLE DB Source Output]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Esta sección CDATA contiene la información de diseño del paquete. Esta sección incluye información como, por ejemplo, las coordenadas (x,y), el ancho y el alto.-->
+<!--Si edita manualmente esta sección y comete un error, puede eliminarlo. -->
+<!--El paquete podrá cargarse normalmente, pero se perderá la información de diseño anterior y el diseñador reorganizará los elementos automáticamente en la superficie de diseño.-->
+<Objects
+  Version="8">
+  <!--Cada uno de los nodos siguientes contiene propiedades que no afectan al comportamiento en tiempo de ejecución.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="230,42"
+          Id="Package\AUDITAR COPIAR COLUMNA"
+          TopLeft="205,60" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\AUDITAR COPIAR COLUMNA">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="195,42"
+          Id="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion"
+          TopLeft="166,31" />
+        <NodeLayout
+          Size="183,42"
+          Id="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion"
+          TopLeft="158,325" />
+        <NodeLayout
+          Size="104,42"
+          Id="Package\AUDITAR COPIAR COLUMNA\Audit"
+          TopLeft="200,104" />
+        <EdgeLayout
+          Id="Package\AUDITAR COPIAR COLUMNA.Paths[OLE DB Source Output]"
+          TopLeft="263.5,73">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-11.5,31"
+              Start="0,0"
+              End="-11.5,23.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,11.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,11.5"
+                    Point2="0,15.5"
+                    Point3="-4,15.5" />
+                  <mssgle:LineSegment
+                    End="-7.5,15.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-7.5,15.5"
+                    Point2="-11.5,15.5"
+                    Point3="-11.5,19.5" />
+                  <mssgle:LineSegment
+                    End="-11.5,23.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="146,42"
+          Id="Package\AUDITAR COPIAR COLUMNA\Copy Column"
+          TopLeft="174,174" />
+        <EdgeLayout
+          Id="Package\AUDITAR COPIAR COLUMNA.Paths[Audit Output 1]"
+          TopLeft="249.5,146">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,28"
+              Start="0,0"
+              End="0,20.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="161,42"
+          Id="Package\AUDITAR COPIAR COLUMNA\Data Conversion"
+          TopLeft="177,244" />
+        <EdgeLayout
+          Id="Package\AUDITAR COPIAR COLUMNA.Paths[Copy Column Output]"
+          TopLeft="247,216">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="10.5,28"
+              Start="0,0"
+              End="10.5,20.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,10" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10"
+                    Point2="0,14"
+                    Point3="4,14" />
+                  <mssgle:LineSegment
+                    End="6.5,14" />
+                  <mssgle:CubicBezierSegment
+                    Point1="6.5,14"
+                    Point2="10.5,14"
+                    Point3="10.5,18" />
+                  <mssgle:LineSegment
+                    End="10.5,20.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\AUDITAR COPIAR COLUMNA.Paths[Data Conversion Output]"
+          TopLeft="257.5,286">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-8,39"
+              Start="0,0"
+              End="-8,31.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,15.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,15.5"
+                    Point2="0,19.5"
+                    Point3="-4,19.5" />
+                  <mssgle:LineSegment
+                    End="-4,19.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-4,19.5"
+                    Point2="-8,19.5"
+                    Point3="-8,23.5" />
+                  <mssgle:LineSegment
+                    End="-8,31.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\AUDITAR COPIAR COLUMNA\ORIGEN DimPromotion">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\AUDITAR COPIAR COLUMNA\DESTINO Promocion">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

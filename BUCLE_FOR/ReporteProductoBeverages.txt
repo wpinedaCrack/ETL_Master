@@ -1,0 +1,13 @@
+ProductID,ProductName,CategoryID,CategoryName,QuantityPerUnit,UnitPrice,UnitsInStock
+1,Chai,1,Beverages,10 boxes x 20 bags,18,39
+2,Chang,1,Beverages,24 - 12 oz bottles,19,17
+24,Guaraná Fantástica,1,Beverages,12 - 355 ml cans,4,5,20
+34,Sasquatch Ale,1,Beverages,24 - 12 oz bottles,14,111
+35,Steeleye Stout,1,Beverages,24 - 12 oz bottles,18,20
+38,Côte de Blaye,1,Beverages,12 - 75 cl bottles,263,5,17
+39,Chartreuse verte,1,Beverages,750 cc per bottle,18,69
+43,Ipoh Coffee,1,Beverages,16 - 500 g tins,46,17
+67,Laughing Lumberjack Lager,1,Beverages,24 - 12 oz bottles,14,52
+70,Outback Lager,1,Beverages,24 - 355 ml bottles,15,15
+75,Rhönbräu Klosterbier,1,Beverages,24 - 0.5 l bottles,7,75,125
+76,Lakkalikööri,1,Beverages,500 ml,18,57
